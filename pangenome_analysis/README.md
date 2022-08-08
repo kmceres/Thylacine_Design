@@ -51,13 +51,18 @@ For example:
 ./scripts/run_prokka.sh testl.txt ~/Thylacine_Design/pangenome_analysis/data/fastas ~/Thylacine_Design/pangenome_analysis/data/ref/GCF_000858485.1.gbff 
 ```
 
-* Step 3: Run panaroo on annotated genomes
+### Characterize pangenome
+* Step 1: Navigate to directory containing annotation files
 ```
 	cd gffs
-	panaroo -i *.gff --clean-mode strict -t 8 --out_dir panaroo_out
 ```
-
-
-
+* Step 2: Run panaroo
+```
+panaroo -i *.gff --clean-mode strict -t 8 --out_dir panaroo_out
+```
+* Step 3: Use panaroo's built-in mafft aligner to generate core gene alignments
+```
+panaroo-msa -o . -a core --aligner mafft -t 8
+```
 
 
