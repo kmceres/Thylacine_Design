@@ -9,13 +9,12 @@
 
 ## Pangenome analysis pipeline 
 ### Requirements:
-* Genomes:
+* **Input data**:
 	* fasta sequences for complete and near complete genomes 
-* Reference genome:
 	* High quality reference genome in genbank format is required for annotation
 * **Prokka** genome annotation:
 	* Not strictly required, but does reduce error in gene identification if all genomes are annotated using the same software 
-	* Installation information can be found [here] (https://github.com/tseemann/prokka)
+	* Installation information can be found [here](https://github.com/tseemann/prokka)
 * **Panaroo**: 
 	* Panaroo is a software package by Tonkin-Hill et al. described [here] (https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02090-4) that was designed for prokaryotic pangenome analysis 
 	* Installation and documentation can be found [here] (https://gtonkinhill.github.io/panaroo/#/gettingstarted/quickstart)
