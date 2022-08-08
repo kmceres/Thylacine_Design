@@ -38,15 +38,16 @@ African swine fever genomes downloaded from NCBI Virus can be found in data/fast
 
 * Step 1: create a sequence list, for example:
 ```
-	ls *.fasta | sed "s/\.fasta//g" > seq_list.txt
+ls *.fasta | sed "s/\.fasta//g" > seq_list.txt
 ```
 * Step 2: Annotate genomes using prokka. 
 ```
-	chmod 755 run_prokka.sh
-	./run_prokka.sh seq_list.txt /path/to/fastas/ /path/to/refs
+chmod 755 run_prokka.sh
+
+./run_prokka.sh seq_list.txt /path/to/fastas/ /path/to/refs
 ```
 
-For example:
+	For example:
 ```
 ./scripts/run_prokka.sh testl.txt ~/Thylacine_Design/pangenome_analysis/data/fastas ~/Thylacine_Design/pangenome_analysis/data/ref/GCF_000858485.1.gbff 
 ```
@@ -54,7 +55,7 @@ For example:
 ### Characterize pangenome
 * Step 1: Navigate to directory containing annotation files
 ```
-	cd gffs
+cd gffs
 ```
 * Step 2: Run panaroo
 ```
