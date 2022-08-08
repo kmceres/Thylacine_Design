@@ -18,6 +18,7 @@
 * **Panaroo**: 
 	* Panaroo is a software package by Tonkin-Hill et al. described [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02090-4) that was designed for prokaryotic pangenome analysis 
 	* Installation and documentation can be found [here](https://gtonkinhill.github.io/panaroo/#/gettingstarted/quickstart)
+
 * **Post processing**:
 	* R scripts are available for downstream analysis 
 	* Instructions for downloading R (required) and Rstudio (not required) can be found [here](https://rstudio-education.github.io/hopr/starting.html)
@@ -31,6 +32,18 @@
 			* seqinr
 			* adegenet
 			* hierfstat
+
+### Annotating genomes
+African swine fever genomes downloaded from NCBI Virus can be found in data/fastas. The reference genome can be found in data/ref.
+
+* Step 1: create a sequence list, for example:
+```
+	ls *.fasta | sed "s/\.fasta//g" > seq_list.txt
+```
+* Step 2: 
+
+
+
 
 
 
