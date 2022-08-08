@@ -1,6 +1,6 @@
 # Sequence analysis and primer design
 
-## Types of analyses described here
+## Types of analyses described here:
 ### Pathogen sequence analysis
 * Bacterial / viral pangenome analysis
 * Genome wide BLASTn analysis using a reference genome 
