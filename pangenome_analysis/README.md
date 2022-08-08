@@ -3,6 +3,6 @@
 
 <img src="pangenome.png"
      alt="Pangenome concept"
-     style="float: left; margin-right: 50px;"  width="500"/>
+     width="500"/>
 
 
