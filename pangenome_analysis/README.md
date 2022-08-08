@@ -16,12 +16,12 @@
 	* Not strictly required, but does reduce error in gene identification if all genomes are annotated using the same software 
 	* Installation information can be found [here](https://github.com/tseemann/prokka)
 * **Panaroo**: 
-	* Panaroo is a software package by Tonkin-Hill et al. described [here] (https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02090-4) that was designed for prokaryotic pangenome analysis 
-	* Installation and documentation can be found [here] (https://gtonkinhill.github.io/panaroo/#/gettingstarted/quickstart)
+	* Panaroo is a software package by Tonkin-Hill et al. described [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02090-4) that was designed for prokaryotic pangenome analysis 
+	* Installation and documentation can be found [here](https://gtonkinhill.github.io/panaroo/#/gettingstarted/quickstart)
 * **Post processing**:
 	* R scripts are available for downstream analysis 
-	* Instructions for downloading R (required) and Rstudio (not required) can be found [here] (https://rstudio-education.github.io/hopr/starting.html)
-	* Instructions for downloading R packages can be found [here] (https://r-coder.com/install-r-packages/#:~:text=Alternatively%2C%20you%20can%20install%20R,mirror%20and%20install%20the%20package.). Generally, a quick google search can help you figure out how to download a specific package if install.package("package_name") doesn't work. 
+	* Instructions for downloading R (required) and Rstudio (not required) can be found [here](https://rstudio-education.github.io/hopr/starting.html)
+	* Instructions for downloading R packages can be found [here](https://r-coder.com/install-r-packages/#:~:text=Alternatively%2C%20you%20can%20install%20R,mirror%20and%20install%20the%20package.). Generally, a quick google search can help you figure out how to download a specific package if install.package("package_name") doesn't work. 
 	* R packages used for pangenome analysis:
 		* General purpose packages:
 			* dplyr
