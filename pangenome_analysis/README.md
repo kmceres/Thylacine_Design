@@ -47,7 +47,7 @@ chmod 755 run_prokka.sh
 ./run_prokka.sh seq_list.txt /path/to/fastas/ /path/to/refs
 ```
 
-	For example:
+* For example:
 ```
 ./scripts/run_prokka.sh testl.txt ~/Thylacine_Design/pangenome_analysis/data/fastas ~/Thylacine_Design/pangenome_analysis/data/ref/GCF_000858485.1.gbff 
 ```
