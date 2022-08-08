@@ -1,0 +1,989 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:163 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 163 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:163 features have inconsistent gene locations.
+OVERLAPPING_CDS:4 coding regions overlap another coding region with a similar or identical name.
+SUSPECT_PRODUCT_NAMES:91 product_names contain suspect phrase or characters
+	Putative Typo
+		2 features Is all capital letters
+	May contain database identifier more appropriate in note; remove from product name
+		89 features contains three or more numbers together that may be identifiers more appropriate in note
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:3 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:164 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::163 proteins halidinvalid IDs.
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_1 (length 360)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_2 (length 362)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_3 (length 172)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_4 (length 81)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_5 (length 67)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_6 (length 267)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_7 (length 109)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_8 (length 270)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_9 (length 116)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_10 (length 115)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_11 (length 103)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_12 (length 158)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_13 (length 126)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_14 (length 386)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_15 (length 36)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_16 (length 375)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_17 (length 268)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_18 (length 38)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_19 (length 160)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_20 (length 328)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_21 (length 319)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_22 (length 350)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_23 (length 356)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_24 (length 353)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_25 (length 531)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_26 (length 350)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_27 (length 353)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_28 (length 357)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_29 (length 526)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_30 (length 280)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_31 (length 505)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_32 (length 498)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_33 (length 528)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_34 (length 528)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_35 (length 506)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_36 (length 542)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_37 (length 224)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_38 (length 104)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_39 (length 240)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_40 (length 151)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_41 (length 276)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_42 (length 238)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_43 (length 859)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_44 (length 179)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_45 (length 137)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_46 (length 317)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_47 (length 327)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_48 (length 778)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_49 (length 136)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_50 (length 1055)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_51 (length 205)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_52 (length 78)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_53 (length 196)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_54 (length 145)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_55 (length 421)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_56 (length 1242)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_57 (length 84)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_58 (length 424)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_59 (length 152)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_60 (length 153)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_61 (length 402)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_62 (length 364)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_63 (length 1249)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_64 (length 448)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_65 (length 129)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_66 (length 76)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_67 (length 717)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_68 (length 95)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_69 (length 257)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_70 (length 475)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_71 (length 315)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_72 (length 147)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_73 (length 122)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_74 (length 962)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_75 (length 52)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_76 (length 962)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_77 (length 119)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_78 (length 318)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_79 (length 438)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_80 (length 174)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_81 (length 475)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_82 (length 354)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_83 (length 315)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_84 (length 159)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_85 (length 385)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_86 (length 646)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_87 (length 125)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_88 (length 117)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_89 (length 417)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_90 (length 175)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_91 (length 263)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_92 (length 66)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_93 (length 1340)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_94 (length 1207)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_95 (length 123)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_96 (length 2475)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_97 (length 184)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_98 (length 530)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_99 (length 80)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_100 (length 312)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_101 (length 174)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_102 (length 61)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_103 (length 1450)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_104 (length 419)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_105 (length 868)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_106 (length 250)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_107 (length 129)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_108 (length 79)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_109 (length 339)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_110 (length 1133)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_111 (length 52)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_112 (length 117)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_113 (length 205)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_114 (length 345)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_115 (length 183)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_116 (length 273)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_117 (length 1192)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_118 (length 359)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_119 (length 171)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_120 (length 124)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_121 (length 339)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_122 (length 108)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_123 (length 233)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_124 (length 240)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_125 (length 272)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_126 (length 706)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_127 (length 509)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_128 (length 341)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_129 (length 184)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_130 (length 183)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_131 (length 423)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_132 (length 301)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_133 (length 146)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_134 (length 196)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_135 (length 165)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_136 (length 248)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_137 (length 120)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_138 (length 296)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_139 (length 111)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_140 (length 267)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_141 (length 226)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_142 (length 241)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_143 (length 73)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_144 (length 329)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_145 (length 215)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_146 (length 177)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_147 (length 196)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_148 (length 238)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_149 (length 309)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_150 (length 542)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_151 (length 147)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_152 (length 146)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_153 (length 102)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_154 (length 103)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_155 (length 98)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_156 (length 170)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_157 (length 62)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_158 (length 254)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_159 (length 72)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_160 (length 96)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_161 (length 41)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_162 (length 52)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_163 (length 363)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 163 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1 (length 182284)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::163 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pKP360L	AM712239.1:c1335-253	COFHDJOM_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pKP362L	AM712239.1:c2507-1419	COFHDJOM_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p22	AM712239.1:2672-3190	COFHDJOM_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL83L	AM712239.1:c3573-3328	COFHDJOM_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c3877-3674	COFHDJOM_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c4865-4062	COFHDJOM_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c5133-4804	COFHDJOM_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL270L	AM712239.1:c6172-5360	COFHDJOM_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c6685-6335	COFHDJOM_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pY118L precursor	AM712239.1:c7142-6795	COFHDJOM_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c7643-7332	COFHDJOM_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c8197-7721	COFHDJOM_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL270L	AM712239.1:c8544-8164	COFHDJOM_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c9864-8704	COFHDJOM_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:9934-10044	COFHDJOM_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c11819-10692	COFHDJOM_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pJ268L	AM712239.1:c13915-13109	COFHDJOM_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:15283-15399	COFHDJOM_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pJ154R	AM712239.1:15637-16119	COFHDJOM_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pJ328L	AM712239.1:c17196-16210	COFHDJOM_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pJ319L	AM712239.1:c18273-17314	COFHDJOM_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c19487-18435	COFHDJOM_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c20677-19607	COFHDJOM_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c21764-20703	COFHDJOM_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA489R	AM712239.1:21971-23566	COFHDJOM_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c24668-23616	COFHDJOM_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP363R	AM712239.1:c25901-24840	COFHDJOM_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c27146-26073	COFHDJOM_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA489R	AM712239.1:27352-28932	COFHDJOM_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA280R	AM712239.1:29019-29861	COFHDJOM_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA505R	AM712239.1:30026-31543	COFHDJOM_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA498R	AM712239.1:31572-33068	COFHDJOM_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA528R	AM712239.1:33266-34852	COFHDJOM_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA528R	AM712239.1:34973-36559	COFHDJOM_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA506R	AM712239.1:36867-38387	COFHDJOM_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA542R	AM712239.1:38711-40339	COFHDJOM_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	IAP	AM712239.1:c41129-40455	COFHDJOM_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	histone-like protein	AM712239.1:41491-41805	COFHDJOM_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	thymidylate kinase	AM712239.1:c42524-41802	COFHDJOM_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA151R	AM712239.1:42822-43277	COFHDJOM_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA276R	AM712239.1:43622-44452	COFHDJOM_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	IkB-like protein	AM712239.1:c45374-44658	COFHDJOM_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	helicase	AM712239.1:c47993-45414	COFHDJOM_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	bcl-2/bax	AM712239.1:c48534-47995	COFHDJOM_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p11.5	AM712239.1:48778-49191	COFHDJOM_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pF317L	AM712239.1:c50177-49224	COFHDJOM_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	ribonucleotide reductase small subunit	AM712239.1:c51185-50202	COFHDJOM_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	ribonucleotide reductase large subunit	AM712239.1:51227-53563	COFHDJOM_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pF165R	AM712239.1:53683-54093	COFHDJOM_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	helicase	AM712239.1:c57247-54080	COFHDJOM_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pK205R	AM712239.1:57416-58033	COFHDJOM_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p10	AM712239.1:58122-58358	COFHDJOM_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	thymidine kinase	AM712239.1:58355-58945	COFHDJOM_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pK145R	AM712239.1:58961-59398	COFHDJOM_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pK421R	AM712239.1:59431-60696	COFHDJOM_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	RNA polymerase subunit 2	AM712239.1:c64443-60715	COFHDJOM_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pEP84R	AM712239.1:64522-64776	COFHDJOM_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pEP424R	AM712239.1:64812-66086	COFHDJOM_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pEP152R	AM712239.1:66569-67027	COFHDJOM_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	lectin-like protein	AM712239.1:67030-67491	COFHDJOM_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	CD2	AM712239.1:67567-68775	COFHDJOM_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pEP364R	AM712239.1:68884-69978	COFHDJOM_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pM1249L	AM712239.1:c73791-70042	COFHDJOM_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pM448R	AM712239.1:73831-75177	COFHDJOM_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC129R	AM712239.1:75264-75653	COFHDJOM_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c75940-75710	COFHDJOM_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC717R	AM712239.1:76390-78543	COFHDJOM_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC105R	AM712239.1:78560-78847	COFHDJOM_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC257L	AM712239.1:c80019-79246	COFHDJOM_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC475L	AM712239.1:c81425-79998	COFHDJOM_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC315R	AM712239.1:81478-82425	COFHDJOM_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	RNA polymerase subunit 6	AM712239.1:c82936-82493	COFHDJOM_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:82953-83321	COFHDJOM_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC962R	AM712239.1:83366-86254	COFHDJOM_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c86363-86205	COFHDJOM_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	helicase	AM712239.1:c89280-86392	COFHDJOM_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB119L	AM712239.1:c89599-89240	COFHDJOM_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	prenyltransferase	AM712239.1:c90536-89580	COFHDJOM_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB438L	AM712239.1:c91819-90503	COFHDJOM_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB169L	AM712239.1:c92356-91832	COFHDJOM_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB475L	AM712239.1:c93800-92373	COFHDJOM_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB354L	AM712239.1:c95001-93937	COFHDJOM_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB602L	AM712239.1:c95959-95012	COFHDJOM_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:95973-96452	COFHDJOM_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB385R	AM712239.1:96971-98128	COFHDJOM_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p72	AM712239.1:c100166-98226	COFHDJOM_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB125R	AM712239.1:100206-100583	COFHDJOM_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB117L	AM712239.1:c100909-100556	COFHDJOM_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB407L	AM712239.1:c102169-100916	COFHDJOM_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB175L	AM712239.1:c102724-102197	COFHDJOM_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB263R	AM712239.1:102771-103562	COFHDJOM_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB66L precursor	AM712239.1:c103759-103559	COFHDJOM_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pG1340L	AM712239.1:c107787-103765	COFHDJOM_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	DNA polymerase	AM712239.1:107840-111463	COFHDJOM_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pCP123L	AM712239.1:c111831-111460	COFHDJOM_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	220 kDa polyprotein	AM712239.1:c119367-111940	COFHDJOM_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	ASFV-induced protein p32	AM712239.1:c120025-119471	COFHDJOM_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	60 kDa polyprotein	AM712239.1:120086-121678	COFHDJOM_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	RNA polymerase subunit 10	AM712239.1:121681-121923	COFHDJOM_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pCP312R	AM712239.1:121950-122888	COFHDJOM_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	DNA polymerase beta-like protein	AM712239.1:c123433-122909	COFHDJOM_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p12	AM712239.1:123483-123668	COFHDJOM_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	RNA polymerase subunit 1	AM712239.1:c128070-123718	COFHDJOM_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	DNA ligase	AM712239.1:c129412-128153	COFHDJOM_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	guanylyltransferase	AM712239.1:129477-132083	COFHDJOM_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	8-hydroxy-dGTPase	AM712239.1:132140-132892	COFHDJOM_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pD129L	AM712239.1:c133462-133073	COFHDJOM_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pD79L	AM712239.1:c133775-133536	COFHDJOM_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pD339L	AM712239.1:c134863-133844	COFHDJOM_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	helicase	AM712239.1:c138397-134996	COFHDJOM_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c138593-138435	COFHDJOM_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p17	AM712239.1:c138981-138628	COFHDJOM_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	RNA polymerase subunit 5	AM712239.1:139038-139655	COFHDJOM_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pD345L	AM712239.1:c140719-139682	COFHDJOM_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pS183L	AM712239.1:c141270-140719	COFHDJOM_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pS273R	AM712239.1:141331-142152	COFHDJOM_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	topoisomerase II	AM712239.1:142187-145765	COFHDJOM_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	RNA polymerase subunit 3	AM712239.1:c146875-145796	COFHDJOM_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH171R	AM712239.1:146910-147425	COFHDJOM_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH124R	AM712239.1:147465-147839	COFHDJOM_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH339R	AM712239.1:147861-148880	COFHDJOM_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH108R	AM712239.1:148892-149218	COFHDJOM_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH233R precursor	AM712239.1:149178-149879	COFHDJOM_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH240R	AM712239.1:149994-150716	COFHDJOM_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	serine protein kinase	AM712239.1:c151531-150713	COFHDJOM_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	helicase	AM712239.1:c153703-151583	COFHDJOM_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	helicase	AM712239.1:c155190-153661	COFHDJOM_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	NifS-like protein	AM712239.1:155306-156331	COFHDJOM_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE184L	AM712239.1:c156833-156279	COFHDJOM_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p54	AM712239.1:c157428-156877	COFHDJOM_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE423R	AM712239.1:157459-158730	COFHDJOM_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	proliferating cell nuclear antigen-like protein	AM712239.1:158883-159788	COFHDJOM_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE146L	AM712239.1:c160262-159822	COFHDJOM_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE199L	AM712239.1:c161036-160446	COFHDJOM_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	dUTPase	AM712239.1:161073-161570	COFHDJOM_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE248R	AM712239.1:161593-162339	COFHDJOM_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p14.5	AM712239.1:162381-162743	COFHDJOM_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	AP endonuclease class II	AM712239.1:162773-163663	COFHDJOM_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE111R	AM712239.1:163666-164001	COFHDJOM_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI267L	AM712239.1:c165029-164226	COFHDJOM_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI226R	AM712239.1:165181-165861	COFHDJOM_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	transcription factor SII	AM712239.1:c166583-165858	COFHDJOM_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI73R	AM712239.1:166674-166895	COFHDJOM_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI329L precursor	AM712239.1:c168120-167131	COFHDJOM_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	ubiquitin-conjugating enzyme	AM712239.1:c169076-168429	COFHDJOM_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI177L	AM712239.1:c169647-169114	COFHDJOM_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI196L	AM712239.1:c170230-169640	COFHDJOM_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP238L	AM712239.1:c171040-170324	COFHDJOM_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP311R	AM712239.1:171217-172146	COFHDJOM_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP542L	AM712239.1:c173983-172355	COFHDJOM_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP141L	AM712239.1:c174545-174102	COFHDJOM_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP146L	AM712239.1:c175203-174763	COFHDJOM_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c175609-175301	COFHDJOM_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c176140-175829	COFHDJOM_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:176333-176629	COFHDJOM_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	structural protein p22	AM712239.1:c177214-176702	COFHDJOM_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:177638-177826	COFHDJOM_00157
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:177915-178679	COFHDJOM_00158
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP71L	AM712239.1:c178880-178662	COFHDJOM_00159
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP96R	AM712239.1:178976-179266	COFHDJOM_00160
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c179460-179335	COFHDJOM_00161
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	hypothetical protein	AM712239.1:c179724-179566	COFHDJOM_00162
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP363R	AM712239.1:179879-180970	COFHDJOM_00163
+
+DiscRep_ALL:OVERLAPPING_CDS::4 coding regions overlap another coding region with a similar or identical name.
+DiscRep_SUB:OVERLAPPING_CDS::4 coding regions overlap another coding region with a similar or identical name that do not have the appropriate note text
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c4865-4062	COFHDJOM_00006
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c5133-4804	COFHDJOM_00007
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	helicase	AM712239.1:c153703-151583	COFHDJOM_00126
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	helicase	AM712239.1:c155190-153661	COFHDJOM_00127
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::91 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::Putative Typo
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features Is all capital letters
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	IAP	AM712239.1:c41129-40455	COFHDJOM_00037
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	CD2	AM712239.1:67567-68775	COFHDJOM_00061
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::89 features contains three or more numbers together that may be identifiers more appropriate in note
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pKP360L	AM712239.1:c1335-253	COFHDJOM_00001
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pKP362L	AM712239.1:c2507-1419	COFHDJOM_00002
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c4865-4062	COFHDJOM_00006
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c5133-4804	COFHDJOM_00007
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL270L	AM712239.1:c6172-5360	COFHDJOM_00008
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pY118L precursor	AM712239.1:c7142-6795	COFHDJOM_00010
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL270L	AM712239.1:c8544-8164	COFHDJOM_00013
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pJ268L	AM712239.1:c13915-13109	COFHDJOM_00017
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pJ154R	AM712239.1:15637-16119	COFHDJOM_00019
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pJ328L	AM712239.1:c17196-16210	COFHDJOM_00020
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pJ319L	AM712239.1:c18273-17314	COFHDJOM_00021
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c19487-18435	COFHDJOM_00022
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c20677-19607	COFHDJOM_00023
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c21764-20703	COFHDJOM_00024
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA489R	AM712239.1:21971-23566	COFHDJOM_00025
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c24668-23616	COFHDJOM_00026
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP363R	AM712239.1:c25901-24840	COFHDJOM_00027
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pL356L	AM712239.1:c27146-26073	COFHDJOM_00028
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA489R	AM712239.1:27352-28932	COFHDJOM_00029
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA280R	AM712239.1:29019-29861	COFHDJOM_00030
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA505R	AM712239.1:30026-31543	COFHDJOM_00031
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA498R	AM712239.1:31572-33068	COFHDJOM_00032
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA528R	AM712239.1:33266-34852	COFHDJOM_00033
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA528R	AM712239.1:34973-36559	COFHDJOM_00034
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA506R	AM712239.1:36867-38387	COFHDJOM_00035
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA542R	AM712239.1:38711-40339	COFHDJOM_00036
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA151R	AM712239.1:42822-43277	COFHDJOM_00040
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pA276R	AM712239.1:43622-44452	COFHDJOM_00041
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pF317L	AM712239.1:c50177-49224	COFHDJOM_00046
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pF165R	AM712239.1:53683-54093	COFHDJOM_00049
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pK205R	AM712239.1:57416-58033	COFHDJOM_00051
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pK145R	AM712239.1:58961-59398	COFHDJOM_00054
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pK421R	AM712239.1:59431-60696	COFHDJOM_00055
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pEP424R	AM712239.1:64812-66086	COFHDJOM_00058
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pEP152R	AM712239.1:66569-67027	COFHDJOM_00059
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pEP364R	AM712239.1:68884-69978	COFHDJOM_00062
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pM1249L	AM712239.1:c73791-70042	COFHDJOM_00063
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pM448R	AM712239.1:73831-75177	COFHDJOM_00064
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC129R	AM712239.1:75264-75653	COFHDJOM_00065
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC717R	AM712239.1:76390-78543	COFHDJOM_00067
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC105R	AM712239.1:78560-78847	COFHDJOM_00068
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC257L	AM712239.1:c80019-79246	COFHDJOM_00069
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC475L	AM712239.1:c81425-79998	COFHDJOM_00070
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC315R	AM712239.1:81478-82425	COFHDJOM_00071
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pC962R	AM712239.1:83366-86254	COFHDJOM_00074
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB119L	AM712239.1:c89599-89240	COFHDJOM_00077
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB438L	AM712239.1:c91819-90503	COFHDJOM_00079
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB169L	AM712239.1:c92356-91832	COFHDJOM_00080
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB475L	AM712239.1:c93800-92373	COFHDJOM_00081
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB354L	AM712239.1:c95001-93937	COFHDJOM_00082
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB602L	AM712239.1:c95959-95012	COFHDJOM_00083
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB385R	AM712239.1:96971-98128	COFHDJOM_00085
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB125R	AM712239.1:100206-100583	COFHDJOM_00087
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB117L	AM712239.1:c100909-100556	COFHDJOM_00088
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB407L	AM712239.1:c102169-100916	COFHDJOM_00089
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB175L	AM712239.1:c102724-102197	COFHDJOM_00090
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pB263R	AM712239.1:102771-103562	COFHDJOM_00091
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pG1340L	AM712239.1:c107787-103765	COFHDJOM_00093
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pCP123L	AM712239.1:c111831-111460	COFHDJOM_00095
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	220 kDa polyprotein	AM712239.1:c119367-111940	COFHDJOM_00096
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pCP312R	AM712239.1:121950-122888	COFHDJOM_00100
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pD129L	AM712239.1:c133462-133073	COFHDJOM_00107
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pD339L	AM712239.1:c134863-133844	COFHDJOM_00109
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pD345L	AM712239.1:c140719-139682	COFHDJOM_00114
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pS183L	AM712239.1:c141270-140719	COFHDJOM_00115
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pS273R	AM712239.1:141331-142152	COFHDJOM_00116
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH171R	AM712239.1:146910-147425	COFHDJOM_00119
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH124R	AM712239.1:147465-147839	COFHDJOM_00120
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH339R	AM712239.1:147861-148880	COFHDJOM_00121
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH108R	AM712239.1:148892-149218	COFHDJOM_00122
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH233R precursor	AM712239.1:149178-149879	COFHDJOM_00123
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pH240R	AM712239.1:149994-150716	COFHDJOM_00124
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE184L	AM712239.1:c156833-156279	COFHDJOM_00129
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE423R	AM712239.1:157459-158730	COFHDJOM_00131
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE146L	AM712239.1:c160262-159822	COFHDJOM_00133
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE199L	AM712239.1:c161036-160446	COFHDJOM_00134
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE248R	AM712239.1:161593-162339	COFHDJOM_00136
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pE111R	AM712239.1:163666-164001	COFHDJOM_00139
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI267L	AM712239.1:c165029-164226	COFHDJOM_00140
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI226R	AM712239.1:165181-165861	COFHDJOM_00141
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI329L precursor	AM712239.1:c168120-167131	COFHDJOM_00144
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI177L	AM712239.1:c169647-169114	COFHDJOM_00146
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pI196L	AM712239.1:c170230-169640	COFHDJOM_00147
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP238L	AM712239.1:c171040-170324	COFHDJOM_00148
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP311R	AM712239.1:171217-172146	COFHDJOM_00149
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP542L	AM712239.1:c173983-172355	COFHDJOM_00150
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP141L	AM712239.1:c174545-174102	COFHDJOM_00151
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP146L	AM712239.1:c175203-174763	COFHDJOM_00152
+prokka_out/AM712239.1_prokka/PROKKA_08082022:CDS	pDP363R	AM712239.1:179879-180970	COFHDJOM_00163
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::3 protein sequences are shorter than 50 aa.
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_15 (length 36)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_18 (length 38)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_161 (length 41)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1 (length 182284)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1 (length 182284)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1 (length 182284)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1 (length 182284)
+
+DiscRep_ALL:MISSING_PROJECT::164 sequences do not include project.
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1 (length 182284)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_1 (length 360)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_2 (length 362)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_3 (length 172)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_4 (length 81)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_5 (length 67)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_6 (length 267)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_7 (length 109)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_8 (length 270)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_9 (length 116)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_10 (length 115)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_11 (length 103)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_12 (length 158)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_13 (length 126)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_14 (length 386)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_15 (length 36)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_16 (length 375)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_17 (length 268)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_18 (length 38)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_19 (length 160)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_20 (length 328)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_21 (length 319)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_22 (length 350)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_23 (length 356)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_24 (length 353)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_25 (length 531)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_26 (length 350)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_27 (length 353)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_28 (length 357)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_29 (length 526)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_30 (length 280)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_31 (length 505)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_32 (length 498)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_33 (length 528)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_34 (length 528)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_35 (length 506)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_36 (length 542)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_37 (length 224)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_38 (length 104)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_39 (length 240)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_40 (length 151)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_41 (length 276)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_42 (length 238)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_43 (length 859)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_44 (length 179)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_45 (length 137)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_46 (length 317)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_47 (length 327)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_48 (length 778)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_49 (length 136)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_50 (length 1055)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_51 (length 205)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_52 (length 78)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_53 (length 196)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_54 (length 145)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_55 (length 421)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_56 (length 1242)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_57 (length 84)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_58 (length 424)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_59 (length 152)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_60 (length 153)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_61 (length 402)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_62 (length 364)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_63 (length 1249)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_64 (length 448)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_65 (length 129)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_66 (length 76)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_67 (length 717)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_68 (length 95)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_69 (length 257)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_70 (length 475)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_71 (length 315)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_72 (length 147)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_73 (length 122)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_74 (length 962)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_75 (length 52)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_76 (length 962)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_77 (length 119)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_78 (length 318)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_79 (length 438)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_80 (length 174)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_81 (length 475)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_82 (length 354)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_83 (length 315)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_84 (length 159)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_85 (length 385)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_86 (length 646)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_87 (length 125)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_88 (length 117)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_89 (length 417)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_90 (length 175)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_91 (length 263)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_92 (length 66)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_93 (length 1340)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_94 (length 1207)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_95 (length 123)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_96 (length 2475)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_97 (length 184)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_98 (length 530)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_99 (length 80)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_100 (length 312)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_101 (length 174)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_102 (length 61)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_103 (length 1450)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_104 (length 419)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_105 (length 868)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_106 (length 250)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_107 (length 129)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_108 (length 79)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_109 (length 339)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_110 (length 1133)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_111 (length 52)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_112 (length 117)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_113 (length 205)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_114 (length 345)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_115 (length 183)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_116 (length 273)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_117 (length 1192)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_118 (length 359)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_119 (length 171)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_120 (length 124)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_121 (length 339)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_122 (length 108)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_123 (length 233)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_124 (length 240)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_125 (length 272)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_126 (length 706)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_127 (length 509)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_128 (length 341)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_129 (length 184)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_130 (length 183)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_131 (length 423)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_132 (length 301)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_133 (length 146)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_134 (length 196)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_135 (length 165)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_136 (length 248)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_137 (length 120)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_138 (length 296)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_139 (length 111)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_140 (length 267)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_141 (length 226)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_142 (length 241)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_143 (length 73)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_144 (length 329)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_145 (length 215)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_146 (length 177)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_147 (length 196)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_148 (length 238)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_149 (length 309)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_150 (length 542)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_151 (length 147)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_152 (length 146)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_153 (length 102)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_154 (length 103)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_155 (length 98)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_156 (length 170)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_157 (length 62)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_158 (length 254)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_159 (length 72)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_160 (length 96)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_161 (length 41)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_162 (length 52)
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1_163 (length 363)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+prokka_out/AM712239.1_prokka/PROKKA_08082022:AM712239.1 (length 182284)
+

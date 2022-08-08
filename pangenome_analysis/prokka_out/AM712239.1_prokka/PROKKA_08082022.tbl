@@ -1,0 +1,939 @@
+>Feature AM712239.1
+1335	253	CDS
+			gene	KP360L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042702.2
+			locus_tag	COFHDJOM_00001
+			product	pKP360L
+2507	1419	CDS
+			gene	KP362L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042703.1
+			locus_tag	COFHDJOM_00002
+			product	pKP362L
+2672	3190	CDS
+			gene	KP177R_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042704.1
+			locus_tag	COFHDJOM_00003
+			product	structural protein p22
+3573	3328	CDS
+			gene	L83L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042705.1
+			locus_tag	COFHDJOM_00004
+			product	pL83L
+3877	3674	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00005
+			product	hypothetical protein
+4865	4062	CDS
+			gene	L356L_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042706.1
+			locus_tag	COFHDJOM_00006
+			product	pL356L
+5133	4804	CDS
+			gene	L356L_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042706.1
+			locus_tag	COFHDJOM_00007
+			product	pL356L
+6172	5360	CDS
+			gene	L270L_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042707.1
+			locus_tag	COFHDJOM_00008
+			product	pL270L
+6685	6335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00009
+			product	hypothetical protein
+7142	6795	CDS
+			gene	Y118L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042711.1
+			locus_tag	COFHDJOM_00010
+			product	pY118L precursor
+7643	7332	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00011
+			product	hypothetical protein
+8197	7721	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00012
+			product	hypothetical protein
+8544	8164	CDS
+			gene	L270L_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042707.1
+			locus_tag	COFHDJOM_00013
+			product	pL270L
+9864	8704	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00014
+			product	hypothetical protein
+9934	10044	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00015
+			product	hypothetical protein
+11819	10692	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00016
+			product	hypothetical protein
+13915	13109	CDS
+			gene	J268L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042714.2
+			locus_tag	COFHDJOM_00017
+			product	pJ268L
+15283	15399	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00018
+			product	hypothetical protein
+15637	16119	CDS
+			gene	J154R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042715.1
+			locus_tag	COFHDJOM_00019
+			product	pJ154R
+17196	16210	CDS
+			gene	J328L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:YP_009094907.1
+			locus_tag	COFHDJOM_00020
+			product	pJ328L
+18273	17314	CDS
+			gene	J319L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042718.1
+			locus_tag	COFHDJOM_00021
+			product	pJ319L
+19487	18435	CDS
+			gene	L356L_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042706.1
+			locus_tag	COFHDJOM_00022
+			product	pL356L
+20677	19607	CDS
+			gene	L356L_4
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042706.1
+			locus_tag	COFHDJOM_00023
+			product	pL356L
+21764	20703	CDS
+			gene	L356L_5
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042706.1
+			locus_tag	COFHDJOM_00024
+			product	pL356L
+21971	23566	CDS
+			gene	A489R_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042720.1
+			locus_tag	COFHDJOM_00025
+			product	pA489R
+24668	23616	CDS
+			gene	L356L_6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042706.1
+			locus_tag	COFHDJOM_00026
+			product	pL356L
+25901	24840	CDS
+			gene	DP363R_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042846.1
+			locus_tag	COFHDJOM_00027
+			product	pDP363R
+27146	26073	CDS
+			gene	L356L_7
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042706.1
+			locus_tag	COFHDJOM_00028
+			product	pL356L
+27352	28932	CDS
+			gene	A489R_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042720.1
+			locus_tag	COFHDJOM_00029
+			product	pA489R
+29019	29861	CDS
+			gene	A280R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042721.1
+			locus_tag	COFHDJOM_00030
+			product	pA280R
+30026	31543	CDS
+			gene	A505R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042722.1
+			locus_tag	COFHDJOM_00031
+			product	pA505R
+31572	33068	CDS
+			gene	A498R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042723.1
+			locus_tag	COFHDJOM_00032
+			product	pA498R
+33266	34852	CDS
+			gene	A528R_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042724.1
+			locus_tag	COFHDJOM_00033
+			product	pA528R
+34973	36559	CDS
+			gene	A528R_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042724.1
+			locus_tag	COFHDJOM_00034
+			product	pA528R
+36867	38387	CDS
+			gene	A506R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042725.1
+			locus_tag	COFHDJOM_00035
+			product	pA506R
+38711	40339	CDS
+			gene	A542R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042726.1
+			locus_tag	COFHDJOM_00036
+			product	pA542R
+41129	40455	CDS
+			gene	A224L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042727.1
+			locus_tag	COFHDJOM_00037
+			product	IAP 
+41491	41805	CDS
+			gene	A104R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042728.1
+			locus_tag	COFHDJOM_00038
+			product	histone-like protein
+42524	41802	CDS
+			gene	A240L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042729.1
+			locus_tag	COFHDJOM_00039
+			product	thymidylate kinase
+42822	43277	CDS
+			gene	A151R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042731.1
+			locus_tag	COFHDJOM_00040
+			product	pA151R
+43622	44452	CDS
+			gene	A276R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042732.1
+			locus_tag	COFHDJOM_00041
+			product	pA276R
+45374	44658	CDS
+			gene	A238L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042733.1
+			locus_tag	COFHDJOM_00042
+			product	IkB-like protein
+47993	45414	CDS
+			gene	A859L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042734.1
+			locus_tag	COFHDJOM_00043
+			product	helicase
+48534	47995	CDS
+			gene	A179L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042735.1
+			locus_tag	COFHDJOM_00044
+			product	bcl-2/bax 
+48778	49191	CDS
+			gene	A137R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042736.1
+			locus_tag	COFHDJOM_00045
+			product	structural protein p11.5
+50177	49224	CDS
+			gene	F317L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042737.1
+			locus_tag	COFHDJOM_00046
+			product	pF317L
+51185	50202	CDS
+			gene	F334L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042738.1
+			locus_tag	COFHDJOM_00047
+			product	ribonucleotide reductase small subunit
+51227	53563	CDS
+			gene	F778R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042739.1
+			locus_tag	COFHDJOM_00048
+			product	ribonucleotide reductase large subunit
+53683	54093	CDS
+			gene	F165R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042740.1
+			locus_tag	COFHDJOM_00049
+			product	pF165R
+57247	54080	CDS
+			gene	F1055L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042741.1
+			locus_tag	COFHDJOM_00050
+			product	helicase
+57416	58033	CDS
+			gene	K205R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042742.1
+			locus_tag	COFHDJOM_00051
+			product	pK205R
+58122	58358	CDS
+			gene	K78R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042743.1
+			locus_tag	COFHDJOM_00052
+			product	structural protein p10
+58355	58945	CDS
+			gene	K196R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042744.1
+			locus_tag	COFHDJOM_00053
+			product	thymidine kinase
+58961	59398	CDS
+			gene	K145R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042745.1
+			locus_tag	COFHDJOM_00054
+			product	pK145R
+59431	60696	CDS
+			gene	K421R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042746.1
+			locus_tag	COFHDJOM_00055
+			product	pK421R
+64443	60715	CDS
+			gene	EP1242L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042747.1
+			locus_tag	COFHDJOM_00056
+			product	RNA polymerase subunit 2
+64522	64776	CDS
+			gene	EP84R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042748.1
+			locus_tag	COFHDJOM_00057
+			product	pEP84R
+64812	66086	CDS
+			gene	EP424R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042749.1
+			locus_tag	COFHDJOM_00058
+			product	pEP424R
+66569	67027	CDS
+			gene	EP152R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042750.1
+			locus_tag	COFHDJOM_00059
+			product	pEP152R
+67030	67491	CDS
+			gene	EP153R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042751.1
+			locus_tag	COFHDJOM_00060
+			product	lectin-like protein
+67567	68775	CDS
+			gene	EP402R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042752.1
+			locus_tag	COFHDJOM_00061
+			product	CD2 
+68884	69978	CDS
+			gene	EP364R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042753.1
+			locus_tag	COFHDJOM_00062
+			product	pEP364R
+73791	70042	CDS
+			gene	M1249L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042754.1
+			locus_tag	COFHDJOM_00063
+			product	pM1249L
+73831	75177	CDS
+			gene	M448R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042755.1
+			locus_tag	COFHDJOM_00064
+			product	pM448R
+75264	75653	CDS
+			gene	C129R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042756.1
+			locus_tag	COFHDJOM_00065
+			product	pC129R
+75940	75710	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00066
+			product	hypothetical protein
+76390	78543	CDS
+			gene	C717R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042758.1
+			locus_tag	COFHDJOM_00067
+			product	pC717R
+78560	78847	CDS
+			gene	C105R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042759.2
+			locus_tag	COFHDJOM_00068
+			product	pC105R
+80019	79246	CDS
+			gene	C257L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042760.1
+			locus_tag	COFHDJOM_00069
+			product	pC257L
+81425	79998	CDS
+			gene	C475L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042761.1
+			locus_tag	COFHDJOM_00070
+			product	pC475L
+81478	82425	CDS
+			gene	C315R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042762.1
+			locus_tag	COFHDJOM_00071
+			product	pC315R
+82936	82493	CDS
+			gene	C147L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042763.1
+			locus_tag	COFHDJOM_00072
+			product	RNA polymerase subunit 6
+82953	83321	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00073
+			product	hypothetical protein
+83366	86254	CDS
+			gene	C962R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042765.1
+			locus_tag	COFHDJOM_00074
+			product	pC962R
+86363	86205	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00075
+			product	hypothetical protein
+89280	86392	CDS
+			gene	B962L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042766.1
+			locus_tag	COFHDJOM_00076
+			product	helicase
+89599	89240	CDS
+			gene	B119L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042767.1
+			locus_tag	COFHDJOM_00077
+			product	pB119L
+90536	89580	CDS
+			gene	B318L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042768.1
+			locus_tag	COFHDJOM_00078
+			product	prenyltransferase
+91819	90503	CDS
+			gene	B438L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042769.1
+			locus_tag	COFHDJOM_00079
+			product	pB438L
+92356	91832	CDS
+			gene	B169L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042770.1
+			locus_tag	COFHDJOM_00080
+			product	pB169L
+93800	92373	CDS
+			gene	B475L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042771.1
+			locus_tag	COFHDJOM_00081
+			product	pB475L
+95001	93937	CDS
+			gene	B354L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042772.1
+			locus_tag	COFHDJOM_00082
+			product	pB354L
+95959	95012	CDS
+			gene	B602L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042773.1
+			locus_tag	COFHDJOM_00083
+			product	pB602L
+95973	96452	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00084
+			product	hypothetical protein
+96971	98128	CDS
+			gene	B385R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042774.1
+			locus_tag	COFHDJOM_00085
+			product	pB385R
+100166	98226	CDS
+			gene	B646L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042775.1
+			locus_tag	COFHDJOM_00086
+			product	structural protein p72
+100206	100583	CDS
+			gene	B125R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042776.1
+			locus_tag	COFHDJOM_00087
+			product	pB125R
+100909	100556	CDS
+			gene	B117L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042777.1
+			locus_tag	COFHDJOM_00088
+			product	pB117L
+102169	100916	CDS
+			gene	B407L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042778.1
+			locus_tag	COFHDJOM_00089
+			product	pB407L
+102724	102197	CDS
+			gene	B175L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042779.1
+			locus_tag	COFHDJOM_00090
+			product	pB175L
+102771	103562	CDS
+			gene	B263R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042780.1
+			locus_tag	COFHDJOM_00091
+			product	pB263R
+103759	103559	CDS
+			gene	B66L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042781.1
+			locus_tag	COFHDJOM_00092
+			product	pB66L precursor
+107787	103765	CDS
+			gene	G1340L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042782.1
+			locus_tag	COFHDJOM_00093
+			product	pG1340L
+107840	111463	CDS
+			gene	G1211R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042783.1
+			locus_tag	COFHDJOM_00094
+			product	DNA polymerase
+111831	111460	CDS
+			gene	CP123L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042784.1
+			locus_tag	COFHDJOM_00095
+			product	pCP123L
+119367	111940	CDS
+			gene	CP2475L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042785.1
+			locus_tag	COFHDJOM_00096
+			product	220 kDa polyprotein
+120025	119471	CDS
+			gene	CP204L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042786.1
+			locus_tag	COFHDJOM_00097
+			product	ASFV-induced protein p32
+120086	121678	CDS
+			gene	CP530R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042787.1
+			locus_tag	COFHDJOM_00098
+			product	60 kDa polyprotein
+121681	121923	CDS
+			gene	CP80R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042788.1
+			locus_tag	COFHDJOM_00099
+			product	RNA polymerase subunit 10
+121950	122888	CDS
+			gene	CP312R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042789.1
+			locus_tag	COFHDJOM_00100
+			product	pCP312R
+123433	122909	CDS
+			gene	O174L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042790.1
+			locus_tag	COFHDJOM_00101
+			product	DNA polymerase beta-like protein
+123483	123668	CDS
+			gene	O61R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042791.1
+			locus_tag	COFHDJOM_00102
+			product	structural protein p12
+128070	123718	CDS
+			gene	NP1450L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042792.1
+			locus_tag	COFHDJOM_00103
+			product	RNA polymerase subunit 1
+129412	128153	CDS
+			gene	NP419L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042793.1
+			locus_tag	COFHDJOM_00104
+			product	DNA ligase
+129477	132083	CDS
+			gene	NP868R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042794.1
+			locus_tag	COFHDJOM_00105
+			product	guanylyltransferase
+132140	132892	CDS
+			gene	D250R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042795.1
+			locus_tag	COFHDJOM_00106
+			product	8-hydroxy-dGTPase
+133462	133073	CDS
+			gene	D129L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042796.1
+			locus_tag	COFHDJOM_00107
+			product	pD129L
+133775	133536	CDS
+			gene	D79L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042797.1
+			locus_tag	COFHDJOM_00108
+			product	pD79L
+134863	133844	CDS
+			gene	D339L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042798.1
+			locus_tag	COFHDJOM_00109
+			product	pD339L
+138397	134996	CDS
+			gene	D1133L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042799.1
+			locus_tag	COFHDJOM_00110
+			product	helicase
+138593	138435	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00111
+			product	hypothetical protein
+138981	138628	CDS
+			gene	D117L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042800.1
+			locus_tag	COFHDJOM_00112
+			product	structural protein p17
+139038	139655	CDS
+			gene	D205R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042801.1
+			locus_tag	COFHDJOM_00113
+			product	RNA polymerase subunit 5
+140719	139682	CDS
+			gene	D345L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042802.1
+			locus_tag	COFHDJOM_00114
+			product	pD345L
+141270	140719	CDS
+			gene	S183L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042803.1
+			locus_tag	COFHDJOM_00115
+			product	pS183L
+141331	142152	CDS
+			gene	S273R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042804.1
+			locus_tag	COFHDJOM_00116
+			product	pS273R
+142187	145765	CDS
+			gene	P1192R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042805.1
+			locus_tag	COFHDJOM_00117
+			product	topoisomerase II
+146875	145796	CDS
+			gene	H359L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042806.1
+			locus_tag	COFHDJOM_00118
+			product	RNA polymerase subunit 3
+146910	147425	CDS
+			gene	H171R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042807.1
+			locus_tag	COFHDJOM_00119
+			product	pH171R
+147465	147839	CDS
+			gene	H124R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042808.1
+			locus_tag	COFHDJOM_00120
+			product	pH124R
+147861	148880	CDS
+			gene	H339R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042809.1
+			locus_tag	COFHDJOM_00121
+			product	pH339R
+148892	149218	CDS
+			gene	H108R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042810.1
+			locus_tag	COFHDJOM_00122
+			product	pH108R
+149178	149879	CDS
+			gene	H233R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042811.1
+			locus_tag	COFHDJOM_00123
+			product	pH233R precursor
+149994	150716	CDS
+			gene	H240R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042812.1
+			locus_tag	COFHDJOM_00124
+			product	pH240R
+151531	150713	CDS
+			gene	R298L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042813.1
+			locus_tag	COFHDJOM_00125
+			product	serine protein kinase
+153703	151583	CDS
+			gene	Q706L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042814.1
+			locus_tag	COFHDJOM_00126
+			product	helicase
+155190	153661	CDS
+			gene	QP509L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042815.1
+			locus_tag	COFHDJOM_00127
+			product	helicase
+155306	156331	CDS
+			gene	QP383R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042816.1
+			locus_tag	COFHDJOM_00128
+			product	NifS-like protein
+156833	156279	CDS
+			gene	E184L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042817.1
+			locus_tag	COFHDJOM_00129
+			product	pE184L
+157428	156877	CDS
+			gene	E183L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042818.1
+			locus_tag	COFHDJOM_00130
+			product	structural protein p54
+157459	158730	CDS
+			gene	E423R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042819.1
+			locus_tag	COFHDJOM_00131
+			product	pE423R
+158883	159788	CDS
+			gene	E301R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042820.1
+			locus_tag	COFHDJOM_00132
+			product	proliferating cell nuclear antigen-like protein
+160262	159822	CDS
+			gene	E146L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042821.1
+			locus_tag	COFHDJOM_00133
+			product	pE146L
+161036	160446	CDS
+			gene	E199L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042822.1
+			locus_tag	COFHDJOM_00134
+			product	pE199L
+161073	161570	CDS
+			gene	E165R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042823.1
+			locus_tag	COFHDJOM_00135
+			product	dUTPase
+161593	162339	CDS
+			gene	E248R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042824.1
+			locus_tag	COFHDJOM_00136
+			product	pE248R
+162381	162743	CDS
+			gene	E120R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042825.1
+			locus_tag	COFHDJOM_00137
+			product	structural protein p14.5
+162773	163663	CDS
+			gene	E296R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042826.1
+			locus_tag	COFHDJOM_00138
+			product	AP endonuclease class II
+163666	164001	CDS
+			gene	E111R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042827.1
+			locus_tag	COFHDJOM_00139
+			product	pE111R
+165029	164226	CDS
+			gene	I267L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042829.1
+			locus_tag	COFHDJOM_00140
+			product	pI267L
+165181	165861	CDS
+			gene	I226R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042830.1
+			locus_tag	COFHDJOM_00141
+			product	pI226R
+166583	165858	CDS
+			gene	I243L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042831.1
+			locus_tag	COFHDJOM_00142
+			product	transcription factor SII 
+166674	166895	CDS
+			gene	I73R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042832.1
+			locus_tag	COFHDJOM_00143
+			product	pI73R
+168120	167131	CDS
+			gene	I329L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042833.1
+			locus_tag	COFHDJOM_00144
+			product	pI329L precursor
+169076	168429	CDS
+			gene	I215L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042834.1
+			locus_tag	COFHDJOM_00145
+			product	ubiquitin-conjugating enzyme
+169647	169114	CDS
+			gene	I177L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042835.1
+			locus_tag	COFHDJOM_00146
+			product	pI177L
+170230	169640	CDS
+			gene	I196L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042836.1
+			locus_tag	COFHDJOM_00147
+			product	pI196L
+171040	170324	CDS
+			gene	DP238L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042837.1
+			locus_tag	COFHDJOM_00148
+			product	pDP238L
+171217	172146	CDS
+			gene	DP311R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042838.2
+			locus_tag	COFHDJOM_00149
+			product	pDP311R
+173983	172355	CDS
+			gene	DP542L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042840.1
+			locus_tag	COFHDJOM_00150
+			product	pDP542L
+174545	174102	CDS
+			gene	DP141L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042841.1
+			locus_tag	COFHDJOM_00151
+			product	pDP141L
+175203	174763	CDS
+			gene	DP146L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042842.1
+			locus_tag	COFHDJOM_00152
+			product	pDP146L
+175609	175301	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00153
+			product	hypothetical protein
+176140	175829	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00154
+			product	hypothetical protein
+176333	176629	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00155
+			product	hypothetical protein
+177214	176702	CDS
+			gene	KP177R_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042704.1
+			locus_tag	COFHDJOM_00156
+			product	structural protein p22
+177638	177826	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00157
+			product	hypothetical protein
+177915	178679	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00158
+			product	hypothetical protein
+178880	178662	CDS
+			gene	DP71L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042844.1
+			locus_tag	COFHDJOM_00159
+			product	pDP71L
+178976	179266	CDS
+			gene	DP96R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042845.1
+			locus_tag	COFHDJOM_00160
+			product	pDP96R
+179460	179335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00161
+			product	hypothetical protein
+179724	179566	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	COFHDJOM_00162
+			product	hypothetical protein
+179879	180970	CDS
+			gene	DP363R_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:GCF_000858485.1.gbff:NP_042846.1
+			locus_tag	COFHDJOM_00163
+			product	pDP363R
