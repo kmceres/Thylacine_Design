@@ -1,6 +1,4 @@
-# Thylacine_Design
-
-## Sequence analysis and primer design
+# Sequence analysis and primer design
 
 ## Types of analyses described here
 ### Pathogen sequence analysis
