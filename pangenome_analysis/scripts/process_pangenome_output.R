@@ -157,7 +157,7 @@ short_window_df  = tibble(gene = character(),
                           seq = character(),
                           target_seq = character(),
                           n_snp = numeric(),
-                          pos_of_snps = numeric(),
+                          pos_of_snps = character(),
                           het = numeric(),
                           GC = numeric(),
                           complexity = numeric())
