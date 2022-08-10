@@ -26,12 +26,17 @@
 	* R packages used for pangenome analysis:
 		* General purpose packages:
 			* dplyr
+			* tidyr
 			* stringr
 			* ggplot2
+			* optparse
 		* Sequence analysis:
 			* seqinr
 			* adegenet
 			* hierfstat
+			* rhierbaps
+			* R453Plus1Toolbox
+
 
 ### Annotating genomes
 African swine fever genomes downloaded from NCBI Virus can be found in data/fastas. The reference genome can be found in data/ref.
