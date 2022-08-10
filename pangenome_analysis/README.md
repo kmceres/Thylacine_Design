@@ -2,7 +2,7 @@
 **Purpose:** Prokaryotes and some DNA viruses have variable gene content and when designing a species level molecular test it is important to identify conserved genes. The concept of a pangenome, shown below, is the idea that individuals of a species share a common set of "core" genes, but may also have differing gene content in the "accessory" genome. The combined core and accessory genes make up the pangenome of a species. 
 
 <p align="center" width="100%">
-	<img src="pangenome.png"
+	<img src="images/pangenome.png"
      alt="Pangenome concept"
      width="500"/>
 </p>
@@ -101,9 +101,11 @@ Rscript ./scripts/process_pangenome_output.R -f ~/CXL/ASFV/Complete_near_complet
 The R script compare_off_targets.R checks if potential primers will bind to off target genomes. 
 
 **Required inputs:**
-* path to directory containing off target whole genome sequences
+* -t path to directory containing off target whole genome sequences
 
 **Optional inputs:**
+* -f csv output from process_pangenome_output.R
+* -s maximum number of substitutions allowed between primer and off target genome 
 
 **Example usage:**
 ```
