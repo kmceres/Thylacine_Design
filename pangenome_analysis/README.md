@@ -97,3 +97,17 @@ Rscript ./scripts/process_pangenome_output.R -f ~/CXL/ASFV/Complete_near_complet
 ```
 
 
+### Check for off target matches
+The R script compare_off_targets.R checks if potential primers will bind to off target genomes. 
+
+**Required inputs:**
+* path to directory containing off target whole genome sequences
+
+**Optional inputs:**
+
+**Example usage:**
+```
+ Rscript ./scripts/compare_off_targets.R -f potential_primers.csv -t "~/Thylacine_Design/pangenome_analysis/data/off_target_genomes/" 
+```
+
+

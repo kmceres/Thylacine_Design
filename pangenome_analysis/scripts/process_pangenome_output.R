@@ -201,7 +201,7 @@ short_window_df_f <- short_window_df %>%
   filter(GC >= 0.4 & GC <= 0.6) %>%
   filter(complexity < 5) 
 
-write.csv(short_window_df_f, opt$out)
+write.csv(short_window_df_f, opt$out, row.names = F)
 
 short_window_df_long <- short_window_df_f %>% 
   gather("start_end","POS", -c(gene, seq,target_seq,n_snp,het,GC,complexity))
