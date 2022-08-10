@@ -32,8 +32,7 @@ for (f in 1:length(file_list)){
   file = paste0(off_target_dir, file_list[f])
   off <- read.fasta(file,seqonly = T)
   for(row in 1:nrow(primers)){
-    dif = agrep(primers$seq[row],off, max.distance = c(substitutions=max_subs, insertions = 0, deletions = 0))
-    new_cols[row,f] = ifelse(identical(dif, integer(0)),0,1) 
+    new_cols[row,f] = agrepl(primers$seq[row],off, max.distance = c(substitutions=max_subs, insertions = 0, deletions = 0))
   }
 }
 
@@ -41,3 +40,4 @@ off_df <- as.data.frame(new_cols)
 off_df <- off_df %>% mutate(n_fail = rowSums(off_df))
 out <- primers[off_df$n_fail == 0,]
 write.csv(out, opt$out ,row.names = F)
+

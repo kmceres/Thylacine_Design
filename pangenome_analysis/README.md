@@ -108,7 +108,7 @@ The R script compare_off_targets.R checks if potential primers will bind to off 
 
 **Optional inputs:**
 * -f csv output from process_pangenome_output.R
-* -s maximum number of substitutions allowed between primer and off target genome 
+* -s minimum number of substitutions allowed between primer and off target genome 
 
 **Example usage:**
 ```
