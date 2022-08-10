@@ -36,6 +36,7 @@
 			* hierfstat
 			* rhierbaps
 			* R453Plus1Toolbox
+			* abdiv
 
 
 ### Annotating genomes
