@@ -83,6 +83,9 @@ The R script process_pangenome_output.R takes the gene presence/absence matrix a
 	* average heterozygosity
 	* GC content
 	* sequence complexity (DUST method; 100 = least complex, 0 = most complex)
+* plot of locations of potential primers 
+
+**Example usage:**
 
 ```
 Rscript process_pangenome_output.R -f ~/CXL/ASFV/Complete_near_complete/fastas/fastas/prokka_out/panaroo_out/ -t 300 -p 20
