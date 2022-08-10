@@ -68,14 +68,16 @@ panaroo-msa -o . -a core --aligner mafft -t 8
 
 ### Identify potential target sequences
 The R script process_pangenome_output.R takes the gene presence/absence matrix and the gene alignments created by panaroo and identifies potential target regions and primers. 
-** Required nputs:** 
+
+**Required inputs:** 
 * Path to panaroo output directory 
-** Optional inputs: ** 
+
+**Optional inputs:** 
 * -t target region size, default 300 bp
 * -p primer size, default 20 bp
 * -o output file name, defualt potential_primers.csv
 
-** Outputs: **
+**Outputs:**
 * csv of potentail primer sequences, target sequence, and information about each primer sequence:
 	* number of positions with SNPs
 	* average heterozygosity
