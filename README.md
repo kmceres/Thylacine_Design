@@ -12,3 +12,7 @@
 * Detecting group defining mutations
 	* Identifying regions that best differentiate populations
 
+### Primer design from whole genome sequences
+* Identify conserved sequences among target genomes
+* Compare target sequences to off target genomes 
+
