@@ -69,6 +69,8 @@ panaroo -i *.gff --clean-mode strict -t 8 --out_dir panaroo_out
 ```
 * Step 3: Use panaroo's built-in mafft aligner to generate core gene alignments
 ```
+cd panaroo_out
+
 panaroo-msa -o . -a core --aligner mafft -t 8
 ```
 
