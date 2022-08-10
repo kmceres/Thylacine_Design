@@ -157,6 +157,7 @@ short_window_df  = tibble(gene = character(),
                           seq = character(),
                           target_seq = character(),
                           n_snp = numeric(),
+                          pos_of_snps = numeric(),
                           het = numeric(),
                           GC = numeric(),
                           complexity = numeric())
@@ -179,6 +180,7 @@ for (r in 1:nrow(window_stats_ff)){
     new_win = new_df %>% filter(POS >= translate_start & POS <= translate_end)
     n_snps_in_win = ifelse(any(c(translate_start:translate_end) %in% new_df$POS),nrow(new_win),0)
     mean_het = ifelse(any(c(translate_start:translate_end) %in% new_df$POS), mean(new_win$Hs), 0)
+    pos_w_snps = paste(new_win$POS, collapse=",")
     seq_str <- s2c(sub_st)
     gc <- GC(seq_str)
     seq_comp <- complexity.dust(DNAStringSet(sub_st))
@@ -188,6 +190,7 @@ for (r in 1:nrow(window_stats_ff)){
                  seq = toupper(sub_st),
                  target_seq = targ_seq,
                  n_snp = n_snps_in_win,
+                 pos_of_snps = pos_w_snps,
                  het = mean_het,
                  GC = gc,
                  complexity = seq_comp
