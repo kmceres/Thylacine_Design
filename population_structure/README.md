@@ -1,4 +1,4 @@
-# Primer design
+# Population Differentiation
 **Purpose:** This directory contains an R script that analyzes population structure of an alignment, and finds positions in the alignment that best distinguish between groups. 
 
 ### Requirements:
