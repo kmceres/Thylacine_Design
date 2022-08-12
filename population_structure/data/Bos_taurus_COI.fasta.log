@@ -1,0 +1,1280 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Mac OS X 64-bit built May 11 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Kristinas-MBP (AVX2, FMA3, 64 GB RAM)
+Command: iqtree -s data/Bos_taurus_COI.fasta -m GTR+G
+Seed:    18946 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 12 14:06:15 2022
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file data/Bos_taurus_COI.fasta ... Fasta format detected
+Reading fasta file: done in 0.00742507 secs using 93.4% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00350785 secs using 83.93% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 527 sequences with 1005 columns, 361 distinct patterns
+42 parsimony-informative, 47 singleton sites, 916 constant sites
+                                                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000714064 secs using 93.27% CPU
+   1  NC_006853                                           0.10%    passed     98.96%
+   2  GBMTG596-16|Bos_taurus|COI-5P|NC_006853             0.10%    passed     98.96%
+   3  GTENK016-11|Bos_taurus|COI-5P                       0.10%    passed     98.96%
+   4  GBMA19537-19|Bos_taurus|COI-5P|AY526085             0.10%    passed     98.96%
+   5  GBMA26126-19|Bos_taurus|COI-5P|MK028740            10.35%    passed     88.50%
+   6  GBMA26134-19|Bos_taurus|COI-5P|MK028748             6.37%    passed     92.21%
+   7  GBMA26124-19|Bos_taurus|COI-5P|MK028738             8.06%    passed     84.68%
+   8  GBMA23576-19|Bos_taurus|COI-3P|KP777006            72.04%    passed     59.18%
+   9  GBMA23577-19|Bos_taurus|COI-3P|KP777007            72.04%    passed     59.18%
+  10  GBMA24151-19|Bos_taurus|COI-5P|KP637147             0.10%    passed     96.96%
+  11  GBMA0363-06|Bos_taurus|COI-5P|AY676864             10.65%    passed     99.74%
+  12  GBMA25948-19|Bos_taurus|COI-5P|MF598734            30.75%    passed     98.25%
+  13  CYTC424-12|Bos_taurus|COI-5P|HQ184037               1.09%    passed     98.67%
+  14  CYTC5219-12|Bos_taurus|COI-5P|JN817325              0.60%    passed     98.53%
+  15  CYTC5223-12|Bos_taurus|COI-5P|JN817329              0.60%    passed     98.53%
+  16  CYTC5231-12|Bos_taurus|COI-5P|JN817337              0.60%    passed     98.53%
+  17  CYTC5230-12|Bos_taurus|COI-5P|JN817336              0.60%    passed     97.52%
+  18  CYTC5195-12|Bos_taurus|COI-5P|JN817301              0.60%    passed     98.53%
+  19  CYTC5202-12|Bos_taurus|COI-5P|JN817308              0.60%    passed     98.53%
+  20  CYTC4896-12|Bos_taurus|COI-5P|GU947018              0.60%    passed     98.53%
+  21  CYTC4895-12|Bos_taurus|COI-5P|GU947017              0.60%    passed     98.53%
+  22  CYTC419-12|Bos_taurus|COI-5P|HQ184032               1.09%    passed     98.72%
+  23  CYTC418-12|Bos_taurus|COI-5P|HQ184031               1.09%    passed     98.72%
+  24  CYTC5215-12|Bos_taurus|COI-5P|JN817321              0.60%    passed     98.27%
+  25  CYTC5193-12|Bos_taurus_indicus|COI-5P|JN817299      0.60%    passed     98.98%
+  26  GBMA24169-19|Bos_taurus|COI-5P|KT184467             0.10%    passed     98.14%
+  27  GBMA19522-19|Bos_taurus|COI-5P|KF163080             0.10%    passed     97.76%
+  28  GBMA9025-15|Bos_taurus|COI-5P|KJ709685              0.10%    passed     97.76%
+  29  CYTC4888-12|Bos_taurus|COI-5P|GU947010              0.60%    passed     98.53%
+  30  CYTC4887-12|Bos_taurus|COI-5P|GU947009              0.60%    passed     98.53%
+  31  CYTC5227-12|Bos_taurus|COI-5P|JN817333              0.60%    passed     98.53%
+  32  CYTC5205-12|Bos_taurus|COI-5P|JN817311              0.60%    passed     98.53%
+  33  CYTC5229-12|Bos_taurus|COI-5P|JN817335              0.60%    passed     98.53%
+  34  GBMA26109-19|Bos_taurus|COI-5P|MG736676             0.10%    passed     98.14%
+  35  GBMNA16699-19|Bos_taurus|COI-5P|MF663794            0.10%    passed     98.14%
+  36  GBMA25589-19|Bos_taurus|COI-5P|MF169214             0.10%    passed     98.14%
+  37  GBMA24166-19|Bos_taurus|COI-5P|KT184464             0.10%    passed     98.14%
+  38  GBMA24173-19|Bos_taurus|COI-5P|KT184471             0.10%    passed     98.14%
+  39  GBMA19534-19|Bos_taurus|COI-5P|KF163092             0.10%    passed     98.14%
+  40  GBMA9026-15|Bos_taurus|COI-5P|KJ709684              0.10%    passed     98.14%
+  41  GBMA9028-15|Bos_taurus|COI-5P|KJ709682              0.10%    passed     98.14%
+  42  GBMNA16703-19|Bos_taurus|COI-5P|MF925711            0.10%    passed     98.14%
+  43  GBMA9030-15|Bos_taurus|COI-5P|KJ789953              0.10%    passed     98.14%
+  44  GBMA24168-19|Bos_taurus|COI-5P|KT184466             0.10%    passed     98.14%
+  45  GBMA19536-19|Bos_taurus|COI-5P|KF163094             0.10%    passed     98.14%
+  46  GBMA24167-19|Bos_taurus|COI-5P|KT184465             0.10%    passed     98.14%
+  47  GBMA24165-19|Bos_taurus|COI-5P|KT184463             0.10%    passed     98.14%
+  48  GBMA24177-19|Bos_taurus|COI-5P|KU891849             0.10%    passed     98.14%
+  49  GBMA24154-19|Bos_taurus|COI-5P|KT184452             0.10%    passed     98.14%
+  50  GBMA19517-19|Bos_taurus|COI-5P|KF163075             0.10%    passed     98.14%
+  51  GBMA19508-19|Bos_taurus|COI-5P|KF163066             0.10%    passed     98.14%
+  52  GBMA19515-19|Bos_taurus|COI-5P|KF163073             0.10%    passed     98.14%
+  53  GBGC16582-19|Bos_taurus|COI-5P|MG837552             0.10%    passed     98.14%
+  54  GBMA19502-19|Bos_taurus|COI-5P|KC153977             0.10%    passed     98.14%
+  55  GBMA19521-19|Bos_taurus|COI-5P|KF163079             0.10%    passed     98.14%
+  56  GBMA19533-19|Bos_taurus|COI-5P|KF163091             0.10%    passed     98.14%
+  57  GBMA19532-19|Bos_taurus|COI-5P|KF163090             0.10%    passed     98.14%
+  58  GBMA24174-19|Bos_taurus|COI-5P|KT184472             0.10%    passed     98.14%
+  59  GBMA25132-19|Bos_taurus|COI-5P|KY766257             0.10%    passed     98.14%
+  60  GBMA24175-19|Bos_taurus|COI-5P|KT343748             0.10%    passed     98.14%
+  61  GBMA19528-19|Bos_taurus|COI-5P|KF163086             0.10%    passed     98.14%
+  62  GBMA19498-19|Bos_taurus|COI-5P|KC153973             0.10%    passed     98.14%
+  63  GBMA19512-19|Bos_taurus|COI-5P|KF163070             0.10%    passed     98.14%
+  64  GBMA26127-19|Bos_taurus|COI-5P|MK028741             6.17%    passed     90.94%
+  65  GBMA26118-19|Bos_taurus|COI-5P|MK028732             5.37%    passed     91.66%
+  66  GBMA26136-19|Bos_taurus|COI-5P|MK028750             4.78%    passed     93.67%
+  67  GBMA26113-19|Bos_taurus|COI-5P|MK028727             4.98%    passed     92.87%
+  68  GBMA26112-19|Bos_taurus|COI-5P|MK028726             4.68%    passed     94.15%
+  69  GBMA26131-19|Bos_taurus|COI-5P|MK028745             4.48%    passed     94.86%
+  70  GBMA26133-19|Bos_taurus|COI-5P|MK028747             3.98%    passed     96.05%
+  71  GBMA26111-19|Bos_taurus|COI-5P|MK028725             3.98%    passed     96.05%
+  72  GBMA26117-19|Bos_taurus|COI-5P|MK028731             3.98%    passed     96.05%
+  73  GBMA26122-19|Bos_taurus|COI-5P|MK028736             3.98%    passed     96.05%
+  74  GBMA26132-19|Bos_taurus|COI-5P|MK028746             3.98%    passed     96.05%
+  75  GBMA26121-19|Bos_taurus|COI-5P|MK028735             3.78%    passed     96.48%
+  76  GBMA26130-19|Bos_taurus|COI-5P|MK028744             3.48%    passed     96.75%
+  77  GBMA26120-19|Bos_taurus|COI-5P|MK028734             3.38%    passed     96.08%
+  78  GBMA26119-19|Bos_taurus|COI-5P|MK028733             3.38%    passed     96.08%
+  79  GBMA26125-19|Bos_taurus|COI-5P|MK028739             3.18%    passed     95.11%
+  80  GBMA26115-19|Bos_taurus|COI-5P|MK028729             6.87%    passed     93.39%
+  81  GBMA26129-19|Bos_taurus|COI-5P|MK028743             4.68%    passed     94.15%
+  82  GBMA26135-19|Bos_taurus|COI-5P|MK028749             3.68%    passed     96.38%
+  83  GBMA26116-19|Bos_taurus|COI-5P|MK028730             3.38%    passed     96.08%
+  84  GBMA26123-19|Bos_taurus|COI-5P|MK028737             3.18%    passed     96.85%
+  85  GBMA26114-19|Bos_taurus|COI-5P|MK028728             1.99%    passed     98.97%
+  86  GBMA26128-19|Bos_taurus|COI-5P|MK028742             1.89%    passed     98.83%
+  87  GBMA19506-19|Bos_taurus|COI-5P|KF163064             0.10%    passed     98.14%
+  88  GBMA24155-19|Bos_taurus|COI-5P|KT184453             0.10%    passed     98.14%
+  89  GBMA24171-19|Bos_taurus|COI-5P|KT184469             0.10%    passed     98.23%
+  90  GBMA25131-19|Bos_taurus|COI-5P|KY766256             0.10%    passed     98.14%
+  91  GBMA24157-19|Bos_taurus|COI-5P|KT184455             0.10%    passed     98.14%
+  92  GBMA24164-19|Bos_taurus|COI-5P|KT184462             0.10%    passed     98.14%
+  93  GBMA25585-19|Bos_taurus|COI-5P|MF169210             0.10%    passed     98.14%
+  94  GBMA24153-19|Bos_taurus|COI-5P|KT184451             0.10%    passed     98.14%
+  95  GBMA24172-19|Bos_taurus|COI-5P|KT184470             0.10%    passed     98.14%
+  96  GBMA19507-19|Bos_taurus|COI-5P|KF163065             0.10%    passed     98.14%
+  97  GBMA24176-19|Bos_taurus|COI-5P|KT343749             0.10%    passed     98.14%
+  98  GBMA24156-19|Bos_taurus|COI-5P|KT184454             0.10%    passed     98.14%
+  99  GBMA26110-19|Bos_taurus|COI-5P|MG820631             0.10%    passed     98.14%
+ 100  GBMA24170-19|Bos_taurus|COI-5P|KT184468             0.10%    passed     98.14%
+ 101  GBMA19511-19|Bos_taurus|COI-5P|KF163069             0.10%    passed     98.14%
+ 102  GBMA19496-19|Bos_taurus|COI-5P|JQ967333             0.10%    passed     98.14%
+ 103  GBMA19524-19|Bos_taurus|COI-5P|KF163082             0.10%    passed     98.14%
+ 104  GBMA19501-19|Bos_taurus|COI-5P|KC153976             0.10%    passed     98.96%
+ 105  GBMA19497-19|Bos_taurus|COI-5P|KC153972             0.10%    passed     98.14%
+ 106  GBMA19530-19|Bos_taurus|COI-5P|KF163088             0.10%    passed     98.14%
+ 107  GBMA19520-19|Bos_taurus|COI-5P|KF163078             0.10%    passed     98.14%
+ 108  GBMA19504-19|Bos_taurus|COI-5P|KF163062             0.10%    passed     98.14%
+ 109  GBMA19500-19|Bos_taurus|COI-5P|KC153975             0.10%    passed     98.14%
+ 110  GBMA19514-19|Bos_taurus|COI-5P|KF163072             0.10%    passed     96.96%
+ 111  GBMA19529-19|Bos_taurus|COI-5P|KF163087             0.10%    passed     98.23%
+ 112  GBMA19518-19|Bos_taurus|COI-5P|KF163076             0.10%    passed     98.23%
+ 113  GBMA19503-19|Bos_taurus|COI-5P|KF163061             0.10%    passed     98.23%
+ 114  GBMA19499-19|Bos_taurus|COI-5P|KC153974             0.10%    passed     98.14%
+ 115  GBMA19526-19|Bos_taurus|COI-5P|KF163084             0.10%    passed     98.14%
+ 116  GBMA19523-19|Bos_taurus|COI-5P|KF163081             0.10%    passed     98.23%
+ 117  GBMA25133-19|Bos_taurus|COI-5P|KY766258             0.10%    passed     98.14%
+ 118  GBMA24163-19|Bos_taurus|COI-5P|KT184461             0.10%    passed     98.14%
+ 119  GBMA24160-19|Bos_taurus|COI-5P|KT184458             0.10%    passed     98.23%
+ 120  GBMA24161-19|Bos_taurus|COI-5P|KT184459             0.10%    passed     98.23%
+ 121  GBMA24158-19|Bos_taurus|COI-5P|KT184456             0.10%    passed     97.97%
+ 122  GBMA24162-19|Bos_taurus|COI-5P|KT184460             0.10%    passed     98.23%
+ 123  GBMA24159-19|Bos_taurus|COI-5P|KT184457             0.10%    passed     98.23%
+ 124  GBMNA16686-19|Bos_taurus|COI-5P|MF281256            0.10%    passed     98.23%
+ 125  GBMA19510-19|Bos_taurus|COI-5P|KF163068             0.10%    passed     98.14%
+ 126  GBMNA16697-19|Bos_taurus|COI-5P|MF663792            0.10%    passed     98.14%
+ 127  GBMA25584-19|Bos_taurus|COI-5P|MF169209             0.10%    passed     98.23%
+ 128  GBMA19531-19|Bos_taurus|COI-5P|KF163089             0.10%    passed     98.14%
+ 129  GBMA19527-19|Bos_taurus|COI-5P|KF163085             0.10%    passed     98.14%
+ 130  GBMA19525-19|Bos_taurus|COI-5P|KF163083             0.10%    passed     98.14%
+ 131  GBMA19516-19|Bos_taurus|COI-5P|KF163074             0.10%    passed     98.14%
+ 132  GBMA19513-19|Bos_taurus|COI-5P|KF163071             0.10%    passed     98.14%
+ 133  GBMA9024-15|Bos_taurus|COI-5P|KJ709686              0.10%    passed     98.14%
+ 134  GBMA9027-15|Bos_taurus|COI-5P|KJ709683              0.10%    passed     98.14%
+ 135  GBMA9029-15|Bos_taurus|COI-5P|KJ709681              0.10%    passed     98.14%
+ 136  GBMA19535-19|Bos_taurus|COI-5P|KF163093             0.10%    passed     98.14%
+ 137  GBMA19505-19|Bos_taurus|COI-5P|KF163063             0.10%    passed     98.14%
+ 138  GBMA19519-19|Bos_taurus|COI-5P|KF163077             0.10%    passed     96.96%
+ 139  GBMA19509-19|Bos_taurus|COI-5P|KF163067             0.10%    passed     98.14%
+ 140  GBMNA16698-19|Bos_taurus|COI-5P|MF663793            0.10%    passed     98.14%
+ 141  GBMIN43458-14|Bos_taurus|COI-5P|KF926377            0.10%    passed     98.14%
+ 142  GBMA0183-06|Bos_taurus|COI-5P|AY308068             10.65%    passed     99.84%
+ 143  GBMA0074-06|Bos_taurus|COI-5P|AF490529             10.65%    passed     99.84%
+ 144  GBMA0419-06|Bos_taurus|COI-5P|DQ124395             10.65%    passed     99.84%
+ 145  GBMA0359-06|Bos_taurus|COI-5P|AY676860             10.65%    passed     99.84%
+ 146  GBMA0354-06|Bos_taurus|COI-5P|AY676855             10.65%    passed     99.84%
+ 147  GBMA0365-06|Bos_taurus|COI-5P|AY676866             10.65%    passed     99.84%
+ 148  GBMA0366-06|Bos_taurus|COI-5P|AY676867             10.65%    passed     99.84%
+ 149  GBMA0405-06|Bos_taurus|COI-5P|DQ124381             10.65%    passed     99.84%
+ 150  GBMA0073-06|Bos_taurus|COI-5P|AF490528             10.65%    passed     99.84%
+ 151  GBMA0418-06|Bos_taurus|COI-5P|DQ124394             10.65%    passed     99.84%
+ 152  GBMA0013-06|Bos_taurus|COI-5P|AB074967             10.65%    passed     99.84%
+ 153  GBMA0420-06|Bos_taurus|COI-5P|DQ124396             10.65%    passed     99.84%
+ 154  GBMA0423-06|Bos_taurus|COI-5P|DQ124399             10.65%    passed     99.84%
+ 155  GBMA0436-06|Bos_taurus|COI-5P|DQ124412             10.65%    passed     99.84%
+ 156  GBMA0396-06|Bos_taurus|COI-5P|DQ124372             10.65%    passed     99.84%
+ 157  GBMA0361-06|Bos_taurus|COI-5P|AY676862             10.65%    passed     99.84%
+ 158  GBMA0408-06|Bos_taurus|COI-5P|DQ124384             10.65%    passed     99.84%
+ 159  GBMA0424-06|Bos_taurus|COI-5P|DQ124400             10.65%    passed     99.84%
+ 160  GBMA0077-06|Bos_taurus|COI-5P|AF493541             10.65%    passed     99.84%
+ 161  GBMA0432-06|Bos_taurus|COI-5P|DQ124408             10.65%    passed     99.84%
+ 162  GBMA0434-06|Bos_taurus|COI-5P|DQ124410             10.65%    passed     99.84%
+ 163  GBMA0431-06|Bos_taurus|COI-5P|DQ124407             10.65%    passed     99.84%
+ 164  GBMA0181-06|Bos_taurus|COI-5P|AY308066             10.65%    passed     99.84%
+ 165  GBMA0182-06|Bos_taurus|COI-5P|AY308067             10.65%    passed     99.84%
+ 166  GBMA0370-06|Bos_taurus|COI-5P|AY676871             10.65%    passed     99.84%
+ 167  GBMA0014-06|Bos_taurus|COI-5P|AB074968             10.65%    passed     99.84%
+ 168  GBMA0409-06|Bos_taurus|COI-5P|DQ124385             10.65%    passed     99.84%
+ 169  GBMA0410-06|Bos_taurus|COI-5P|DQ124386             10.65%    passed     99.84%
+ 170  GBMA0430-06|Bos_taurus|COI-5P|DQ124406             10.65%    passed     99.84%
+ 171  GBMA0435-06|Bos_taurus|COI-5P|DQ124411             10.65%    passed     99.84%
+ 172  GBMA0400-06|Bos_taurus|COI-5P|DQ124376             10.65%    passed     99.84%
+ 173  GBMA0372-06|Bos_taurus|COI-5P|AY676873             10.65%    passed     99.84%
+ 174  GBMA0358-06|Bos_taurus|COI-5P|AY676859             10.65%    passed     99.84%
+ 175  GBMA0076-06|Bos_taurus|COI-5P|AF492351             10.65%    passed     99.84%
+ 176  GBMA0404-06|Bos_taurus|COI-5P|DQ124380             10.65%    passed     99.84%
+ 177  GBMA0412-06|Bos_taurus|COI-5P|DQ124388             10.65%    passed     99.84%
+ 178  GBMA0414-06|Bos_taurus|COI-5P|DQ124390             10.65%    passed     99.84%
+ 179  GBMA0425-06|Bos_taurus|COI-5P|DQ124401             10.65%    passed     99.84%
+ 180  GBMA0009-06|Bos_taurus|COI-5P|AB074963             10.65%    passed     99.84%
+ 181  GBMA0356-06|Bos_taurus|COI-5P|AY676857             10.65%    passed     99.74%
+ 182  GBMA0395-06|Bos_taurus|COI-5P|DQ124371             10.65%    passed     99.84%
+ 183  GBMA0401-06|Bos_taurus|COI-5P|DQ124377             10.65%    passed     99.84%
+ 184  GBMA0398-06|Bos_taurus|COI-5P|DQ124374             10.65%    passed     99.84%
+ 185  GBMA0397-06|Bos_taurus|COI-5P|DQ124373             10.65%    passed     99.84%
+ 186  GBMA0369-06|Bos_taurus|COI-5P|AY676870             10.65%    passed     99.84%
+ 187  GBMA0368-06|Bos_taurus|COI-5P|AY676869             10.65%    passed     99.84%
+ 188  GBMA0184-06|Bos_taurus|COI-5P|AY308069             10.65%    passed     99.84%
+ 189  GBMA0438-06|Bos_taurus|COI-5P|DQ124414             10.65%    passed     99.84%
+ 190  GBMA0442-06|Bos_taurus|COI-5P|DQ124418             10.65%    passed     99.84%
+ 191  GBMA0437-06|Bos_taurus|COI-5P|DQ124413             10.65%    passed     99.84%
+ 192  GBMA0422-06|Bos_taurus|COI-5P|DQ124398             10.65%    passed     99.84%
+ 193  GBMA0433-06|Bos_taurus|COI-5P|DQ124409             10.65%    passed     99.84%
+ 194  GBMA0010-06|Bos_taurus|COI-5P|AB074964             10.65%    passed     99.84%
+ 195  GBMA0012-06|Bos_taurus|COI-5P|AB074966             10.65%    passed     99.84%
+ 196  GBMA0360-06|Bos_taurus|COI-5P|AY676861             10.65%    passed     99.84%
+ 197  GBMA0362-06|Bos_taurus|COI-5P|AY676863             10.65%    passed     99.84%
+ 198  GBMA0421-06|Bos_taurus|COI-5P|DQ124397             10.65%    passed     99.60%
+ 199  GBMA0402-06|Bos_taurus|COI-5P|DQ124378             10.65%    passed     99.60%
+ 200  GBMA0415-06|Bos_taurus|COI-5P|DQ124391             10.65%    passed     99.60%
+ 201  GBMA1698-08|Bos_taurus|COI-5P|EU177831              3.58%    passed     99.83%
+ 202  GBMA1685-08|Bos_taurus|COI-5P|EU177844              3.58%    passed     99.88%
+ 203  GBMA0429-06|Bos_taurus|COI-5P|DQ124405             10.65%    passed     99.81%
+ 204  GBMA1703-08|Bos_taurus|COI-5P|EU177826              3.58%    passed     99.88%
+ 205  GBMA0008-06|Bos_taurus|COI-5P|AB074962             10.65%    passed     99.74%
+ 206  GBMA0417-06|Bos_taurus|COI-5P|DQ124393             10.65%    passed     99.88%
+ 207  GBMA0407-06|Bos_taurus|COI-5P|DQ124383             10.65%    passed     99.88%
+ 208  GBMA0355-06|Bos_taurus|COI-5P|AY676856             10.65%    passed     99.88%
+ 209  GBMA1668-08|Bos_taurus|COI-5P|EU177861              3.58%    passed     99.78%
+ 210  GBMA1670-08|Bos_taurus|COI-5P|EU177859              3.58%    passed     99.73%
+ 211  GBMA1675-08|Bos_taurus|COI-5P|EU177854              3.58%    passed     99.81%
+ 212  GBMA1669-08|Bos_taurus|COI-5P|EU177860              3.58%    passed     99.81%
+ 213  GBMA1677-08|Bos_taurus|COI-5P|EU177852              3.58%    passed     99.81%
+ 214  GBMA1680-08|Bos_taurus|COI-5P|EU177849              3.58%    passed     99.81%
+ 215  GBMA1676-08|Bos_taurus|COI-5P|EU177853              3.58%    passed     99.52%
+ 216  GBMA1672-08|Bos_taurus|COI-5P|EU177857              3.58%    passed     99.81%
+ 217  GBMA1678-08|Bos_taurus|COI-5P|EU177851              3.58%    passed     99.81%
+ 218  GBMA1674-08|Bos_taurus|COI-5P|EU177855              3.58%    passed     99.81%
+ 219  GBMA1679-08|Bos_taurus|COI-5P|EU177850              3.58%    passed     99.81%
+ 220  GBMA1671-08|Bos_taurus|COI-5P|EU177858              3.58%    passed     99.91%
+ 221  GBMA0011-06|Bos_taurus|COI-5P|AB074965             10.65%    passed     99.60%
+ 222  GBMA0440-06|Bos_taurus|COI-5P|DQ124416             10.65%    passed     99.88%
+ 223  GBMA0364-06|Bos_taurus|COI-5P|AY676865             10.65%    passed     99.84%
+ 224  GBMA0411-06|Bos_taurus|COI-5P|DQ124387             10.65%    passed     99.84%
+ 225  GBMA0426-06|Bos_taurus|COI-5P|DQ124402             10.65%    passed     99.84%
+ 226  GBMA0428-06|Bos_taurus|COI-5P|DQ124404             10.65%    passed     99.84%
+ 227  GBMA0439-06|Bos_taurus|COI-5P|DQ124415             10.65%    passed     99.84%
+ 228  GBMA0441-06|Bos_taurus|COI-5P|DQ124417             10.65%    passed     99.84%
+ 229  GBMA0416-06|Bos_taurus|COI-5P|DQ124392             10.65%    passed     99.84%
+ 230  GBMA0357-06|Bos_taurus|COI-5P|AY676858             10.65%    passed     99.84%
+ 231  GBMA0399-06|Bos_taurus|COI-5P|DQ124375             10.65%    passed     99.84%
+ 232  GBMA0403-06|Bos_taurus|COI-5P|DQ124379             10.65%    passed     99.84%
+ 233  GBMA0371-06|Bos_taurus|COI-5P|AY676872             10.65%    passed     99.84%
+ 234  GBMA0367-06|Bos_taurus|COI-5P|AY676868             10.65%    passed     99.84%
+ 235  GBMA0406-06|Bos_taurus|COI-5P|DQ124382             10.65%    passed     99.84%
+ 236  GBMA0078-06|Bos_taurus|COI-5P|AF493542             10.65%    passed     99.84%
+ 237  GBMA1666-08|Bos_taurus|COI-5P|EU177863              3.58%    passed     99.91%
+ 238  GBMA1673-08|Bos_taurus|COI-5P|EU177856              3.58%    passed     99.91%
+ 239  GBMA1667-08|Bos_taurus|COI-5P|EU177862              3.58%    passed     99.91%
+ 240  GBMA1662-08|Bos_taurus|COI-5P|EU177867              3.58%    passed     99.91%
+ 241  GBMA1665-08|Bos_taurus|COI-5P|EU177864              3.58%    passed     99.91%
+ 242  GBMA1681-08|Bos_taurus|COI-5P|EU177848              3.58%    passed     99.91%
+ 243  GBMA1689-08|Bos_taurus|COI-5P|EU177840              3.58%    passed     99.91%
+ 244  GBMA1683-08|Bos_taurus|COI-5P|EU177846              3.58%    passed     99.91%
+ 245  GBMA1687-08|Bos_taurus|COI-5P|EU177842              3.58%    passed     99.91%
+ 246  GBMA1713-08|Bos_taurus|COI-5P|EU177816              3.58%    passed     99.91%
+ 247  GBMA1697-08|Bos_taurus|COI-5P|EU177832              3.58%    passed     99.91%
+ 248  GBMA1708-08|Bos_taurus|COI-5P|EU177821              3.58%    passed     99.91%
+ 249  GBMA1709-08|Bos_taurus|COI-5P|EU177820              3.58%    passed     99.91%
+ 250  GBMA1706-08|Bos_taurus|COI-5P|EU177823              3.58%    passed     99.91%
+ 251  GBMA1682-08|Bos_taurus|COI-5P|EU177847              3.58%    passed     99.91%
+ 252  GBMA1664-08|Bos_taurus|COI-5P|EU177865              3.58%    passed     99.91%
+ 253  GBMA1684-08|Bos_taurus|COI-5P|EU177845              3.58%    passed     99.91%
+ 254  GBMA1690-08|Bos_taurus|COI-5P|EU177839              3.58%    passed     99.91%
+ 255  GBMA1712-08|Bos_taurus|COI-5P|EU177817              3.58%    passed     99.91%
+ 256  GBMA1691-08|Bos_taurus|COI-5P|EU177838              3.58%    passed     99.91%
+ 257  GBMA1694-08|Bos_taurus|COI-5P|EU177835              3.58%    passed     99.91%
+ 258  GBMA1696-08|Bos_taurus|COI-5P|EU177833              3.58%    passed     99.91%
+ 259  GBMA1663-08|Bos_taurus|COI-5P|EU177866              3.58%    passed     99.91%
+ 260  GBMA1714-08|Bos_taurus|COI-5P|EU177815              3.58%    passed     99.91%
+ 261  GBMA1695-08|Bos_taurus|COI-5P|EU177834              3.58%    passed     99.91%
+ 262  GBMA1686-08|Bos_taurus|COI-5P|EU177843              3.58%    passed     99.91%
+ 263  GBMA1699-08|Bos_taurus|COI-5P|EU177830              3.58%    passed     99.91%
+ 264  GBMA1692-08|Bos_taurus|COI-5P|EU177837              3.58%    passed     99.91%
+ 265  GBMA1693-08|Bos_taurus|COI-5P|EU177836              3.58%    passed     99.91%
+ 266  GBMA1688-08|Bos_taurus|COI-5P|EU177841              3.58%    passed     99.91%
+ 267  GBMA1702-08|Bos_taurus|COI-5P|EU177827              3.58%    passed     99.91%
+ 268  GBMA1707-08|Bos_taurus|COI-5P|EU177822              3.58%    passed     99.91%
+ 269  GBMA1705-08|Bos_taurus|COI-5P|EU177824              3.58%    passed     99.91%
+ 270  GBMA1704-08|Bos_taurus|COI-5P|EU177825              3.58%    passed     99.91%
+ 271  GBMA1710-08|Bos_taurus|COI-5P|EU177819              3.58%    passed     99.91%
+ 272  GBMA1701-08|Bos_taurus|COI-5P|EU177828              3.58%    passed     99.91%
+ 273  GBMA1711-08|Bos_taurus|COI-5P|EU177818              3.58%    passed     99.88%
+ 274  GBMA1700-08|Bos_taurus|COI-5P|EU177829              3.58%    passed     99.81%
+ 275  GBMA2954-10|Bos_taurus|COI-5P|HM045018              2.59%    passed     99.75%
+ 276  GBMA2706-09|Bos_taurus|COI-5P|GQ129208              0.90%    passed     98.94%
+ 277  GBMA2512-09|Bos_taurus|COI-5P|FJ971081              0.90%    passed     98.96%
+ 278  GBMA2513-09|Bos_taurus|COI-5P|FJ971080              0.90%    passed     98.96%
+ 279  GBMA2511-09|Bos_taurus|COI-5P|FJ971082              0.90%    passed     98.94%
+ 280  GBMA2510-09|Bos_taurus|COI-5P|FJ971083              0.90%    passed     98.94%
+ 281  GBMA2707-09|Bos_taurus|COI-5P|GQ129207              0.90%    passed     98.94%
+ 282  GBMA23802-19|Bos_taurus|COI-5P|KT375557            31.84%    passed     83.17%
+ 283  GBMA23789-19|Bos_taurus|COI-5P|KT375490            33.63%    passed     78.42%
+ 284  CYTC417-12|Bos_taurus|COI-5P|HQ184030               4.78%    passed     97.81%
+ 285  CYTC426-12|Bos_taurus|COI-5P|HQ184039               4.78%    passed     97.81%
+ 286  CYTC425-12|Bos_taurus|COI-5P|HQ184038               4.78%    passed     96.87%
+ 287  CYTC422-12|Bos_taurus|COI-5P|HQ184035               4.78%    passed     96.87%
+ 288  GBMIN46458-16|Bos_taurus|COI-5P|KU947028           29.45%    passed     82.99%
+ 289  GBMIN46457-16|Bos_taurus|COI-5P|KU947027           29.45%    passed     82.99%
+ 290  GBMIN46455-16|Bos_taurus|COI-5P|KU947025           29.45%    passed     82.99%
+ 291  GBMIN46456-16|Bos_taurus|COI-5P|KU947026           29.45%    passed     82.99%
+ 292  GBMA0413-06|Bos_taurus|COI-5P|DQ124389             10.65%    passed     99.81%
+ 293  GBMA2506-09|Bos_taurus|COI-5P|FJ971087              0.90%    passed     99.30%
+ 294  GBMA24152-19|Bos_taurus|COI-5P|KT033901             0.10%    passed     92.48%
+ 295  GBMA24178-19|Bos_taurus|COI-5P|KU891850             0.10%    passed     92.48%
+ 296  GBMA19483-19|Bos_taurus|COI-5P|AY126697             0.10%    passed     92.48%
+ 297  GBMA23874-19|Bos_taurus|COI-5P|KX759625             0.10%    passed     91.94%
+ 298  GBMA2505-09|Bos_taurus|COI-5P|FJ971088              0.90%    passed     95.70%
+ 299  RSMS026-11|Bos_taurus_indicus|COI-5P|JQ735452      20.40%    passed     93.91%
+ 300  GBMA19482-19|Bos_taurus|COI-5P|JN417002            20.40%    passed     90.84%
+ 301  GBMA23809-19|Bos_taurus|COI-5P|KX845676            19.70%    passed     92.75%
+ 302  GBMA23810-19|Bos_taurus|COI-5P|KX845677            17.61%    passed     95.03%
+ 303  GBMA23835-19|Bos_taurus|COI-5P|KX845673            15.52%    passed     93.11%
+ 304  GBMA23836-19|Bos_taurus|COI-5P|KX845675            15.32%    passed     91.55%
+ 305  GBMA23837-19|Bos_taurus|COI-5P|KX845674            15.22%    passed     92.63%
+ 306  GBMA0075-06|Bos_taurus_indicus|COI-5P|AF492350     10.65%    passed     98.82%
+ 307  GBMA1661-08|Bos_taurus|COI-5P|EU177868              3.58%    passed     98.64%
+ 308  GBMA1659-08|Bos_taurus|COI-5P|EU177870              3.58%    passed     98.64%
+ 309  GBMA1660-08|Bos_taurus|COI-5P|EU177869              3.58%    passed     99.26%
+ 310  GBMA0427-06|Bos_taurus|COI-5P|DQ124403             10.65%    passed     97.80%
+ 311  CYTC2702-12|Bos_taurus_indicus|COI-5P|GU256940      4.78%    passed     91.34%
+ 312  GBMA2073-09|Bos_taurus_indicus|COI-5P|FJ171914     13.83%    passed     96.73%
+ 313  GBMA23792-19|Bos_taurus|COI-5P|KT375484            33.03%    passed     96.79%
+ 314  GBMA23703-19|Bos_taurus|COI-5P|KT375485            35.12%    passed     90.54%
+ 315  GBMA23698-19|Bos_taurus|COI-5P|KT375474            35.32%    passed     92.34%
+ 316  GBMA23795-19|Bos_taurus|COI-5P|KT375543            32.94%    passed     90.51%
+ 317  GBMA23791-19|Bos_taurus|COI-5P|KT375516            33.43%    passed     95.13%
+ 318  GBMA23699-19|Bos_taurus|COI-5P|KT375481            35.32%    passed     96.53%
+ 319  YAKJC001-13|Bos_taurus|COI-5P                      34.03%    passed     95.77%
+ 320  YAKJC030-13|Bos_taurus|COI-5P                      33.13%    passed     97.65%
+ 321  YAKJC024-13|Bos_taurus|COI-5P                      33.43%    passed     95.69%
+ 322  GBMA23686-19|Bos_taurus|COI-5P|KT375467            38.31%    passed     91.62%
+ 323  GBMA23692-19|Bos_taurus|COI-5P|KT375464            35.52%    passed     94.08%
+ 324  GBMA23710-19|Bos_taurus|COI-5P|KT375461            34.73%    passed     93.60%
+ 325  YAKJC004-13|Bos_taurus|COI-5P                      35.12%    passed     93.72%
+ 326  GBMA23708-19|Bos_taurus|COI-5P|KT375504            34.83%    passed     91.79%
+ 327  GBMA23713-19|Bos_taurus|COI-5P|KY385803            34.53%    passed     88.51%
+ 328  GBMA23701-19|Bos_taurus|COI-5P|KT375523            35.32%    passed     85.73%
+ 329  GBMA23700-19|Bos_taurus|COI-5P|KT375514            35.32%    passed     89.46%
+ 330  GBMIN43461-14|Bos_taurus_indicus|COI-5P|KF952268   39.70%    passed     79.79%
+ 331  GBMA23696-19|Bos_taurus|COI-5P|KT375530            35.42%    passed     88.25%
+ 332  GBMA23685-19|Bos_taurus|COI-5P|KT375459            38.31%    passed     90.23%
+ 333  GBMA5767-13|Bos_taurus|COI-5P|JX567086             39.30%    passed     91.44%
+ 334  GBMA19888-19|Bos_taurus|COI-5P|KF952270            35.52%    passed     96.25%
+ 335  GBMA19887-19|Bos_taurus|COI-5P|KF952269            36.12%    passed     94.18%
+ 336  YAKJC025-13|Bos_taurus|COI-5P                      42.09%    passed     90.79%
+ 337  GBMA19886-19|Bos_taurus|COI-5P|KF952276            36.22%    passed     93.65%
+ 338  GBMA19885-19|Bos_taurus|COI-5P|KF952273            36.32%    passed     93.21%
+ 339  GBMA19479-19|Bos_taurus|COI-5P|JX218060            35.92%    passed     92.33%
+ 340  GBMA19494-19|Bos_taurus|COI-5P|JX218063            37.01%    passed     84.99%
+ 341  GBMA5969-13|Bos_taurus|COI-5P|JX218056             35.82%    passed     90.37%
+ 342  GBMA19490-19|Bos_taurus|COI-5P|JX218058            37.01%    passed     84.53%
+ 343  GBMA19489-19|Bos_taurus|COI-5P|JX218062            41.00%    passed     66.56%
+ 344  GBMA19488-19|Bos_taurus|COI-5P|JX218066            37.21%    passed     74.06%
+ 345  YAKJC003-13|Bos_taurus|COI-5P                      43.78%    passed     75.89%
+ 346  YAKJC005-13|Bos_taurus|COI-5P                      42.59%    passed     67.59%
+ 347  GBMA19883-19|Bos_taurus|COI-5P|KF952277            37.51%    passed     84.34%
+ 348  GBMA19869-19|Bos_taurus|COI-5P|KF952286            73.53%    passed     80.05%
+ 349  GBMA19871-19|Bos_taurus|COI-5P|KF952287            53.53%    passed     89.22%
+ 350  GBMA19878-19|Bos_taurus|COI-5P|KF952271            38.41%    passed     80.35%
+ 351  GBMA19880-19|Bos_taurus|COI-5P|KF952282            38.41%    passed     80.35%
+ 352  GBMA19879-19|Bos_taurus|COI-5P|KF952279            38.41%    passed     80.35%
+ 353  GBMA19884-19|Bos_taurus|COI-5P|KF952284            37.41%    passed     81.80%
+ 354  GBMA19876-19|Bos_taurus|COI-5P|KF952278            38.51%    passed     83.12%
+ 355  GBMA19875-19|Bos_taurus|COI-5P|KF952281            38.81%    passed     82.24%
+ 356  GBMA19874-19|Bos_taurus|COI-5P|KF952283            42.99%    passed     66.24%
+ 357  GBMA19882-19|Bos_taurus|COI-5P|KF952275            37.91%    passed     83.33%
+ 358  GBMA19881-19|Bos_taurus|COI-5P|KF952285            38.31%    passed     75.58%
+ 359  GBMA23674-19|Bos_taurus|COI-5P|KT827243            45.47%    passed     70.99%
+ 360  GBMA23667-19|Bos_taurus|COI-5P|KT827223            45.47%    passed     70.99%
+ 361  GBMA23664-19|Bos_taurus|COI-5P|KT827220            45.47%    passed     70.99%
+ 362  GBMA23672-19|Bos_taurus|COI-5P|KT827237            45.47%    passed     70.99%
+ 363  GBMA23666-19|Bos_taurus|COI-5P|KT827222            45.47%    passed     70.99%
+ 364  GBMA23665-19|Bos_taurus|COI-5P|KT827221            45.47%    passed     70.99%
+ 365  GBMA23673-19|Bos_taurus|COI-5P|KT827238            45.47%    passed     70.99%
+ 366  GBMA19873-19|Bos_taurus|COI-5P|KF952280            46.67%    passed     77.71%
+ 367  GBMA9023-15|Bos_taurus|COI-5P|KJ920209             40.60%    passed     84.86%
+ 368  RSMS001-11|Bos_taurus_indicus|COI-5P|JQ735453      47.56%    passed     72.42%
+ 369  GBMA4870-13|Bos_taurus_indicus|COI-5P|JN245996     35.02%    passed     72.26%
+ 370  GBMA19870-19|Bos_taurus|COI-5P|KF952272            53.63%    passed     48.37%
+ 371  GBMA19486-19|Bos_taurus|COI-5P|KF385966            56.62%    passed     37.79%
+ 372  CYTC431-12|Bos_taurus|COI-5P|HQ184044               1.09%    passed     99.70%
+ 373  GBMA2508-09|Bos_taurus|COI-5P|FJ971085              0.90%    passed     99.47%
+ 374  GBMA2507-09|Bos_taurus|COI-5P|FJ971086              0.90%    passed     99.47%
+ 375  GBMA2509-09|Bos_taurus|COI-5P|FJ971084              0.90%    passed     99.47%
+ 376  CYTC428-12|Bos_taurus|COI-5P|HQ184041               4.78%    passed     98.05%
+ 377  CYTC429-12|Bos_taurus|COI-5P|HQ184042               4.78%    passed     98.05%
+ 378  CYTC427-12|Bos_taurus|COI-5P|HQ184040               4.78%    passed     98.05%
+ 379  CYTC430-12|Bos_taurus|COI-5P|HQ184043               4.78%    passed     98.05%
+ 380  CYTC432-12|Bos_taurus|COI-5P|HQ184045               4.78%    passed     97.61%
+ 381  CYTC423-12|Bos_taurus|COI-5P|HQ184036               4.78%    passed     96.87%
+ 382  CYTC421-12|Bos_taurus|COI-5P|HQ184034               4.78%    passed     96.87%
+ 383  CYTC420-12|Bos_taurus|COI-5P|HQ184033               4.78%    passed     97.81%
+ 384  CYTC4889-12|Bos_taurus|COI-5P|GU947011              3.88%    passed     96.84%
+ 385  CYTC4891-12|Bos_taurus|COI-5P|GU947013              3.88%    passed     96.84%
+ 386  CYTC4890-12|Bos_taurus|COI-5P|GU947012              3.88%    passed     97.03%
+ 387  CYTC4893-12|Bos_taurus|COI-5P|GU947015              3.88%    passed     97.03%
+ 388  CYTC4972-12|Bos_taurus|COI-5P|HQ025805              3.88%    passed     97.86%
+ 389  CYTC5217-12|Bos_taurus|COI-5P|JN817323              3.88%    passed     95.64%
+ 390  CYTC5242-12|Bos_taurus|COI-5P|JN817348              3.88%    passed     96.28%
+ 391  CYTC5209-12|Bos_taurus|COI-5P|JN817315              3.88%    passed     96.84%
+ 392  CYTC5244-12|Bos_taurus|COI-5P|JN817350              3.88%    passed     96.84%
+ 393  CYTC5241-12|Bos_taurus|COI-5P|JN817347              3.88%    passed     96.84%
+ 394  CYTC5220-12|Bos_taurus|COI-5P|JN817326              3.88%    passed     96.84%
+ 395  CYTC5232-12|Bos_taurus|COI-5P|JN817338              3.88%    passed     96.84%
+ 396  CYTC5225-12|Bos_taurus|COI-5P|JN817331              3.88%    passed     96.84%
+ 397  CYTC5218-12|Bos_taurus|COI-5P|JN817324              3.88%    passed     96.84%
+ 398  CYTC5235-12|Bos_taurus|COI-5P|JN817341              3.88%    passed     96.84%
+ 399  CYTC5214-12|Bos_taurus|COI-5P|JN817320              3.88%    passed     96.84%
+ 400  CYTC5238-12|Bos_taurus|COI-5P|JN817344              3.88%    passed     96.84%
+ 401  CYTC5240-12|Bos_taurus|COI-5P|JN817346              3.88%    passed     96.84%
+ 402  CYTC5213-12|Bos_taurus|COI-5P|JN817319              3.88%    passed     96.84%
+ 403  CYTC4894-12|Bos_taurus|COI-5P|GU947016              3.88%    passed     96.84%
+ 404  CYTC5197-12|Bos_taurus_indicus|COI-5P|JN817303      3.88%    passed     96.84%
+ 405  CYTC4899-12|Bos_taurus|COI-5P|GU947021              3.88%    passed     96.84%
+ 406  CYTC5243-12|Bos_taurus|COI-5P|JN817349              3.88%    passed     96.84%
+ 407  CYTC5196-12|Bos_taurus_indicus|COI-5P|JN817302      3.88%    passed     96.84%
+ 408  CYTC5234-12|Bos_taurus|COI-5P|JN817340              3.88%    passed     96.84%
+ 409  CYTC5228-12|Bos_taurus|COI-5P|JN817334              3.88%    passed     96.84%
+ 410  CYTC5199-12|Bos_taurus_indicus|COI-5P|JN817305      3.88%    passed     96.84%
+ 411  CYTC5211-12|Bos_taurus|COI-5P|JN817317              3.88%    passed     96.84%
+ 412  CYTC5207-12|Bos_taurus|COI-5P|JN817313              3.88%    passed     96.84%
+ 413  CYTC4885-12|Bos_taurus|COI-5P|GU947007              3.88%    passed     96.84%
+ 414  CYTC4886-12|Bos_taurus|COI-5P|GU947008              3.88%    passed     96.84%
+ 415  CYTC5222-12|Bos_taurus|COI-5P|JN817328              3.88%    passed     96.84%
+ 416  CYTC4897-12|Bos_taurus|COI-5P|GU947019              3.88%    passed     96.84%
+ 417  CYTC5200-12|Bos_taurus|COI-5P|JN817306              3.88%    passed     96.84%
+ 418  CYTC5194-12|Bos_taurus|COI-5P|JN817300              3.88%    passed     96.84%
+ 419  CYTC5204-12|Bos_taurus|COI-5P|JN817310              3.88%    passed     96.84%
+ 420  CYTC5216-12|Bos_taurus|COI-5P|JN817322              3.88%    passed     96.84%
+ 421  CYTC5233-12|Bos_taurus|COI-5P|JN817339              3.88%    passed     96.84%
+ 422  CYTC5236-12|Bos_taurus|COI-5P|JN817342              3.88%    passed     96.84%
+ 423  CYTC5237-12|Bos_taurus|COI-5P|JN817343              3.88%    passed     96.84%
+ 424  CYTC4898-12|Bos_taurus|COI-5P|GU947020              3.88%    passed     96.84%
+ 425  CYTC5210-12|Bos_taurus|COI-5P|JN817316              3.88%    passed     96.84%
+ 426  CYTC5221-12|Bos_taurus|COI-5P|JN817327              3.88%    passed     96.84%
+ 427  CYTC5226-12|Bos_taurus|COI-5P|JN817332              3.88%    passed     96.84%
+ 428  CYTC5239-12|Bos_taurus|COI-5P|JN817345              3.88%    passed     96.84%
+ 429  CYTC5224-12|Bos_taurus_indicus|COI-5P|JN817330      3.88%    passed     97.03%
+ 430  CYTC5198-12|Bos_taurus_indicus|COI-5P|JN817304      3.88%    passed     96.84%
+ 431  CYTC5192-12|Bos_taurus_indicus|COI-5P|JN817298      3.88%    passed     97.03%
+ 432  CYTC5208-12|Bos_taurus|COI-5P|JN817314              3.88%    passed     97.68%
+ 433  CYTC5201-12|Bos_taurus|COI-5P|JN817307              3.88%    passed     96.84%
+ 434  CYTC5245-12|Bos_taurus|COI-5P|JN817351              3.88%    passed     96.84%
+ 435  CYTC5212-12|Bos_taurus|COI-5P|JN817318              3.88%    passed     96.84%
+ 436  CYTC5206-12|Bos_taurus|COI-5P|JN817312              3.88%    passed     96.84%
+ 437  CYTC4892-12|Bos_taurus|COI-5P|GU947014              3.88%    passed     96.84%
+ 438  CYTC5203-12|Bos_taurus|COI-5P|JN817309              3.88%    passed     96.84%
+ 439  YAKJC031-13|Bos_taurus|COI-5P                      34.23%    passed     85.05%
+ 440  GBMA19480-19|Bos_taurus|COI-5P|JX218061            36.72%    passed     73.77%
+ 441  YAKJC021-13|Bos_taurus|COI-5P                      33.63%    passed     88.01%
+ 442  GBMA2525-09|Bos_taurus|COI-5P|FJ958334             29.55%    passed     88.04%
+ 443  GBMA2526-09|Bos_taurus|COI-5P|FJ958333             29.55%    passed     85.86%
+ 444  GBMA2527-09|Bos_taurus|COI-5P|FJ958332             29.55%    passed     88.04%
+ 445  GBMIN41890-14|Bos_taurus|COI-5P|GU130589           29.15%    passed     82.53%
+ 446  GBMIN41891-14|Bos_taurus|COI-5P|GU130590           29.15%    passed     85.32%
+ 447  GBMA19492-19|Bos_taurus|COI-5P|JX218065            36.92%    passed     64.62%
+ 448  GBMA2523-09|Bos_taurus|COI-5P|FJ958336             29.55%    passed     85.85%
+ 449  GBMA2524-09|Bos_taurus|COI-5P|FJ958335             29.55%    passed     83.85%
+ 450  GBMIN43383-14|Bos_taurus|COI-5P|KF799986           33.93%    passed     81.53%
+ 451  GBMA25029-19|Bos_taurus|COI-5P|KY650676            34.53%    passed     79.13%
+ 452  GBMND62552-21|Bos_taurus|COI-5P|MZ031490           34.53%    passed     78.87%
+ 453  GBMND62551-21|Bos_taurus|COI-5P|MZ031489           34.53%    passed     78.87%
+ 454  GBMND62553-21|Bos_taurus|COI-5P|MZ031491           34.53%    passed     78.87%
+ 455  GBMNC75165-20|Bos_taurus|COI-5P|MN124245           34.53%    passed     78.87%
+ 456  GBMA25026-19|Bos_taurus|COI-5P|KY650673            34.53%    passed     79.13%
+ 457  GBMA4659-13|Bos_taurus|COI-5P|JF700140             34.53%    passed     79.13%
+ 458  NAMG073-10|Bos_taurus|COI-5P|HQ860420              34.53%    passed     79.13%
+ 459  GBMA25033-19|Bos_taurus|COI-5P|KY650680            34.53%    passed     79.13%
+ 460  GBMA25028-19|Bos_taurus|COI-5P|KY650675            34.53%    passed     79.13%
+ 461  GBMA25031-19|Bos_taurus|COI-5P|KY650678            34.53%    passed     79.13%
+ 462  GBMA25030-19|Bos_taurus|COI-5P|KY650677            34.53%    passed     79.13%
+ 463  GBMA25027-19|Bos_taurus|COI-5P|KY650674            34.53%    passed     79.13%
+ 464  GBMA4658-13|Bos_taurus|COI-5P|JF700141             34.53%    passed     79.13%
+ 465  GBMA25032-19|Bos_taurus|COI-5P|KY650679            34.53%    passed     79.13%
+ 466  GBMA25025-19|Bos_taurus|COI-5P|KY650672            34.53%    passed     79.13%
+ 467  GBMNC74288-20|Bos_taurus|COI-5P|MT644265           26.77%    passed     84.42%
+ 468  RONP001-14|Bos_taurus|COI-5P                       79.70%    passed     71.65%
+ 469  GBMA23693-19|Bos_taurus|COI-5P|KT375532            35.52%    passed     78.85%
+ 470  GBMA23697-19|Bos_taurus|COI-5P|KT375549            35.42%    passed     75.65%
+ 471  GBMA25057-19|Bos_taurus|COI-5P|KY661880            34.83%    passed     79.80%
+ 472  GBMIN41793-14|Bos_taurus|COI-5P|EF568621           37.71%    passed     64.07%
+ 473  CAB001-06|Bos_taurus|COI-5P                        37.41%    passed     70.48%
+ 474  GBMIN41795-14|Bos_taurus|COI-5P|EF568625           37.81%    passed     67.20%
+ 475  CAB045-06|Bos_taurus|COI-5P                        37.51%    passed     73.51%
+ 476  GBMA5694-13|Bos_taurus|COI-5P|JX426135             38.61%    passed     71.14%
+ 477  GBMIN41797-14|Bos_taurus|COI-5P|EF568629           38.41%    passed     70.89%
+ 478  CAB077-06|Bos_taurus|COI-5P                        38.11%    passed     66.34%
+ 479  GBMA23689-19|Bos_taurus|COI-5P|KT375487            37.41%    passed     88.86%
+ 480  YAKJC022-13|Bos_taurus|COI-5P                      41.19%    passed     80.03%
+ 481  GBMA19493-19|Bos_taurus|COI-5P|JX218067            35.82%    passed     75.92%
+ 482  GBMA19495-19|Bos_taurus|COI-5P|JX218055            35.72%    passed     77.26%
+ 483  GBMIN41801-14|Bos_taurus|COI-5P|EF568641           41.59%    passed     76.58%
+ 484  CAB060-06|Bos_taurus|COI-5P                        41.29%    passed     77.99%
+ 485  RDATC051-06|Bos_taurus|COI-5P                      39.30%    passed     55.79%
+ 486  RDATC042-06|Bos_taurus|COI-5P                      39.70%    passed     62.19%
+ 487  RDATC048-06|Bos_taurus|COI-5P                      39.10%    passed     58.61%
+ 488  ACLB037-06|Bos_taurus|COI-5P|HM102289              36.42%    passed     72.67%
+ 489  GBMA19491-19|Bos_taurus|COI-5P|JX218059            35.82%    passed     75.92%
+ 490  GBMA19487-19|Bos_taurus|COI-5P|JX218064            36.02%    passed     82.21%
+ 491  RONP048-14|Bos_taurus|COI-5P                       83.68%    passed     99.11%
+ 492  GBMIN41825-14|Bos_taurus|COI-5P|EF568705           45.77%    passed     67.66%
+ 493  GBMIN41805-14|Bos_taurus|COI-5P|EF568660           43.48%    passed     59.81%
+ 494  CAB076-06|Bos_taurus|COI-5P                        43.18%    passed     60.43%
+ 495  GBMIN43337-14|Bos_taurus|COI-5P|KF771228           43.88%    passed     48.01%
+ 496  YAKJC009-13|Bos_taurus|COI-5P                      43.68%    passed     50.50%
+ 497  YAKJC006-13|Bos_taurus|COI-5P                      43.38%    passed     51.82%
+ 498  GBMA19877-19|Bos_taurus|COI-5P|KF952267            38.41%    passed     62.15%
+ 499  GBMIN41810-14|Bos_taurus|COI-5P|EF568671           44.88%    passed     59.65%
+ 500  CAB079-06|Bos_taurus|COI-5P                        44.58%    passed     56.46%
+ 501  GBMIN41812-14|Bos_taurus|COI-5P|EF568673           44.98%    passed     63.40%
+ 502  GBMIN41811-14|Bos_taurus|COI-5P|EF568672           44.88%    passed     63.65%
+ 503  CAB005-06|Bos_taurus|COI-5P                        44.68%    passed     60.11%
+ 504  CAB066-06|Bos_taurus|COI-5P                        44.58%    passed     60.04%
+ 505  GBMA23670-19|Bos_taurus|COI-5P|KT827235            45.47%    passed     60.53%
+ 506  GBMA23675-19|Bos_taurus|COI-5P|KT827244            45.47%    passed     60.53%
+ 507  GBMA23668-19|Bos_taurus|COI-5P|KT827224            45.47%    passed     60.53%
+ 508  GBMA23669-19|Bos_taurus|COI-5P|KT827227            45.47%    passed     57.18%
+ 509  GBMA23671-19|Bos_taurus|COI-5P|KT827236            45.47%    passed     60.53%
+ 510  CAB044-06|Bos_taurus|COI-5P                        45.47%    passed     64.29%
+ 511  GBMA24832-19|Bos_taurus|COI-5P|KY561995            45.97%    passed     69.76%
+ 512  GBMA26108-19|Bos_taurus|COI-5P|MH129558            40.80%    passed     63.14%
+ 513  GBMA19872-19|Bos_taurus|COI-5P|KF952274            47.56%    passed     69.65%
+ 514  GBMIN41834-14|Bos_taurus|COI-5P|EF568716           47.06%    passed     67.26%
+ 515  CAB078-06|Bos_taurus|COI-5P                        46.77%    passed     63.00%
+ 516  ACLB032-06|Bos_taurus|COI-5P|HM102290              42.09%    passed     52.49%
+ 517  GBMND19909-21|Bos_taurus|COI-5P|MW475451           54.33%    passed     59.61%
+ 518  GBMND19911-21|Bos_taurus|COI-5P|MW475453           54.33%    passed     59.61%
+ 519  GBMND19913-21|Bos_taurus|COI-5P|MW475455           54.33%    passed     59.61%
+ 520  GBMND19905-21|Bos_taurus|COI-5P|MW475447           54.33%    passed     59.61%
+ 521  GBMND19910-21|Bos_taurus|COI-5P|MW475452           54.33%    passed     59.61%
+ 522  GBMND19907-21|Bos_taurus|COI-5P|MW475449           54.33%    passed     59.61%
+ 523  GBMND19908-21|Bos_taurus|COI-5P|MW475450           54.33%    passed     59.61%
+ 524  GBMND19914-21|Bos_taurus|COI-5P|MW475456           54.33%    passed     59.61%
+ 525  GBMND19906-21|Bos_taurus|COI-5P|MW475448           54.33%    passed     59.61%
+ 526  GBMND19912-21|Bos_taurus|COI-5P|MW475454           54.33%    passed     59.61%
+ 527  GBMA2222-09|Bos_taurus|COI-5P|DQ487094             75.02%    passed     77.52%
+WARNING: 19 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                              15.29%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: GBMTG596-16|Bos_taurus|COI-5P|NC_006853 is identical to NC_006853 but kept for subsequent analysis
+NOTE: GBMA23577-19|Bos_taurus|COI-3P|KP777007 is identical to GBMA23576-19|Bos_taurus|COI-3P|KP777006 but kept for subsequent analysis
+NOTE: CYTC5223-12|Bos_taurus|COI-5P|JN817329 is identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325 but kept for subsequent analysis
+NOTE: CYTC418-12|Bos_taurus|COI-5P|HQ184031 is identical to CYTC419-12|Bos_taurus|COI-5P|HQ184032 but kept for subsequent analysis
+NOTE: GBMNA16699-19|Bos_taurus|COI-5P|MF663794 is identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676 but kept for subsequent analysis
+NOTE: GBMA26129-19|Bos_taurus|COI-5P|MK028743 is identical to GBMA26112-19|Bos_taurus|COI-5P|MK028726 but kept for subsequent analysis
+NOTE: GBMA26111-19|Bos_taurus|COI-5P|MK028725 is identical to GBMA26133-19|Bos_taurus|COI-5P|MK028747 but kept for subsequent analysis
+NOTE: GBMA26119-19|Bos_taurus|COI-5P|MK028733 is identical to GBMA26120-19|Bos_taurus|COI-5P|MK028734 but kept for subsequent analysis
+NOTE: GBMA19518-19|Bos_taurus|COI-5P|KF163076 is identical to GBMA19529-19|Bos_taurus|COI-5P|KF163087 but kept for subsequent analysis
+NOTE: GBMA24161-19|Bos_taurus|COI-5P|KT184459 is identical to GBMA24160-19|Bos_taurus|COI-5P|KT184458 but kept for subsequent analysis
+NOTE: GBMA0074-06|Bos_taurus|COI-5P|AF490529 is identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068 but kept for subsequent analysis
+NOTE: GBMA0402-06|Bos_taurus|COI-5P|DQ124378 is identical to GBMA0421-06|Bos_taurus|COI-5P|DQ124397 but kept for subsequent analysis
+NOTE: GBMA0407-06|Bos_taurus|COI-5P|DQ124383 is identical to GBMA0417-06|Bos_taurus|COI-5P|DQ124393 but kept for subsequent analysis
+NOTE: GBMA1669-08|Bos_taurus|COI-5P|EU177860 is identical to GBMA1675-08|Bos_taurus|COI-5P|EU177854 but kept for subsequent analysis
+NOTE: GBMA1673-08|Bos_taurus|COI-5P|EU177856 is identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863 but kept for subsequent analysis
+NOTE: GBMA2511-09|Bos_taurus|COI-5P|FJ971082 is identical to GBMA2706-09|Bos_taurus|COI-5P|GQ129208 but kept for subsequent analysis
+NOTE: GBMA2513-09|Bos_taurus|COI-5P|FJ971080 is identical to GBMA2512-09|Bos_taurus|COI-5P|FJ971081 but kept for subsequent analysis
+NOTE: CYTC420-12|Bos_taurus|COI-5P|HQ184033 is identical to CYTC417-12|Bos_taurus|COI-5P|HQ184030 but kept for subsequent analysis
+NOTE: CYTC422-12|Bos_taurus|COI-5P|HQ184035 is identical to CYTC425-12|Bos_taurus|COI-5P|HQ184038 but kept for subsequent analysis
+NOTE: GBMIN46457-16|Bos_taurus|COI-5P|KU947027 is identical to GBMIN46458-16|Bos_taurus|COI-5P|KU947028 but kept for subsequent analysis
+NOTE: GBMA24178-19|Bos_taurus|COI-5P|KU891850 is identical to GBMA24152-19|Bos_taurus|COI-5P|KT033901 but kept for subsequent analysis
+NOTE: GBMA1659-08|Bos_taurus|COI-5P|EU177870 is identical to GBMA1661-08|Bos_taurus|COI-5P|EU177868 but kept for subsequent analysis
+NOTE: GBMA19880-19|Bos_taurus|COI-5P|KF952282 is identical to GBMA19878-19|Bos_taurus|COI-5P|KF952271 but kept for subsequent analysis
+NOTE: GBMA23667-19|Bos_taurus|COI-5P|KT827223 is identical to GBMA23674-19|Bos_taurus|COI-5P|KT827243 but kept for subsequent analysis
+NOTE: GBMA2507-09|Bos_taurus|COI-5P|FJ971086 is identical to GBMA2508-09|Bos_taurus|COI-5P|FJ971085 but kept for subsequent analysis
+NOTE: CYTC429-12|Bos_taurus|COI-5P|HQ184042 is identical to CYTC428-12|Bos_taurus|COI-5P|HQ184041 but kept for subsequent analysis
+NOTE: CYTC4891-12|Bos_taurus|COI-5P|GU947013 is identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011 but kept for subsequent analysis
+NOTE: CYTC4893-12|Bos_taurus|COI-5P|GU947015 is identical to CYTC4890-12|Bos_taurus|COI-5P|GU947012 but kept for subsequent analysis
+NOTE: CYTC5192-12|Bos_taurus_indicus|COI-5P|JN817298 is identical to CYTC5224-12|Bos_taurus_indicus|COI-5P|JN817330 but kept for subsequent analysis
+NOTE: GBMA2527-09|Bos_taurus|COI-5P|FJ958332 is identical to GBMA2525-09|Bos_taurus|COI-5P|FJ958334 but kept for subsequent analysis
+NOTE: GBMA25026-19|Bos_taurus|COI-5P|KY650673 is identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676 but kept for subsequent analysis
+NOTE: GBMND62551-21|Bos_taurus|COI-5P|MZ031489 is identical to GBMND62552-21|Bos_taurus|COI-5P|MZ031490 but kept for subsequent analysis
+NOTE: GBMA23675-19|Bos_taurus|COI-5P|KT827244 is identical to GBMA23670-19|Bos_taurus|COI-5P|KT827235 but kept for subsequent analysis
+NOTE: GBMND19911-21|Bos_taurus|COI-5P|MW475453 is identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00160599 secs using 77.34% CPU
+Identifying sites to remove: done in 0.00212312 secs using 92.13% CPU
+NOTE: 278 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: GTENK016-11|Bos_taurus|COI-5P (identical to NC_006853) is ignored but added at the end
+NOTE: GBMA19537-19|Bos_taurus|COI-5P|AY526085 (identical to NC_006853) is ignored but added at the end
+NOTE: CYTC5231-12|Bos_taurus|COI-5P|JN817337 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC5195-12|Bos_taurus|COI-5P|JN817301 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC5202-12|Bos_taurus|COI-5P|JN817308 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC4896-12|Bos_taurus|COI-5P|GU947018 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC4895-12|Bos_taurus|COI-5P|GU947017 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC4888-12|Bos_taurus|COI-5P|GU947010 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC4887-12|Bos_taurus|COI-5P|GU947009 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC5227-12|Bos_taurus|COI-5P|JN817333 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC5205-12|Bos_taurus|COI-5P|JN817311 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: CYTC5229-12|Bos_taurus|COI-5P|JN817335 (identical to CYTC5219-12|Bos_taurus|COI-5P|JN817325) is ignored but added at the end
+NOTE: GBMA25589-19|Bos_taurus|COI-5P|MF169214 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24166-19|Bos_taurus|COI-5P|KT184464 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24173-19|Bos_taurus|COI-5P|KT184471 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19534-19|Bos_taurus|COI-5P|KF163092 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA9026-15|Bos_taurus|COI-5P|KJ709684 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA9028-15|Bos_taurus|COI-5P|KJ709682 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMNA16703-19|Bos_taurus|COI-5P|MF925711 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA9030-15|Bos_taurus|COI-5P|KJ789953 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24168-19|Bos_taurus|COI-5P|KT184466 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19536-19|Bos_taurus|COI-5P|KF163094 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24167-19|Bos_taurus|COI-5P|KT184465 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24165-19|Bos_taurus|COI-5P|KT184463 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24177-19|Bos_taurus|COI-5P|KU891849 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24154-19|Bos_taurus|COI-5P|KT184452 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19517-19|Bos_taurus|COI-5P|KF163075 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19508-19|Bos_taurus|COI-5P|KF163066 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19515-19|Bos_taurus|COI-5P|KF163073 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBGC16582-19|Bos_taurus|COI-5P|MG837552 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19502-19|Bos_taurus|COI-5P|KC153977 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19521-19|Bos_taurus|COI-5P|KF163079 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19533-19|Bos_taurus|COI-5P|KF163091 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19532-19|Bos_taurus|COI-5P|KF163090 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24174-19|Bos_taurus|COI-5P|KT184472 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA25132-19|Bos_taurus|COI-5P|KY766257 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24175-19|Bos_taurus|COI-5P|KT343748 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19528-19|Bos_taurus|COI-5P|KF163086 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19498-19|Bos_taurus|COI-5P|KC153973 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19512-19|Bos_taurus|COI-5P|KF163070 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19506-19|Bos_taurus|COI-5P|KF163064 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24155-19|Bos_taurus|COI-5P|KT184453 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA25131-19|Bos_taurus|COI-5P|KY766256 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24157-19|Bos_taurus|COI-5P|KT184455 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24164-19|Bos_taurus|COI-5P|KT184462 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA25585-19|Bos_taurus|COI-5P|MF169210 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24153-19|Bos_taurus|COI-5P|KT184451 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24172-19|Bos_taurus|COI-5P|KT184470 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19507-19|Bos_taurus|COI-5P|KF163065 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24176-19|Bos_taurus|COI-5P|KT343749 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24156-19|Bos_taurus|COI-5P|KT184454 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA26110-19|Bos_taurus|COI-5P|MG820631 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24170-19|Bos_taurus|COI-5P|KT184468 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19511-19|Bos_taurus|COI-5P|KF163069 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19496-19|Bos_taurus|COI-5P|JQ967333 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19524-19|Bos_taurus|COI-5P|KF163082 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19497-19|Bos_taurus|COI-5P|KC153972 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19530-19|Bos_taurus|COI-5P|KF163088 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19520-19|Bos_taurus|COI-5P|KF163078 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19504-19|Bos_taurus|COI-5P|KF163062 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19500-19|Bos_taurus|COI-5P|KC153975 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19499-19|Bos_taurus|COI-5P|KC153974 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19526-19|Bos_taurus|COI-5P|KF163084 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA25133-19|Bos_taurus|COI-5P|KY766258 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA24163-19|Bos_taurus|COI-5P|KT184461 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19510-19|Bos_taurus|COI-5P|KF163068 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMNA16697-19|Bos_taurus|COI-5P|MF663792 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19531-19|Bos_taurus|COI-5P|KF163089 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19527-19|Bos_taurus|COI-5P|KF163085 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19525-19|Bos_taurus|COI-5P|KF163083 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19516-19|Bos_taurus|COI-5P|KF163074 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19513-19|Bos_taurus|COI-5P|KF163071 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA9024-15|Bos_taurus|COI-5P|KJ709686 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA9027-15|Bos_taurus|COI-5P|KJ709683 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA9029-15|Bos_taurus|COI-5P|KJ709681 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19535-19|Bos_taurus|COI-5P|KF163093 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19505-19|Bos_taurus|COI-5P|KF163063 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA19509-19|Bos_taurus|COI-5P|KF163067 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMNA16698-19|Bos_taurus|COI-5P|MF663793 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMIN43458-14|Bos_taurus|COI-5P|KF926377 (identical to GBMA26109-19|Bos_taurus|COI-5P|MG736676) is ignored but added at the end
+NOTE: GBMA26117-19|Bos_taurus|COI-5P|MK028731 (identical to GBMA26133-19|Bos_taurus|COI-5P|MK028747) is ignored but added at the end
+NOTE: GBMA26122-19|Bos_taurus|COI-5P|MK028736 (identical to GBMA26133-19|Bos_taurus|COI-5P|MK028747) is ignored but added at the end
+NOTE: GBMA26132-19|Bos_taurus|COI-5P|MK028746 (identical to GBMA26133-19|Bos_taurus|COI-5P|MK028747) is ignored but added at the end
+NOTE: GBMA26116-19|Bos_taurus|COI-5P|MK028730 (identical to GBMA26120-19|Bos_taurus|COI-5P|MK028734) is ignored but added at the end
+NOTE: GBMA19503-19|Bos_taurus|COI-5P|KF163061 (identical to GBMA19529-19|Bos_taurus|COI-5P|KF163087) is ignored but added at the end
+NOTE: GBMA24162-19|Bos_taurus|COI-5P|KT184460 (identical to GBMA24160-19|Bos_taurus|COI-5P|KT184458) is ignored but added at the end
+NOTE: GBMA24159-19|Bos_taurus|COI-5P|KT184457 (identical to GBMA24160-19|Bos_taurus|COI-5P|KT184458) is ignored but added at the end
+NOTE: GBMNA16686-19|Bos_taurus|COI-5P|MF281256 (identical to GBMA24160-19|Bos_taurus|COI-5P|KT184458) is ignored but added at the end
+NOTE: GBMA0419-06|Bos_taurus|COI-5P|DQ124395 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0359-06|Bos_taurus|COI-5P|AY676860 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0354-06|Bos_taurus|COI-5P|AY676855 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0365-06|Bos_taurus|COI-5P|AY676866 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0366-06|Bos_taurus|COI-5P|AY676867 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0405-06|Bos_taurus|COI-5P|DQ124381 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0073-06|Bos_taurus|COI-5P|AF490528 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0418-06|Bos_taurus|COI-5P|DQ124394 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0013-06|Bos_taurus|COI-5P|AB074967 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0420-06|Bos_taurus|COI-5P|DQ124396 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0423-06|Bos_taurus|COI-5P|DQ124399 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0436-06|Bos_taurus|COI-5P|DQ124412 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0396-06|Bos_taurus|COI-5P|DQ124372 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0361-06|Bos_taurus|COI-5P|AY676862 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0408-06|Bos_taurus|COI-5P|DQ124384 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0424-06|Bos_taurus|COI-5P|DQ124400 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0077-06|Bos_taurus|COI-5P|AF493541 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0432-06|Bos_taurus|COI-5P|DQ124408 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0434-06|Bos_taurus|COI-5P|DQ124410 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0431-06|Bos_taurus|COI-5P|DQ124407 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0181-06|Bos_taurus|COI-5P|AY308066 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0182-06|Bos_taurus|COI-5P|AY308067 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0370-06|Bos_taurus|COI-5P|AY676871 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0014-06|Bos_taurus|COI-5P|AB074968 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0409-06|Bos_taurus|COI-5P|DQ124385 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0410-06|Bos_taurus|COI-5P|DQ124386 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0430-06|Bos_taurus|COI-5P|DQ124406 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0435-06|Bos_taurus|COI-5P|DQ124411 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0400-06|Bos_taurus|COI-5P|DQ124376 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0372-06|Bos_taurus|COI-5P|AY676873 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0358-06|Bos_taurus|COI-5P|AY676859 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0076-06|Bos_taurus|COI-5P|AF492351 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0404-06|Bos_taurus|COI-5P|DQ124380 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0412-06|Bos_taurus|COI-5P|DQ124388 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0414-06|Bos_taurus|COI-5P|DQ124390 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0425-06|Bos_taurus|COI-5P|DQ124401 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0009-06|Bos_taurus|COI-5P|AB074963 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0395-06|Bos_taurus|COI-5P|DQ124371 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0401-06|Bos_taurus|COI-5P|DQ124377 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0398-06|Bos_taurus|COI-5P|DQ124374 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0397-06|Bos_taurus|COI-5P|DQ124373 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0369-06|Bos_taurus|COI-5P|AY676870 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0368-06|Bos_taurus|COI-5P|AY676869 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0184-06|Bos_taurus|COI-5P|AY308069 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0438-06|Bos_taurus|COI-5P|DQ124414 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0442-06|Bos_taurus|COI-5P|DQ124418 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0437-06|Bos_taurus|COI-5P|DQ124413 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0422-06|Bos_taurus|COI-5P|DQ124398 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0433-06|Bos_taurus|COI-5P|DQ124409 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0010-06|Bos_taurus|COI-5P|AB074964 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0012-06|Bos_taurus|COI-5P|AB074966 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0360-06|Bos_taurus|COI-5P|AY676861 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0362-06|Bos_taurus|COI-5P|AY676863 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0364-06|Bos_taurus|COI-5P|AY676865 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0411-06|Bos_taurus|COI-5P|DQ124387 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0426-06|Bos_taurus|COI-5P|DQ124402 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0428-06|Bos_taurus|COI-5P|DQ124404 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0439-06|Bos_taurus|COI-5P|DQ124415 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0441-06|Bos_taurus|COI-5P|DQ124417 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0416-06|Bos_taurus|COI-5P|DQ124392 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0357-06|Bos_taurus|COI-5P|AY676858 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0399-06|Bos_taurus|COI-5P|DQ124375 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0403-06|Bos_taurus|COI-5P|DQ124379 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0371-06|Bos_taurus|COI-5P|AY676872 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0367-06|Bos_taurus|COI-5P|AY676868 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0406-06|Bos_taurus|COI-5P|DQ124382 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0078-06|Bos_taurus|COI-5P|AF493542 (identical to GBMA0183-06|Bos_taurus|COI-5P|AY308068) is ignored but added at the end
+NOTE: GBMA0415-06|Bos_taurus|COI-5P|DQ124391 (identical to GBMA0421-06|Bos_taurus|COI-5P|DQ124397) is ignored but added at the end
+NOTE: GBMA0355-06|Bos_taurus|COI-5P|AY676856 (identical to GBMA0417-06|Bos_taurus|COI-5P|DQ124393) is ignored but added at the end
+NOTE: GBMA1677-08|Bos_taurus|COI-5P|EU177852 (identical to GBMA1675-08|Bos_taurus|COI-5P|EU177854) is ignored but added at the end
+NOTE: GBMA1680-08|Bos_taurus|COI-5P|EU177849 (identical to GBMA1675-08|Bos_taurus|COI-5P|EU177854) is ignored but added at the end
+NOTE: GBMA1672-08|Bos_taurus|COI-5P|EU177857 (identical to GBMA1675-08|Bos_taurus|COI-5P|EU177854) is ignored but added at the end
+NOTE: GBMA1678-08|Bos_taurus|COI-5P|EU177851 (identical to GBMA1675-08|Bos_taurus|COI-5P|EU177854) is ignored but added at the end
+NOTE: GBMA1674-08|Bos_taurus|COI-5P|EU177855 (identical to GBMA1675-08|Bos_taurus|COI-5P|EU177854) is ignored but added at the end
+NOTE: GBMA1679-08|Bos_taurus|COI-5P|EU177850 (identical to GBMA1675-08|Bos_taurus|COI-5P|EU177854) is ignored but added at the end
+NOTE: GBMA1667-08|Bos_taurus|COI-5P|EU177862 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1662-08|Bos_taurus|COI-5P|EU177867 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1665-08|Bos_taurus|COI-5P|EU177864 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1681-08|Bos_taurus|COI-5P|EU177848 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1689-08|Bos_taurus|COI-5P|EU177840 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1683-08|Bos_taurus|COI-5P|EU177846 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1687-08|Bos_taurus|COI-5P|EU177842 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1713-08|Bos_taurus|COI-5P|EU177816 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1697-08|Bos_taurus|COI-5P|EU177832 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1708-08|Bos_taurus|COI-5P|EU177821 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1709-08|Bos_taurus|COI-5P|EU177820 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1706-08|Bos_taurus|COI-5P|EU177823 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1682-08|Bos_taurus|COI-5P|EU177847 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1664-08|Bos_taurus|COI-5P|EU177865 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1684-08|Bos_taurus|COI-5P|EU177845 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1690-08|Bos_taurus|COI-5P|EU177839 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1712-08|Bos_taurus|COI-5P|EU177817 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1691-08|Bos_taurus|COI-5P|EU177838 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1694-08|Bos_taurus|COI-5P|EU177835 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1696-08|Bos_taurus|COI-5P|EU177833 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1663-08|Bos_taurus|COI-5P|EU177866 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1714-08|Bos_taurus|COI-5P|EU177815 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1695-08|Bos_taurus|COI-5P|EU177834 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1686-08|Bos_taurus|COI-5P|EU177843 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1699-08|Bos_taurus|COI-5P|EU177830 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1692-08|Bos_taurus|COI-5P|EU177837 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1693-08|Bos_taurus|COI-5P|EU177836 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1688-08|Bos_taurus|COI-5P|EU177841 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1702-08|Bos_taurus|COI-5P|EU177827 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1707-08|Bos_taurus|COI-5P|EU177822 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1705-08|Bos_taurus|COI-5P|EU177824 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1704-08|Bos_taurus|COI-5P|EU177825 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1710-08|Bos_taurus|COI-5P|EU177819 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA1701-08|Bos_taurus|COI-5P|EU177828 (identical to GBMA1666-08|Bos_taurus|COI-5P|EU177863) is ignored but added at the end
+NOTE: GBMA2510-09|Bos_taurus|COI-5P|FJ971083 (identical to GBMA2706-09|Bos_taurus|COI-5P|GQ129208) is ignored but added at the end
+NOTE: GBMA2707-09|Bos_taurus|COI-5P|GQ129207 (identical to GBMA2706-09|Bos_taurus|COI-5P|GQ129208) is ignored but added at the end
+NOTE: CYTC423-12|Bos_taurus|COI-5P|HQ184036 (identical to CYTC425-12|Bos_taurus|COI-5P|HQ184038) is ignored but added at the end
+NOTE: CYTC421-12|Bos_taurus|COI-5P|HQ184034 (identical to CYTC425-12|Bos_taurus|COI-5P|HQ184038) is ignored but added at the end
+NOTE: GBMIN46455-16|Bos_taurus|COI-5P|KU947025 (identical to GBMIN46458-16|Bos_taurus|COI-5P|KU947028) is ignored but added at the end
+NOTE: GBMIN46456-16|Bos_taurus|COI-5P|KU947026 (identical to GBMIN46458-16|Bos_taurus|COI-5P|KU947028) is ignored but added at the end
+NOTE: GBMA19483-19|Bos_taurus|COI-5P|AY126697 (identical to GBMA24152-19|Bos_taurus|COI-5P|KT033901) is ignored but added at the end
+NOTE: GBMA19879-19|Bos_taurus|COI-5P|KF952279 (identical to GBMA19878-19|Bos_taurus|COI-5P|KF952271) is ignored but added at the end
+NOTE: GBMA23664-19|Bos_taurus|COI-5P|KT827220 (identical to GBMA23674-19|Bos_taurus|COI-5P|KT827243) is ignored but added at the end
+NOTE: GBMA23672-19|Bos_taurus|COI-5P|KT827237 (identical to GBMA23674-19|Bos_taurus|COI-5P|KT827243) is ignored but added at the end
+NOTE: GBMA23666-19|Bos_taurus|COI-5P|KT827222 (identical to GBMA23674-19|Bos_taurus|COI-5P|KT827243) is ignored but added at the end
+NOTE: GBMA23665-19|Bos_taurus|COI-5P|KT827221 (identical to GBMA23674-19|Bos_taurus|COI-5P|KT827243) is ignored but added at the end
+NOTE: GBMA23673-19|Bos_taurus|COI-5P|KT827238 (identical to GBMA23674-19|Bos_taurus|COI-5P|KT827243) is ignored but added at the end
+NOTE: GBMA2509-09|Bos_taurus|COI-5P|FJ971084 (identical to GBMA2508-09|Bos_taurus|COI-5P|FJ971085) is ignored but added at the end
+NOTE: CYTC427-12|Bos_taurus|COI-5P|HQ184040 (identical to CYTC428-12|Bos_taurus|COI-5P|HQ184041) is ignored but added at the end
+NOTE: CYTC430-12|Bos_taurus|COI-5P|HQ184043 (identical to CYTC428-12|Bos_taurus|COI-5P|HQ184041) is ignored but added at the end
+NOTE: CYTC5209-12|Bos_taurus|COI-5P|JN817315 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5244-12|Bos_taurus|COI-5P|JN817350 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5241-12|Bos_taurus|COI-5P|JN817347 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5220-12|Bos_taurus|COI-5P|JN817326 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5232-12|Bos_taurus|COI-5P|JN817338 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5225-12|Bos_taurus|COI-5P|JN817331 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5218-12|Bos_taurus|COI-5P|JN817324 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5235-12|Bos_taurus|COI-5P|JN817341 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5214-12|Bos_taurus|COI-5P|JN817320 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5238-12|Bos_taurus|COI-5P|JN817344 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5240-12|Bos_taurus|COI-5P|JN817346 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5213-12|Bos_taurus|COI-5P|JN817319 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC4894-12|Bos_taurus|COI-5P|GU947016 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5197-12|Bos_taurus_indicus|COI-5P|JN817303 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC4899-12|Bos_taurus|COI-5P|GU947021 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5243-12|Bos_taurus|COI-5P|JN817349 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5196-12|Bos_taurus_indicus|COI-5P|JN817302 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5234-12|Bos_taurus|COI-5P|JN817340 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5228-12|Bos_taurus|COI-5P|JN817334 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5199-12|Bos_taurus_indicus|COI-5P|JN817305 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5211-12|Bos_taurus|COI-5P|JN817317 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5207-12|Bos_taurus|COI-5P|JN817313 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC4885-12|Bos_taurus|COI-5P|GU947007 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC4886-12|Bos_taurus|COI-5P|GU947008 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5222-12|Bos_taurus|COI-5P|JN817328 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC4897-12|Bos_taurus|COI-5P|GU947019 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5200-12|Bos_taurus|COI-5P|JN817306 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5194-12|Bos_taurus|COI-5P|JN817300 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5204-12|Bos_taurus|COI-5P|JN817310 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5216-12|Bos_taurus|COI-5P|JN817322 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5233-12|Bos_taurus|COI-5P|JN817339 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5236-12|Bos_taurus|COI-5P|JN817342 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5237-12|Bos_taurus|COI-5P|JN817343 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC4898-12|Bos_taurus|COI-5P|GU947020 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5210-12|Bos_taurus|COI-5P|JN817316 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5221-12|Bos_taurus|COI-5P|JN817327 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5226-12|Bos_taurus|COI-5P|JN817332 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5239-12|Bos_taurus|COI-5P|JN817345 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5201-12|Bos_taurus|COI-5P|JN817307 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5245-12|Bos_taurus|COI-5P|JN817351 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5212-12|Bos_taurus|COI-5P|JN817318 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5206-12|Bos_taurus|COI-5P|JN817312 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC4892-12|Bos_taurus|COI-5P|GU947014 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: CYTC5203-12|Bos_taurus|COI-5P|JN817309 (identical to CYTC4889-12|Bos_taurus|COI-5P|GU947011) is ignored but added at the end
+NOTE: GBMA4659-13|Bos_taurus|COI-5P|JF700140 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: NAMG073-10|Bos_taurus|COI-5P|HQ860420 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMA25033-19|Bos_taurus|COI-5P|KY650680 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMA25028-19|Bos_taurus|COI-5P|KY650675 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMA25031-19|Bos_taurus|COI-5P|KY650678 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMA25030-19|Bos_taurus|COI-5P|KY650677 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMA25027-19|Bos_taurus|COI-5P|KY650674 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMA4658-13|Bos_taurus|COI-5P|JF700141 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMA25032-19|Bos_taurus|COI-5P|KY650679 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMA25025-19|Bos_taurus|COI-5P|KY650672 (identical to GBMA25029-19|Bos_taurus|COI-5P|KY650676) is ignored but added at the end
+NOTE: GBMND62553-21|Bos_taurus|COI-5P|MZ031491 (identical to GBMND62552-21|Bos_taurus|COI-5P|MZ031490) is ignored but added at the end
+NOTE: GBMA23668-19|Bos_taurus|COI-5P|KT827224 (identical to GBMA23670-19|Bos_taurus|COI-5P|KT827235) is ignored but added at the end
+NOTE: GBMA23671-19|Bos_taurus|COI-5P|KT827236 (identical to GBMA23670-19|Bos_taurus|COI-5P|KT827235) is ignored but added at the end
+NOTE: GBMND19913-21|Bos_taurus|COI-5P|MW475455 (identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451) is ignored but added at the end
+NOTE: GBMND19905-21|Bos_taurus|COI-5P|MW475447 (identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451) is ignored but added at the end
+NOTE: GBMND19910-21|Bos_taurus|COI-5P|MW475452 (identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451) is ignored but added at the end
+NOTE: GBMND19907-21|Bos_taurus|COI-5P|MW475449 (identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451) is ignored but added at the end
+NOTE: GBMND19908-21|Bos_taurus|COI-5P|MW475450 (identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451) is ignored but added at the end
+NOTE: GBMND19914-21|Bos_taurus|COI-5P|MW475456 (identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451) is ignored but added at the end
+NOTE: GBMND19906-21|Bos_taurus|COI-5P|MW475448 (identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451) is ignored but added at the end
+NOTE: GBMND19912-21|Bos_taurus|COI-5P|MW475454 (identical to GBMND19909-21|Bos_taurus|COI-5P|MW475451) is ignored but added at the end
+Alignment was printed to data/Bos_taurus_COI.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to data/Bos_taurus_COI.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.012 seconds
+
+NOTE: 11 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2313.898
+2. Current log-likelihood: -2243.712
+Optimal log-likelihood: -2243.639
+Rate parameters:  A-C: 1.70675  A-G: 13.92439  A-T: 1.39361  C-G: 1.45015  C-T: 11.19498  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.270  G: 0.168  T: 0.281
+Gamma shape alpha: 0.020
+Parameters optimization took 2 rounds (0.444 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.183166 secs using 99.85% CPU
+Computing ML distances took 0.183821 sec (of wall-clock time) 0.183334 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000879049 secs using 144.2% CPU
+Constructing RapidNJ tree: done in 0.00253105 secs using 182.9% CPU
+Computing RapidNJ tree took 0.003471 sec (of wall-clock time) 0.005936 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2249.783
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.094 second
+Computing log-likelihood of 98 initial trees ... 1.230 seconds
+Current best score: -2234.404
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.36597 secs using 99.82% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2232.070
+Optimizing NNI: done in 0.651487 secs using 99.77% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2231.718
+Optimizing NNI: done in 0.595322 secs using 99.82% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -2228.796
+Optimizing NNI: done in 0.538029 secs using 99.93% CPU
+Optimizing NNI: done in 0.506385 secs using 99.8% CPU
+Optimizing NNI: done in 0.430935 secs using 99.72% CPU
+Optimizing NNI: done in 0.438327 secs using 99.69% CPU
+Optimizing NNI: done in 0.469241 secs using 99.83% CPU
+Optimizing NNI: done in 0.401529 secs using 99.87% CPU
+Optimizing NNI: done in 0.525249 secs using 99.79% CPU
+Iteration 10 / LogL: -2232.932 / Time: 0h:0m:8s
+Optimizing NNI: done in 0.525695 secs using 99.76% CPU
+Optimizing NNI: done in 0.221232 secs using 99.86% CPU
+Optimizing NNI: done in 0.506647 secs using 99.8% CPU
+Optimizing NNI: done in 0.41488 secs using 99.83% CPU
+Optimizing NNI: done in 0.539852 secs using 99.61% CPU
+Optimizing NNI: done in 0.552046 secs using 99.36% CPU
+Optimizing NNI: done in 0.489142 secs using 99.49% CPU
+Optimizing NNI: done in 0.392586 secs using 99.84% CPU
+Optimizing NNI: done in 0.659089 secs using 99.85% CPU
+Optimizing NNI: done in 0.393329 secs using 99.78% CPU
+Iteration 20 / LogL: -2235.061 / Time: 0h:0m:13s
+Finish initializing candidate tree set (20)
+Current best tree score: -2228.796 / CPU time: 12.280
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.307056 secs using 98.55% CPU
+Optimizing NNI: done in 0.291388 secs using 99.2% CPU
+Optimizing NNI: done in 0.55124 secs using 99.14% CPU
+Optimizing NNI: done in 0.469301 secs using 99.05% CPU
+Optimizing NNI: done in 0.341764 secs using 99.32% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -2228.072
+Optimizing NNI: done in 0.352881 secs using 99.91% CPU
+Optimizing NNI: done in 0.534603 secs using 99.49% CPU
+Optimizing NNI: done in 0.378339 secs using 99.67% CPU
+Optimizing NNI: done in 0.260372 secs using 99.84% CPU
+Optimizing NNI: done in 0.355964 secs using 99.83% CPU
+Iteration 30 / LogL: -2232.338 / Time: 0h:0m:17s (0h:0m:56s left)
+Optimizing NNI: done in 0.312884 secs using 99.88% CPU
+Optimizing NNI: done in 0.261978 secs using 99.8% CPU
+Optimizing NNI: done in 0.436911 secs using 99.92% CPU
+Optimizing NNI: done in 0.241459 secs using 99.88% CPU
+Optimizing NNI: done in 0.225727 secs using 98.39% CPU
+Optimizing NNI: done in 0.147932 secs using 98.78% CPU
+Optimizing NNI: done in 0.322658 secs using 98.55% CPU
+Optimizing NNI: done in 0.377101 secs using 98.79% CPU
+BETTER TREE FOUND at iteration 38: -2228.067
+Optimizing NNI: done in 0.32524 secs using 99.62% CPU
+Optimizing NNI: done in 0.346242 secs using 98.89% CPU
+Iteration 40 / LogL: -2228.849 / Time: 0h:0m:20s (0h:0m:51s left)
+Optimizing NNI: done in 0.314685 secs using 99.46% CPU
+Optimizing NNI: done in 0.44079 secs using 99.27% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -2226.896
+Optimizing NNI: done in 0.368566 secs using 99.41% CPU
+Optimizing NNI: done in 0.32947 secs using 99.62% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -2225.715
+Optimizing NNI: done in 0.386792 secs using 99.46% CPU
+Optimizing NNI: done in 0.288813 secs using 99.57% CPU
+Optimizing NNI: done in 0.278934 secs using 99.78% CPU
+Optimizing NNI: done in 0.517187 secs using 99.49% CPU
+Optimizing NNI: done in 0.324573 secs using 99.84% CPU
+Optimizing NNI: done in 0.418428 secs using 99.71% CPU
+Iteration 50 / LogL: -2226.111 / Time: 0h:0m:24s (0h:0m:46s left)
+Optimizing NNI: done in 0.410787 secs using 99.75% CPU
+Optimizing NNI: done in 0.389013 secs using 99.79% CPU
+Optimizing NNI: done in 0.332138 secs using 99.9% CPU
+Optimizing NNI: done in 0.390909 secs using 99.78% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -2224.990
+Optimizing NNI: done in 0.308108 secs using 99.72% CPU
+Optimizing NNI: done in 0.301097 secs using 98.99% CPU
+Optimizing NNI: done in 0.243091 secs using 98.98% CPU
+Optimizing NNI: done in 0.382922 secs using 98.58% CPU
+Optimizing NNI: done in 0.202453 secs using 99.53% CPU
+Optimizing NNI: done in 0.356674 secs using 99.15% CPU
+Iteration 60 / LogL: -2224.999 / Time: 0h:0m:27s (0h:0m:44s left)
+Optimizing NNI: done in 0.432667 secs using 98.59% CPU
+Optimizing NNI: done in 0.409522 secs using 99.09% CPU
+Optimizing NNI: done in 0.444127 secs using 98.6% CPU
+Optimizing NNI: done in 0.425071 secs using 99.74% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -2224.229
+Optimizing NNI: done in 0.778119 secs using 99.47% CPU
+Optimizing NNI: done in 0.2058 secs using 99.38% CPU
+Optimizing NNI: done in 0.390954 secs using 99.52% CPU
+Optimizing NNI: done in 0.332105 secs using 98.97% CPU
+Optimizing NNI: done in 0.148489 secs using 98.76% CPU
+Optimizing NNI: done in 0.510022 secs using 99.05% CPU
+Iteration 70 / LogL: -2224.234 / Time: 0h:0m:32s (0h:0m:43s left)
+Optimizing NNI: done in 0.469796 secs using 99.1% CPU
+Optimizing NNI: done in 0.566729 secs using 98.86% CPU
+Optimizing NNI: done in 0.37885 secs using 99.82% CPU
+Optimizing NNI: done in 0.949352 secs using 99.1% CPU
+Optimizing NNI: done in 0.405403 secs using 99.1% CPU
+Optimizing NNI: done in 0.284731 secs using 99.08% CPU
+Optimizing NNI: done in 0.289154 secs using 99.43% CPU
+Optimizing NNI: done in 0.283465 secs using 99.05% CPU
+Optimizing NNI: done in 0.395512 secs using 99.4% CPU
+Optimizing NNI: done in 0.879158 secs using 99.62% CPU
+Iteration 80 / LogL: -2224.246 / Time: 0h:0m:37s (0h:0m:39s left)
+Optimizing NNI: done in 0.339913 secs using 99.51% CPU
+Optimizing NNI: done in 0.232726 secs using 99.27% CPU
+Optimizing NNI: done in 0.312924 secs using 99.54% CPU
+Optimizing NNI: done in 0.335379 secs using 99.3% CPU
+Optimizing NNI: done in 0.436457 secs using 99% CPU
+Optimizing NNI: done in 0.279879 secs using 99.01% CPU
+Optimizing NNI: done in 0.366823 secs using 99.27% CPU
+Optimizing NNI: done in 0.333478 secs using 99.52% CPU
+Optimizing NNI: done in 0.285226 secs using 99.58% CPU
+Optimizing NNI: done in 0.295755 secs using 99.78% CPU
+Iteration 90 / LogL: -2224.981 / Time: 0h:0m:40s (0h:0m:33s left)
+Optimizing NNI: done in 0.325132 secs using 99.85% CPU
+Optimizing NNI: done in 0.273591 secs using 99.95% CPU
+Optimizing NNI: done in 0.36711 secs using 99.85% CPU
+Optimizing NNI: done in 0.945076 secs using 98.44% CPU
+Optimizing NNI: done in 0.307663 secs using 98.06% CPU
+Optimizing NNI: done in 0.330363 secs using 99.2% CPU
+Optimizing NNI: done in 0.329326 secs using 99.65% CPU
+Optimizing NNI: done in 0.267041 secs using 99.65% CPU
+Optimizing NNI: done in 0.220013 secs using 99.91% CPU
+Optimizing NNI: done in 0.870804 secs using 99.63% CPU
+Iteration 100 / LogL: -2224.242 / Time: 0h:0m:45s (0h:0m:29s left)
+Optimizing NNI: done in 0.211499 secs using 99.13% CPU
+Optimizing NNI: done in 0.315507 secs using 99.57% CPU
+Optimizing NNI: done in 0.354614 secs using 99.46% CPU
+Optimizing NNI: done in 0.30223 secs using 99.05% CPU
+Optimizing NNI: done in 0.919106 secs using 99.44% CPU
+Optimizing NNI: done in 0.379218 secs using 99.1% CPU
+Optimizing NNI: done in 0.339208 secs using 98.7% CPU
+Optimizing NNI: done in 0.309111 secs using 99.35% CPU
+Optimizing NNI: done in 0.302782 secs using 98.17% CPU
+Optimizing NNI: done in 0.314873 secs using 98.6% CPU
+Iteration 110 / LogL: -2243.862 / Time: 0h:0m:48s (0h:0m:24s left)
+Optimizing NNI: done in 0.370187 secs using 99.28% CPU
+Optimizing NNI: done in 0.816194 secs using 99.14% CPU
+Optimizing NNI: done in 0.425955 secs using 98.58% CPU
+Optimizing NNI: done in 0.222758 secs using 99.78% CPU
+Optimizing NNI: done in 0.490679 secs using 98.95% CPU
+Optimizing NNI: done in 0.918513 secs using 99.53% CPU
+Optimizing NNI: done in 0.320295 secs using 99.87% CPU
+Optimizing NNI: done in 0.453801 secs using 99.81% CPU
+Optimizing NNI: done in 0.22451 secs using 99.68% CPU
+Optimizing NNI: done in 0.316003 secs using 99.56% CPU
+Iteration 120 / LogL: -2229.309 / Time: 0h:0m:53s (0h:0m:19s left)
+Optimizing NNI: done in 0.821139 secs using 99.65% CPU
+Optimizing NNI: done in 0.330106 secs using 99.85% CPU
+Optimizing NNI: done in 0.223195 secs using 99.86% CPU
+Optimizing NNI: done in 0.23016 secs using 99.91% CPU
+Optimizing NNI: done in 0.274907 secs using 99.77% CPU
+Optimizing NNI: done in 0.384159 secs using 99.83% CPU
+Optimizing NNI: done in 0.2608 secs using 99.56% CPU
+Optimizing NNI: done in 0.253305 secs using 99.68% CPU
+Optimizing NNI: done in 0.41948 secs using 99.33% CPU
+Optimizing NNI: done in 0.448089 secs using 99.77% CPU
+Iteration 130 / LogL: -2224.240 / Time: 0h:0m:57s (0h:0m:15s left)
+Optimizing NNI: done in 0.769509 secs using 99.54% CPU
+Optimizing NNI: done in 0.250188 secs using 99.73% CPU
+Optimizing NNI: done in 1.02238 secs using 99.68% CPU
+Optimizing NNI: done in 0.751991 secs using 99.68% CPU
+Optimizing NNI: done in 0.790588 secs using 99.26% CPU
+Optimizing NNI: done in 0.443598 secs using 99.41% CPU
+Optimizing NNI: done in 0.25956 secs using 99.69% CPU
+Optimizing NNI: done in 0.313073 secs using 99.71% CPU
+Optimizing NNI: done in 0.428994 secs using 99.61% CPU
+Optimizing NNI: done in 0.371652 secs using 99.6% CPU
+Iteration 140 / LogL: -2224.243 / Time: 0h:1m:2s (0h:0m:10s left)
+Optimizing NNI: done in 0.327647 secs using 99.73% CPU
+Optimizing NNI: done in 0.34775 secs using 99.45% CPU
+Optimizing NNI: done in 0.353141 secs using 98.75% CPU
+Optimizing NNI: done in 0.21467 secs using 98.29% CPU
+Optimizing NNI: done in 0.389203 secs using 99.44% CPU
+Optimizing NNI: done in 0.356086 secs using 99.16% CPU
+Optimizing NNI: done in 0.45791 secs using 99.17% CPU
+Optimizing NNI: done in 0.887264 secs using 99.33% CPU
+Optimizing NNI: done in 0.31135 secs using 99.67% CPU
+Optimizing NNI: done in 0.352677 secs using 99.89% CPU
+Iteration 150 / LogL: -2224.243 / Time: 0h:1m:7s (0h:0m:6s left)
+Optimizing NNI: done in 0.317514 secs using 99.59% CPU
+Optimizing NNI: done in 0.32349 secs using 99.49% CPU
+Optimizing NNI: done in 0.250499 secs using 99.52% CPU
+Optimizing NNI: done in 0.333486 secs using 99.7% CPU
+Optimizing NNI: done in 0.384894 secs using 99.71% CPU
+BETTER TREE FOUND at iteration 155: -2224.228
+Optimizing NNI: done in 0.873239 secs using 99.5% CPU
+Optimizing NNI: done in 0.34468 secs using 99.58% CPU
+Optimizing NNI: done in 0.741801 secs using 99.81% CPU
+Optimizing NNI: done in 0.323964 secs using 99.75% CPU
+Optimizing NNI: done in 0.275328 secs using 99.59% CPU
+Iteration 160 / LogL: -2230.018 / Time: 0h:1m:11s (0h:0m:42s left)
+Optimizing NNI: done in 0.360672 secs using 99.38% CPU
+Optimizing NNI: done in 0.344751 secs using 99.89% CPU
+Optimizing NNI: done in 0.27835 secs using 99.88% CPU
+Optimizing NNI: done in 0.307217 secs using 99.77% CPU
+Optimizing NNI: done in 0.187613 secs using 99.77% CPU
+Optimizing NNI: done in 0.298529 secs using 98.58% CPU
+Optimizing NNI: done in 0.285596 secs using 99.37% CPU
+Optimizing NNI: done in 0.423137 secs using 99.38% CPU
+Optimizing NNI: done in 0.325143 secs using 98.97% CPU
+Optimizing NNI: done in 0.324267 secs using 98.89% CPU
+Iteration 170 / LogL: -2224.240 / Time: 0h:1m:14s (0h:0m:37s left)
+Optimizing NNI: done in 0.34582 secs using 98.78% CPU
+Optimizing NNI: done in 0.419724 secs using 99.05% CPU
+Optimizing NNI: done in 0.344574 secs using 99.73% CPU
+Optimizing NNI: done in 0.38205 secs using 98.68% CPU
+Optimizing NNI: done in 0.366085 secs using 98.63% CPU
+Optimizing NNI: done in 0.278508 secs using 99.66% CPU
+Optimizing NNI: done in 0.337338 secs using 99.73% CPU
+Optimizing NNI: done in 0.22657 secs using 99.92% CPU
+Optimizing NNI: done in 0.310695 secs using 99.76% CPU
+Optimizing NNI: done in 0.296071 secs using 99.53% CPU
+Iteration 180 / LogL: -2224.243 / Time: 0h:1m:18s (0h:0m:32s left)
+Optimizing NNI: done in 0.345741 secs using 99.86% CPU
+Optimizing NNI: done in 0.396955 secs using 99.52% CPU
+Optimizing NNI: done in 0.36846 secs using 99.24% CPU
+Optimizing NNI: done in 0.514884 secs using 98.77% CPU
+Optimizing NNI: done in 0.360928 secs using 99.43% CPU
+Optimizing NNI: done in 0.323826 secs using 99.21% CPU
+Optimizing NNI: done in 0.301357 secs using 99.13% CPU
+Optimizing NNI: done in 0.275097 secs using 98.55% CPU
+Optimizing NNI: done in 0.332852 secs using 98.5% CPU
+Optimizing NNI: done in 0.427459 secs using 99.3% CPU
+Iteration 190 / LogL: -2234.974 / Time: 0h:1m:21s (0h:0m:28s left)
+Optimizing NNI: done in 0.374952 secs using 98.82% CPU
+Optimizing NNI: done in 0.247937 secs using 99.01% CPU
+Optimizing NNI: done in 0.397623 secs using 99.14% CPU
+Optimizing NNI: done in 0.429428 secs using 98.91% CPU
+Optimizing NNI: done in 0.291842 secs using 99.59% CPU
+BETTER TREE FOUND at iteration 195: -2224.227
+Optimizing NNI: done in 0.386217 secs using 99.16% CPU
+Optimizing NNI: done in 0.274994 secs using 99.06% CPU
+Optimizing NNI: done in 0.240093 secs using 99.06% CPU
+Optimizing NNI: done in 0.40393 secs using 99.08% CPU
+Optimizing NNI: done in 0.299089 secs using 97.74% CPU
+Iteration 200 / LogL: -2224.230 / Time: 0h:1m:25s (0h:0m:40s left)
+Optimizing NNI: done in 0.3302 secs using 99.28% CPU
+Optimizing NNI: done in 0.306017 secs using 99.75% CPU
+Optimizing NNI: done in 0.335197 secs using 99.88% CPU
+Optimizing NNI: done in 0.296118 secs using 99.76% CPU
+Optimizing NNI: done in 0.325425 secs using 99.21% CPU
+Optimizing NNI: done in 0.455407 secs using 98.82% CPU
+Optimizing NNI: done in 0.302931 secs using 99.2% CPU
+Optimizing NNI: done in 0.406275 secs using 98.78% CPU
+Optimizing NNI: done in 0.41461 secs using 99.54% CPU
+Optimizing NNI: done in 0.380395 secs using 99.51% CPU
+Iteration 210 / LogL: -2230.791 / Time: 0h:1m:29s (0h:0m:36s left)
+Optimizing NNI: done in 0.213096 secs using 99.46% CPU
+Optimizing NNI: done in 0.232253 secs using 99.74% CPU
+Optimizing NNI: done in 0.34495 secs using 98.31% CPU
+Optimizing NNI: done in 0.332978 secs using 99.28% CPU
+Optimizing NNI: done in 0.327088 secs using 99.58% CPU
+Optimizing NNI: done in 0.285313 secs using 99.75% CPU
+Optimizing NNI: done in 0.321288 secs using 98.4% CPU
+Optimizing NNI: done in 0.330767 secs using 99.59% CPU
+Optimizing NNI: done in 0.429467 secs using 99.75% CPU
+Optimizing NNI: done in 0.332711 secs using 99.23% CPU
+Iteration 220 / LogL: -2228.937 / Time: 0h:1m:32s (0h:0m:31s left)
+Optimizing NNI: done in 0.346178 secs using 99.07% CPU
+Optimizing NNI: done in 0.29428 secs using 99.05% CPU
+Optimizing NNI: done in 0.366122 secs using 99.4% CPU
+Optimizing NNI: done in 0.270868 secs using 99.66% CPU
+Optimizing NNI: done in 0.207145 secs using 99.91% CPU
+Optimizing NNI: done in 0.498442 secs using 99.79% CPU
+Optimizing NNI: done in 0.354459 secs using 99.05% CPU
+Optimizing NNI: done in 0.166991 secs using 98.46% CPU
+Optimizing NNI: done in 0.279542 secs using 99.84% CPU
+Optimizing NNI: done in 0.823762 secs using 98.82% CPU
+Iteration 230 / LogL: -2230.696 / Time: 0h:1m:36s (0h:0m:27s left)
+Optimizing NNI: done in 0.291717 secs using 99.65% CPU
+Optimizing NNI: done in 0.897884 secs using 99.73% CPU
+Optimizing NNI: done in 0.38361 secs using 98.78% CPU
+Optimizing NNI: done in 0.416152 secs using 98.8% CPU
+Optimizing NNI: done in 0.307376 secs using 99.38% CPU
+Optimizing NNI: done in 0.416795 secs using 99.61% CPU
+Optimizing NNI: done in 0.306526 secs using 99.65% CPU
+Optimizing NNI: done in 0.387412 secs using 98.91% CPU
+Optimizing NNI: done in 0.298917 secs using 98.75% CPU
+Optimizing NNI: done in 0.374036 secs using 99.48% CPU
+Iteration 240 / LogL: -2224.259 / Time: 0h:1m:40s (0h:0m:23s left)
+Optimizing NNI: done in 0.405036 secs using 99.13% CPU
+Optimizing NNI: done in 0.363148 secs using 98.67% CPU
+Optimizing NNI: done in 0.49125 secs using 98.12% CPU
+Optimizing NNI: done in 0.457666 secs using 98.85% CPU
+Optimizing NNI: done in 0.463655 secs using 99.65% CPU
+Optimizing NNI: done in 0.441922 secs using 99.28% CPU
+Optimizing NNI: done in 0.297716 secs using 99.22% CPU
+Optimizing NNI: done in 0.388198 secs using 98.81% CPU
+Optimizing NNI: done in 0.255298 secs using 99% CPU
+Optimizing NNI: done in 0.294746 secs using 99.76% CPU
+Iteration 250 / LogL: -2224.251 / Time: 0h:1m:44s (0h:0m:18s left)
+Optimizing NNI: done in 0.241857 secs using 99.6% CPU
+Optimizing NNI: done in 0.294036 secs using 99.8% CPU
+Optimizing NNI: done in 0.343753 secs using 99.67% CPU
+Optimizing NNI: done in 0.303192 secs using 99.58% CPU
+Optimizing NNI: done in 0.356713 secs using 99.19% CPU
+Optimizing NNI: done in 0.308113 secs using 99.05% CPU
+Optimizing NNI: done in 0.414344 secs using 98.15% CPU
+Optimizing NNI: done in 0.455958 secs using 99.06% CPU
+Optimizing NNI: done in 0.313355 secs using 99.08% CPU
+Optimizing NNI: done in 0.31416 secs using 99.49% CPU
+Iteration 260 / LogL: -2225.505 / Time: 0h:1m:47s (0h:0m:14s left)
+Optimizing NNI: done in 0.347263 secs using 99.74% CPU
+Optimizing NNI: done in 0.322257 secs using 98.96% CPU
+Optimizing NNI: done in 0.57062 secs using 99.07% CPU
+Optimizing NNI: done in 0.409693 secs using 99.39% CPU
+Optimizing NNI: done in 0.27102 secs using 99.03% CPU
+Optimizing NNI: done in 0.223495 secs using 99.72% CPU
+Optimizing NNI: done in 1.14632 secs using 99.69% CPU
+Optimizing NNI: done in 0.283508 secs using 99.61% CPU
+Optimizing NNI: done in 0.276389 secs using 99.47% CPU
+Optimizing NNI: done in 0.299079 secs using 99.07% CPU
+Iteration 270 / LogL: -2224.233 / Time: 0h:1m:52s (0h:0m:10s left)
+Optimizing NNI: done in 0.358095 secs using 99.28% CPU
+Optimizing NNI: done in 0.415225 secs using 98.58% CPU
+Optimizing NNI: done in 0.436205 secs using 98.25% CPU
+Optimizing NNI: done in 0.29719 secs using 99.64% CPU
+Optimizing NNI: done in 0.448186 secs using 99.5% CPU
+Optimizing NNI: done in 0.952716 secs using 99.18% CPU
+Optimizing NNI: done in 0.229091 secs using 99.34% CPU
+Optimizing NNI: done in 0.359054 secs using 99% CPU
+Optimizing NNI: done in 0.366349 secs using 99.68% CPU
+Optimizing NNI: done in 0.19329 secs using 99.73% CPU
+Iteration 280 / LogL: -2242.736 / Time: 0h:1m:56s (0h:0m:6s left)
+Optimizing NNI: done in 0.322278 secs using 99.16% CPU
+Optimizing NNI: done in 0.294939 secs using 99.56% CPU
+Optimizing NNI: done in 0.275275 secs using 99.81% CPU
+Optimizing NNI: done in 0.335245 secs using 99.89% CPU
+Optimizing NNI: done in 0.261477 secs using 99.85% CPU
+Optimizing NNI: done in 1.01236 secs using 99.52% CPU
+Optimizing NNI: done in 0.308335 secs using 99.19% CPU
+Optimizing NNI: done in 0.294892 secs using 99.1% CPU
+Optimizing NNI: done in 0.446787 secs using 99.64% CPU
+Optimizing NNI: done in 0.207607 secs using 99.8% CPU
+Iteration 290 / LogL: -2230.502 / Time: 0h:2m:0s (0h:0m:2s left)
+Optimizing NNI: done in 0.431521 secs using 99.72% CPU
+Optimizing NNI: done in 0.308357 secs using 98.9% CPU
+Optimizing NNI: done in 0.330301 secs using 99.47% CPU
+Optimizing NNI: done in 0.300489 secs using 99.56% CPU
+Optimizing NNI: done in 0.287936 secs using 99.03% CPU
+Optimizing NNI: done in 0.239493 secs using 97.97% CPU
+TREE SEARCH COMPLETED AFTER 296 ITERATIONS / Time: 0h:2m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2224.227
+Optimal log-likelihood: -2224.227
+Rate parameters:  A-C: 1.67768  A-G: 13.30726  A-T: 1.27364  C-G: 1.46920  C-T: 11.78711  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.270  G: 0.168  T: 0.281
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.067 sec)
+BEST SCORE FOUND : -2224.227
+Total tree length: 0.145
+
+Total number of iterations: 296
+CPU time used for tree search: 120.438 sec (0h:2m:0s)
+Wall-clock time used for tree search: 121.220 sec (0h:2m:1s)
+Total CPU time used: 121.629 sec (0h:2m:1s)
+Total wall-clock time used: 122.243 sec (0h:2m:2s)
+
+Analysis results written to: 
+  IQ-TREE report:                data/Bos_taurus_COI.fasta.iqtree
+  Maximum-likelihood tree:       data/Bos_taurus_COI.fasta.treefile
+  Likelihood distances:          data/Bos_taurus_COI.fasta.mldist
+  Screen log file:               data/Bos_taurus_COI.fasta.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t data/Bos_taurus_COI.fasta.treefile -m "GTR{1.67768,13.3073,1.27364,1.4692,11.7871}+F{0.28096,0.26999,0.168063,0.280988}+G4{0.0200343}" --length 1005
+
+Date and Time: Fri Aug 12 14:08:17 2022

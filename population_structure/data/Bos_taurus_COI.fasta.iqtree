@@ -1,0 +1,591 @@
+IQ-TREE 2.2.0.3 COVID-edition built May 11 2022
+
+Input file name: data/Bos_taurus_COI.fasta
+Type of analysis: tree reconstruction
+Random seed number: 18946
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 527 sequences with 1005 nucleotide sites
+Number of constant sites: 916 (= 91.1443% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 916 (= 91.1443% of all sites)
+Number of parsimony informative sites: 42
+Number of distinct site patterns: 361
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.6777
+  A-G: 13.3073
+  A-T: 1.2736
+  C-G: 1.4692
+  C-T: 11.7871
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.281
+  pi(C) = 0.27
+  pi(G) = 0.1681
+  pi(T) = 0.281
+
+Rate matrix Q:
+
+  A   -0.8173    0.1215    0.5998   0.09598
+  C    0.1264    -1.081   0.06622    0.8883
+  G     1.003    0.1064    -1.185   0.07536
+  T   0.09597    0.8535   0.04507   -0.9946
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.02003
+
+ Category  Relative_rate  Proportion
+  1         4.971e-31      0.25
+  2         1.055e-15      0.25
+  3         9.743e-07      0.25
+  4         4              0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2224.2273 (s.e. 83.6437)
+Unconstrained log-likelihood (without tree): -5104.2300
+Number of free parameters (#branches + #model parameters): 504
+Akaike information criterion (AIC) score: 5456.4545
+Corrected Akaike information criterion (AICc) score: 6474.5345
+Bayesian information criterion (BIC) score: 7932.4769
+
+Total tree length (sum of branch lengths): 0.1454
+Sum of internal branch lengths: 0.0462 (31.7741% of tree length)
+
+WARNING: 214 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NC_006853' is drawn at root
+
++**NC_006853
+|
++**GBMTG596-16|Bos_taurus|COI-5P|NC_006853
+|
+|                                           +**GBMA26126-19|Bos_taurus|COI-5P|MK028740
+|                                        +**|
+|                                        |  |                       +**GBMA26124-19|Bos_taurus|COI-5P|MK028738
+|                                        |  |                    +--|
+|                                        |  |                    |  +**GBMA26125-19|Bos_taurus|COI-5P|MK028739
+|                                        |  |                 +**|
+|                                        |  |                 |  +**CYTC5230-12|Bos_taurus|COI-5P|JN817336
+|                                        |  |              +**|
+|                                        |  |              |  +**GBMA26115-19|Bos_taurus|COI-5P|MK028729
+|                                        |  |           +**|
+|                                        |  |           |  +**GBMA26136-19|Bos_taurus|COI-5P|MK028750
+|                                        |  |        +**|
+|                                        |  |        |  +**GBMA26119-19|Bos_taurus|COI-5P|MK028733
+|                                        |  |     +**|
+|                                        |  |     |  +**GBMA26130-19|Bos_taurus|COI-5P|MK028744
+|                                        |  |  +**|
+|                                        |  |  |  +**GBMA26121-19|Bos_taurus|COI-5P|MK028735
+|                                        |  +**|
+|                                        |     +**GBMA26111-19|Bos_taurus|COI-5P|MK028725
+|                                     +**|
+|                                     |  +**GBMA26112-19|Bos_taurus|COI-5P|MK028726
+|                                  +**|
+|                                  |  +**GBMA26131-19|Bos_taurus|COI-5P|MK028745
+|                               +**|
+|                               |  +**GBMA26133-19|Bos_taurus|COI-5P|MK028747
+|                            +**|
+|                            |  +**GBMA26123-19|Bos_taurus|COI-5P|MK028737
+|                         +**|
+|                         |  |                                                                                                                                                  +------GBMA25948-19|Bos_taurus|COI-5P|MF598734
+|                         |  |                                                                                                                                               +--|
+|                         |  |                                                                                                                                               |  |                 +**GBMIN46458-16|Bos_taurus|COI-5P|KU947028
+|                         |  |                                                                                                                                               |  |              +--|
+|                         |  |                                                                                                                                               |  |              |  +**GBMIN46457-16|Bos_taurus|COI-5P|KU947027
+|                         |  |                                                                                                                                               |  |           +**|
+|                         |  |                                                                                                                                               |  |           |  +**GBMIN41812-14|Bos_taurus|COI-5P|EF568673
+|                         |  |                                                                                                                                               |  |        +**|
+|                         |  |                                                                                                                                               |  |        |  +**GBMA23693-19|Bos_taurus|COI-5P|KT375532
+|                         |  |                                                                                                                                               |  |     +**|
+|                         |  |                                                                                                                                               |  |     |  +**GBMIN41793-14|Bos_taurus|COI-5P|EF568621
+|                         |  |                                                                                                                                               |  |  +**|
+|                         |  |                                                                                                                                               |  |  |  +**GBMA23697-19|Bos_taurus|COI-5P|KT375549
+|                         |  |                                                                                                                                               |  +**|
+|                         |  |                                                                                                                                               |     +**GBMA25026-19|Bos_taurus|COI-5P|KY650673
+|                         |  |                                                                                                                                            +**|
+|                         |  |                                                                                                                                            |  +**YAKJC031-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                                         +**|
+|                         |  |                                                                                                                                         |  +**YAKJC021-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                                      +**|
+|                         |  |                                                                                                                                      |  +**CYTC420-12|Bos_taurus|COI-5P|HQ184033
+|                         |  |                                                                                                                                   +**|
+|                         |  |                                                                                                                                   |  +**CYTC417-12|Bos_taurus|COI-5P|HQ184030
+|                         |  |                                                                                                                                +**|
+|                         |  |                                                                                                                                |  |  +**CYTC419-12|Bos_taurus|COI-5P|HQ184032
+|                         |  |                                                                                                                                |  +**|
+|                         |  |                                                                                                                                |     +**CYTC418-12|Bos_taurus|COI-5P|HQ184031
+|                         |  |                                                                                                                             +**|
+|                         |  |                                                                                                                             |  +**GBMA24171-19|Bos_taurus|COI-5P|KT184469
+|                         |  |                                                                                                                          +**|
+|                         |  |                                                                                                                          |  |  +**GBMA2512-09|Bos_taurus|COI-5P|FJ971081
+|                         |  |                                                                                                                          |  +**|
+|                         |  |                                                                                                                          |     +**GBMA2513-09|Bos_taurus|COI-5P|FJ971080
+|                         |  |                                                                                                                       +**|
+|                         |  |                                                                                                                       |  |  +--GBMA0413-06|Bos_taurus|COI-5P|DQ124389
+|                         |  |                                                                                                                       |  +--|
+|                         |  |                                                                                                                       |     |        +**GBMA2506-09|Bos_taurus|COI-5P|FJ971087
+|                         |  |                                                                                                                       |     |     +--|
+|                         |  |                                                                                                                       |     |     |  +**CYTC432-12|Bos_taurus|COI-5P|HQ184045
+|                         |  |                                                                                                                       |     |  +--|
+|                         |  |                                                                                                                       |     |  |  |     +**CYTC431-12|Bos_taurus|COI-5P|HQ184044
+|                         |  |                                                                                                                       |     |  |  |  +**|
+|                         |  |                                                                                                                       |     |  |  |  |  |  +**CYTC428-12|Bos_taurus|COI-5P|HQ184041
+|                         |  |                                                                                                                       |     |  |  |  |  +**|
+|                         |  |                                                                                                                       |     |  |  |  |     +**CYTC429-12|Bos_taurus|COI-5P|HQ184042
+|                         |  |                                                                                                                       |     |  |  +--|
+|                         |  |                                                                                                                       |     |  |     |  +**GBMA2508-09|Bos_taurus|COI-5P|FJ971085
+|                         |  |                                                                                                                       |     |  |     +**|
+|                         |  |                                                                                                                       |     |  |        +**GBMA2507-09|Bos_taurus|COI-5P|FJ971086
+|                         |  |                                                                                                                       |     +--|
+|                         |  |                                                                                                                       |        +--------------GBMA5767-13|Bos_taurus|COI-5P|JX567086
+|                         |  |                                                                                                                    +**|
+|                         |  |                                                                                                                    |  |                                     +**GBMA24152-19|Bos_taurus|COI-5P|KT033901
+|                         |  |                                                                                                                    |  |                                  +**|
+|                         |  |                                                                                                                    |  |                                  |  +**GBMA24178-19|Bos_taurus|COI-5P|KU891850
+|                         |  |                                                                                                                    |  |                               +**|
+|                         |  |                                                                                                                    |  |                               |  |  +**GBMA2505-09|Bos_taurus|COI-5P|FJ971088
+|                         |  |                                                                                                                    |  |                               |  +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                      +---RSMS026-11|Bos_taurus_indicus|COI-5P|JQ735452
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   +--|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |  |   +**YAKJC004-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |  +---|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |                      +**GBMA23700-19|Bos_taurus|COI-5P|KT375514
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |                   +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |                   |  +**GBMA19883-19|Bos_taurus|COI-5P|KF952277
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |                +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |                |  +**GBMA19884-19|Bos_taurus|COI-5P|KF952284
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |             +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |             |  +**GBMA5969-13|Bos_taurus|COI-5P|JX218056
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |          +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |          |  +**GBMA19479-19|Bos_taurus|COI-5P|JX218060
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |       +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |       |  |  +**GBMA19494-19|Bos_taurus|COI-5P|JX218063
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |       |  +--|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |       |     |          +--GBMA19489-19|Bos_taurus|COI-5P|JX218062
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |       |     +----------|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |       |                +**GBMA19488-19|Bos_taurus|COI-5P|JX218066
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |    +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      |    |  +**GBMA19882-19|Bos_taurus|COI-5P|KF952275
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |      +----|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |           |  +--GBMA19490-19|Bos_taurus|COI-5P|JX218058
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |           +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                   |              +**GBMA19881-19|Bos_taurus|COI-5P|KF952285
+|                         |  |                                                                                                                    |  |                               |     |                                                                                +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                                |  +**GBMA19482-19|Bos_taurus|COI-5P|JN417002
+|                         |  |                                                                                                                    |  |                               |     |                                                                             +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                             |  +**GBMA23809-19|Bos_taurus|COI-5P|KX845676
+|                         |  |                                                                                                                    |  |                               |     |                                                                          +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                          |  +**GBMA23810-19|Bos_taurus|COI-5P|KX845677
+|                         |  |                                                                                                                    |  |                               |     |                                                                       +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                       |  +**YAKJC001-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                    |  |                               |     |                                                                    +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                    |  +**YAKJC030-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                    |  |                               |     |                                                                 +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                                 |  +**GBMA19888-19|Bos_taurus|COI-5P|KF952270
+|                         |  |                                                                                                                    |  |                               |     |                                                              +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                              |  +**GBMA19876-19|Bos_taurus|COI-5P|KF952278
+|                         |  |                                                                                                                    |  |                               |     |                                                           +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                           |  +**GBMA19886-19|Bos_taurus|COI-5P|KF952276
+|                         |  |                                                                                                                    |  |                               |     |                                                        +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                        |  +**GBMA23692-19|Bos_taurus|COI-5P|KT375464
+|                         |  |                                                                                                                    |  |                               |     |                                                     +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                     |  +**GBMA23701-19|Bos_taurus|COI-5P|KT375523
+|                         |  |                                                                                                                    |  |                               |     |                                                  +**|
+|                         |  |                                                                                                                    |  |                               |     |                                                  |  +**GBMA23696-19|Bos_taurus|COI-5P|KT375530
+|                         |  |                                                                                                                    |  |                               |     |                                               +**|
+|                         |  |                                                                                                                    |  |                               |     |                                               |  +**YAKJC025-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                    |  |                               |     |                                            +**|
+|                         |  |                                                                                                                    |  |                               |     |                                            |  +**GBMA19869-19|Bos_taurus|COI-5P|KF952286
+|                         |  |                                                                                                                    |  |                               |     |                                         +**|
+|                         |  |                                                                                                                    |  |                               |     |                                         |  +**GBMA19871-19|Bos_taurus|COI-5P|KF952287
+|                         |  |                                                                                                                    |  |                               |     |                                      +**|
+|                         |  |                                                                                                                    |  |                               |     |                                      |  +**RSMS001-11|Bos_taurus_indicus|COI-5P|JQ735453
+|                         |  |                                                                                                                    |  |                               |     |                                   +**|
+|                         |  |                                                                                                                    |  |                               |     |                                   |  +**GBMA23667-19|Bos_taurus|COI-5P|KT827223
+|                         |  |                                                                                                                    |  |                               |     |                                +**|
+|                         |  |                                                                                                                    |  |                               |     |                                |  +**GBMA23791-19|Bos_taurus|COI-5P|KT375516
+|                         |  |                                                                                                                    |  |                               |     |                             +**|
+|                         |  |                                                                                                                    |  |                               |     |                             |  +**GBMA23674-19|Bos_taurus|COI-5P|KT827243
+|                         |  |                                                                                                                    |  |                               |     |                          +**|
+|                         |  |                                                                                                                    |  |                               |     |                          |  +**GBMA23708-19|Bos_taurus|COI-5P|KT375504
+|                         |  |                                                                                                                    |  |                               |     |                       +**|
+|                         |  |                                                                                                                    |  |                               |     |                       |  +**GBMA23685-19|Bos_taurus|COI-5P|KT375459
+|                         |  |                                                                                                                    |  |                               |     |                    +**|
+|                         |  |                                                                                                                    |  |                               |     |                    |  +**GBMA19874-19|Bos_taurus|COI-5P|KF952283
+|                         |  |                                                                                                                    |  |                               |     |                 +--|
+|                         |  |                                                                                                                    |  |                               |     |                 |  |             +**GBMA23686-19|Bos_taurus|COI-5P|KT375467
+|                         |  |                                                                                                                    |  |                               |     |                 |  +-------------|
+|                         |  |                                                                                                                    |  |                               |     |                 |                +**GBMIN43461-14|Bos_taurus_indicus|COI-5P|KF952268
+|                         |  |                                                                                                                    |  |                               |     |              +**|
+|                         |  |                                                                                                                    |  |                               |     |              |  +**GBMA23698-19|Bos_taurus|COI-5P|KT375474
+|                         |  |                                                                                                                    |  |                               |     |           +**|
+|                         |  |                                                                                                                    |  |                               |     |           |  +**GBMA23795-19|Bos_taurus|COI-5P|KT375543
+|                         |  |                                                                                                                    |  |                               |     |        +**|
+|                         |  |                                                                                                                    |  |                               |     |        |  |     +**GBMA23835-19|Bos_taurus|COI-5P|KX845673
+|                         |  |                                                                                                                    |  |                               |     |        |  |  +**|
+|                         |  |                                                                                                                    |  |                               |     |        |  |  |  +**GBMA23836-19|Bos_taurus|COI-5P|KX845675
+|                         |  |                                                                                                                    |  |                               |     |        |  +**|
+|                         |  |                                                                                                                    |  |                               |     |        |     +**GBMA23837-19|Bos_taurus|COI-5P|KX845674
+|                         |  |                                                                                                                    |  |                               |     |     +**|
+|                         |  |                                                                                                                    |  |                               |     |     |  +**GBMA0075-06|Bos_taurus_indicus|COI-5P|AF492350
+|                         |  |                                                                                                                    |  |                               |     |  +**|
+|                         |  |                                                                                                                    |  |                               |     |  |  |        +--GBMA0427-06|Bos_taurus|COI-5P|DQ124403
+|                         |  |                                                                                                                    |  |                               |     |  |  |     +**|
+|                         |  |                                                                                                                    |  |                               |     |  |  |     |  +**GBMA23792-19|Bos_taurus|COI-5P|KT375484
+|                         |  |                                                                                                                    |  |                               |     |  |  |  +**|
+|                         |  |                                                                                                                    |  |                               |     |  |  |  |  +**GBMA23703-19|Bos_taurus|COI-5P|KT375485
+|                         |  |                                                                                                                    |  |                               |     |  |  +**|
+|                         |  |                                                                                                                    |  |                               |     |  |     +**GBMA2073-09|Bos_taurus_indicus|COI-5P|FJ171914
+|                         |  |                                                                                                                    |  |                               |     +**|
+|                         |  |                                                                                                                    |  |                               |        |     +**GBMA1661-08|Bos_taurus|COI-5P|EU177868
+|                         |  |                                                                                                                    |  |                               |        |  +**|
+|                         |  |                                                                                                                    |  |                               |        |  |  +**GBMA1659-08|Bos_taurus|COI-5P|EU177870
+|                         |  |                                                                                                                    |  |                               |        +**|
+|                         |  |                                                                                                                    |  |                               |           |                             +**GBMA1660-08|Bos_taurus|COI-5P|EU177869
+|                         |  |                                                                                                                    |  |                               |           |                          +**|
+|                         |  |                                                                                                                    |  |                               |           |                          |  +**GBMA19880-19|Bos_taurus|COI-5P|KF952282
+|                         |  |                                                                                                                    |  |                               |           |                       +**|
+|                         |  |                                                                                                                    |  |                               |           |                       |  +**GBMA19878-19|Bos_taurus|COI-5P|KF952271
+|                         |  |                                                                                                                    |  |                               |           |                    +**|
+|                         |  |                                                                                                                    |  |                               |           |                    |  +**GBMA19486-19|Bos_taurus|COI-5P|KF385966
+|                         |  |                                                                                                                    |  |                               |           |                 +**|
+|                         |  |                                                                                                                    |  |                               |           |                 |  +**GBMA19873-19|Bos_taurus|COI-5P|KF952280
+|                         |  |                                                                                                                    |  |                               |           |              +**|
+|                         |  |                                                                                                                    |  |                               |           |              |  +**GBMA9023-15|Bos_taurus|COI-5P|KJ920209
+|                         |  |                                                                                                                    |  |                               |           |           +**|
+|                         |  |                                                                                                                    |  |                               |           |           |  +**GBMA19885-19|Bos_taurus|COI-5P|KF952273
+|                         |  |                                                                                                                    |  |                               |           |        +**|
+|                         |  |                                                                                                                    |  |                               |           |        |  +--GBMA23713-19|Bos_taurus|COI-5P|KY385803
+|                         |  |                                                                                                                    |  |                               |           |     +**|
+|                         |  |                                                                                                                    |  |                               |           |     |  +**GBMA23710-19|Bos_taurus|COI-5P|KT375461
+|                         |  |                                                                                                                    |  |                               |           |  +**|
+|                         |  |                                                                                                                    |  |                               |           |  |  +**YAKJC024-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                    |  |                               |           +**|
+|                         |  |                                                                                                                    |  |                               |              +**GBMA23699-19|Bos_taurus|COI-5P|KT375481
+|                         |  |                                                                                                                    |  |                            +**|
+|                         |  |                                                                                                                    |  |                            |  +--GBMA23874-19|Bos_taurus|COI-5P|KX759625
+|                         |  |                                                                                                                    |  |                         +**|
+|                         |  |                                                                                                                    |  |                         |  +**GBMA19887-19|Bos_taurus|COI-5P|KF952269
+|                         |  |                                                                                                                    |  |                      +**|
+|                         |  |                                                                                                                    |  |                      |  +**GBMA19875-19|Bos_taurus|COI-5P|KF952281
+|                         |  |                                                                                                                    |  |                   +**|
+|                         |  |                                                                                                                    |  |                   |  +-------GBMA19870-19|Bos_taurus|COI-5P|KF952272
+|                         |  |                                                                                                                    |  |                +--|
+|                         |  |                                                                                                                    |  |                |  |       +**YAKJC003-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                    |  |                |  |    +**|
+|                         |  |                                                                                                                    |  |                |  |    |  +**YAKJC005-13|Bos_taurus|COI-5P
+|                         |  |                                                                                                                    |  |                |  +----|
+|                         |  |                                                                                                                    |  |                |       +**GBMA4870-13|Bos_taurus_indicus|COI-5P|JN245996
+|                         |  |                                                                                                                    |  |     +----------|
+|                         |  |                                                                                                                    |  |     |          +**CYTC2702-12|Bos_taurus_indicus|COI-5P|GU256940
+|                         |  |                                                                                                                    |  +-----|
+|                         |  |                                                                                                                    |        +**GBMA23689-19|Bos_taurus|COI-5P|KT375487
+|                         |  |                                                                                                                 +**|
+|                         |  |                                                                                                                 |  +**GBMA25029-19|Bos_taurus|COI-5P|KY650676
+|                         |  |                                                                                                              +**|
+|                         |  |                                                                                                              |  |  +**GBMA23789-19|Bos_taurus|COI-5P|KT375490
+|                         |  |                                                                                                              |  +--|
+|                         |  |                                                                                                              |     +**GBMIN43337-14|Bos_taurus|COI-5P|KF771228
+|                         |  |                                                                                                           +**|
+|                         |  |                                                                                                           |  +**CAB078-06|Bos_taurus|COI-5P
+|                         |  |                                                                                                        +**|
+|                         |  |                                                                                                        |  +**GBMIN41834-14|Bos_taurus|COI-5P|EF568716
+|                         |  |                                                                                                     +**|
+|                         |  |                                                                                                     |  +**CAB044-06|Bos_taurus|COI-5P
+|                         |  |                                                                                                  +**|
+|                         |  |                                                                                                  |  +**GBMA2222-09|Bos_taurus|COI-5P|DQ487094
+|                         |  |                                                                                               +**|
+|                         |  |                                                                                               |  +**GBMA19872-19|Bos_taurus|COI-5P|KF952274
+|                         |  |                                                                                            +**|
+|                         |  |                                                                                            |  +--GBMA24832-19|Bos_taurus|COI-5P|KY561995
+|                         |  |                                                                                         +**|
+|                         |  |                                                                                         |  +**RONP048-14|Bos_taurus|COI-5P
+|                         |  |                                                                                      +**|
+|                         |  |                                                                                      |  +**CAB005-06|Bos_taurus|COI-5P
+|                         |  |                                                                                   +**|
+|                         |  |                                                                                   |  +**GBMIN41805-14|Bos_taurus|COI-5P|EF568660
+|                         |  |                                                                                +**|
+|                         |  |                                                                                |  +**CAB076-06|Bos_taurus|COI-5P
+|                         |  |                                                                             +**|
+|                         |  |                                                                             |  +**GBMA23675-19|Bos_taurus|COI-5P|KT827244
+|                         |  |                                                                          +**|
+|                         |  |                                                                          |  +**GBMND19911-21|Bos_taurus|COI-5P|MW475453
+|                         |  |                                                                       +**|
+|                         |  |                                                                       |  +**GBMND19909-21|Bos_taurus|COI-5P|MW475451
+|                         |  |                                                                    +**|
+|                         |  |                                                                    |  +**YAKJC022-13|Bos_taurus|COI-5P
+|                         |  |                                                                 +**|
+|                         |  |                                                                 |  +**GBMIN41810-14|Bos_taurus|COI-5P|EF568671
+|                         |  |                                                              +**|
+|                         |  |                                                              |  +**RDATC051-06|Bos_taurus|COI-5P
+|                         |  |                                                           +**|
+|                         |  |                                                           |  +**CAB079-06|Bos_taurus|COI-5P
+|                         |  |                                                        +**|
+|                         |  |                                                        |  +**ACLB032-06|Bos_taurus|COI-5P|HM102290
+|                         |  |                                                     +**|
+|                         |  |                                                     |  +**ACLB037-06|Bos_taurus|COI-5P|HM102289
+|                         |  |                                                  +**|
+|                         |  |                                                  |  +**GBMA19877-19|Bos_taurus|COI-5P|KF952267
+|                         |  |                                               +**|
+|                         |  |                                               |  +**RDATC048-06|Bos_taurus|COI-5P
+|                         |  |                                            +**|
+|                         |  |                                            |  +**RDATC042-06|Bos_taurus|COI-5P
+|                         |  |                                         +**|
+|                         |  |                                         |  +**CAB060-06|Bos_taurus|COI-5P
+|                         |  |                                      +**|
+|                         |  |                                      |  +**GBMIN41795-14|Bos_taurus|COI-5P|EF568625
+|                         |  |                                   +**|
+|                         |  |                                   |  +**GBMA5694-13|Bos_taurus|COI-5P|JX426135
+|                         |  |                                +**|
+|                         |  |                                |  +**YAKJC006-13|Bos_taurus|COI-5P
+|                         |  |                             +**|
+|                         |  |                             |  +**GBMA23670-19|Bos_taurus|COI-5P|KT827235
+|                         |  |                          +**|
+|                         |  |                          |  +**GBMIN41825-14|Bos_taurus|COI-5P|EF568705
+|                         |  |                       +**|
+|                         |  |                       |  +**CAB066-06|Bos_taurus|COI-5P
+|                         |  |                    +**|
+|                         |  |                    |  +**GBMIN41811-14|Bos_taurus|COI-5P|EF568672
+|                         |  |                 +**|
+|                         |  |                 |  +**GBMIN41801-14|Bos_taurus|COI-5P|EF568641
+|                         |  |              +**|
+|                         |  |              |  +**RONP001-14|Bos_taurus|COI-5P
+|                         |  |           +**|
+|                         |  |           |  +**CAB045-06|Bos_taurus|COI-5P
+|                         |  |        +**|
+|                         |  |        |  +**CAB001-06|Bos_taurus|COI-5P
+|                         |  |     +**|
+|                         |  |     |  +**CAB077-06|Bos_taurus|COI-5P
+|                         |  |  +**|
+|                         |  |  |  |       +--GBMA19480-19|Bos_taurus|COI-5P|JX218061
+|                         |  |  |  +-------|
+|                         |  |  |          |              +**GBMA19492-19|Bos_taurus|COI-5P|JX218065
+|                         |  |  |          |           +**|
+|                         |  |  |          |           |  +**GBMIN43383-14|Bos_taurus|COI-5P|KF799986
+|                         |  |  |          |        +**|
+|                         |  |  |          |        |  +**GBMA19493-19|Bos_taurus|COI-5P|JX218067
+|                         |  |  |          |     +**|
+|                         |  |  |          |     |  +**GBMA19495-19|Bos_taurus|COI-5P|JX218055
+|                         |  |  |          |  +**|
+|                         |  |  |          |  |  +**GBMA19491-19|Bos_taurus|COI-5P|JX218059
+|                         |  |  |          +**|
+|                         |  |  |             +**GBMA19487-19|Bos_taurus|COI-5P|JX218064
+|                         |  +**|
+|                         |     +--GBMA19519-19|Bos_taurus|COI-5P|KF163077
+|                      +**|
+|                      |  |        +--GBMA19522-19|Bos_taurus|COI-5P|KF163080
+|                      |  |     +**|
+|                      |  |     |  +--GBMA2526-09|Bos_taurus|COI-5P|FJ958333
+|                      |  |  +**|
+|                      |  |  |  +**GBMIN41797-14|Bos_taurus|COI-5P|EF568629
+|                      |  +**|
+|                      |     |  +**GBMA19529-19|Bos_taurus|COI-5P|KF163087
+|                      |     +--|
+|                      |        +**GBMA19518-19|Bos_taurus|COI-5P|KF163076
+|                   +**|
+|                   |  +**GBMA26109-19|Bos_taurus|COI-5P|MG736676
+|                +**|
+|                |  |     +--GBMA24169-19|Bos_taurus|COI-5P|KT184467
+|                |  |  +**|
+|                |  |  |  +--GBMA19501-19|Bos_taurus|COI-5P|KC153976
+|                |  +**|
+|                |     |     +**GBMA26118-19|Bos_taurus|COI-5P|MK028732
+|                |     |  +**|
+|                |     |  |  |     +**GBMA24160-19|Bos_taurus|COI-5P|KT184458
+|                |     |  |  |  +**|
+|                |     |  |  |  |  |                 +**GBMA0417-06|Bos_taurus|COI-5P|DQ124393
+|                |     |  |  |  |  |              +**|
+|                |     |  |  |  |  |              |  +**GBMA0407-06|Bos_taurus|COI-5P|DQ124383
+|                |     |  |  |  |  |           +**|
+|                |     |  |  |  |  |           |  |        +--GBMA1671-08|Bos_taurus|COI-5P|EU177858
+|                |     |  |  |  |  |           |  |     +**|
+|                |     |  |  |  |  |           |  |     |  +**GBMND62552-21|Bos_taurus|COI-5P|MZ031490
+|                |     |  |  |  |  |           |  |  +**|
+|                |     |  |  |  |  |           |  |  |  +**GBMND62551-21|Bos_taurus|COI-5P|MZ031489
+|                |     |  |  |  |  |           |  +**|
+|                |     |  |  |  |  |           |     +**GBMA23669-19|Bos_taurus|COI-5P|KT827227
+|                |     |  |  |  |  |        +**|
+|                |     |  |  |  |  |        |  |     +--GBMA1668-08|Bos_taurus|COI-5P|EU177861
+|                |     |  |  |  |  |        |  |  +**|
+|                |     |  |  |  |  |        |  |  |  +--GBMA1670-08|Bos_taurus|COI-5P|EU177859
+|                |     |  |  |  |  |        |  +**|
+|                |     |  |  |  |  |        |     |  +--GBMA1676-08|Bos_taurus|COI-5P|EU177853
+|                |     |  |  |  |  |        |     +**|
+|                |     |  |  |  |  |        |        +--YAKJC009-13|Bos_taurus|COI-5P
+|                |     |  |  |  |  |     +**|
+|                |     |  |  |  |  |     |  +**GBMA1669-08|Bos_taurus|COI-5P|EU177860
+|                |     |  |  |  |  |  +**|
+|                |     |  |  |  |  |  |  +**GBMA1675-08|Bos_taurus|COI-5P|EU177854
+|                |     |  |  |  |  +**|
+|                |     |  |  |  |     +--CYTC4972-12|Bos_taurus|COI-5P|HQ025805
+|                |     |  |  +**|
+|                |     |  |     +**GBMA24161-19|Bos_taurus|COI-5P|KT184459
+|                |     +--|
+|                |        +--GBMA24158-19|Bos_taurus|COI-5P|KT184456
+|             +**|
+|             |  +**GBMNA16699-19|Bos_taurus|COI-5P|MF663794
+|          +**|
+|          |  |                    +**GBMA26134-19|Bos_taurus|COI-5P|MK028748
+|          |  |                 +**|
+|          |  |                 |  |    +**GBMA26114-19|Bos_taurus|COI-5P|MK028728
+|          |  |                 |  +----|
+|          |  |                 |       +**GBMA26128-19|Bos_taurus|COI-5P|MK028742
+|          |  |              +**|
+|          |  |              |  +**GBMA26127-19|Bos_taurus|COI-5P|MK028741
+|          |  |           +**|
+|          |  |           |  +**GBMA26113-19|Bos_taurus|COI-5P|MK028727
+|          |  |        +**|
+|          |  |        |  +**GBMA26129-19|Bos_taurus|COI-5P|MK028743
+|          |  |     +**|
+|          |  |     |  +**GBMA26135-19|Bos_taurus|COI-5P|MK028749
+|          |  |  +**|
+|          |  |  |  +**GBMA26120-19|Bos_taurus|COI-5P|MK028734
+|          |  +**|
+|          |     |        +**CYTC5215-12|Bos_taurus|COI-5P|JN817321
+|          |     |     +**|
+|          |     |     |  |     +--CYTC5193-12|Bos_taurus_indicus|COI-5P|JN817299
+|          |     |     |  |  +**|
+|          |     |     |  |  |  +**GBMNC75165-20|Bos_taurus|COI-5P|MN124245
+|          |     |     |  +**|
+|          |     |     |     |     +**CYTC5224-12|Bos_taurus_indicus|COI-5P|JN817330
+|          |     |     |     |  +**|
+|          |     |     |     |  |  +**CYTC5192-12|Bos_taurus_indicus|COI-5P|JN817298
+|          |     |     |     +**|
+|          |     |     |        +--CYTC5198-12|Bos_taurus_indicus|COI-5P|JN817304
+|          |     |  +--|
+|          |     |  |  +**GBMA19523-19|Bos_taurus|COI-5P|KF163081
+|          |     +**|
+|          |        |        +--GBMA25584-19|Bos_taurus|COI-5P|MF169209
+|          |        |     +**|
+|          |        |     |  +--GBMA0011-06|Bos_taurus|COI-5P|AB074965
+|          |        |  +**|
+|          |        |  |  +--GBMA0356-06|Bos_taurus|COI-5P|AY676857
+|          |        +**|
+|          |           +**GBMA2525-09|Bos_taurus|COI-5P|FJ958334
+|       +**|
+|       |  |           +**CYTC424-12|Bos_taurus|COI-5P|HQ184037
+|       |  |        +**|
+|       |  |        |  |  +**CYTC4890-12|Bos_taurus|COI-5P|GU947012
+|       |  |        |  +--|
+|       |  |        |     +**CYTC4893-12|Bos_taurus|COI-5P|GU947015
+|       |  |     +**|
+|       |  |     |  +**CYTC5223-12|Bos_taurus|COI-5P|JN817329
+|       |  |  +**|
+|       |  |  |  +**CYTC5219-12|Bos_taurus|COI-5P|JN817325
+|       |  +**|
+|       |     |                       +**GBMA0183-06|Bos_taurus|COI-5P|AY308068
+|       |     |                    +**|
+|       |     |                    |  |     +**GBMA0421-06|Bos_taurus|COI-5P|DQ124397
+|       |     |                    |  |  +--|
+|       |     |                    |  |  |  +**GBMA0402-06|Bos_taurus|COI-5P|DQ124378
+|       |     |                    |  +**|
+|       |     |                    |     +--GBMA0008-06|Bos_taurus|COI-5P|AB074962
+|       |     |                 +**|
+|       |     |                 |  |  +--GBMA1685-08|Bos_taurus|COI-5P|EU177844
+|       |     |                 |  +**|
+|       |     |                 |     |              +--GBMA1700-08|Bos_taurus|COI-5P|EU177829
+|       |     |                 |     |           +**|
+|       |     |                 |     |           |  +--GBMA2524-09|Bos_taurus|COI-5P|FJ958335
+|       |     |                 |     |        +**|
+|       |     |                 |     |        |  +**GBMA25057-19|Bos_taurus|COI-5P|KY661880
+|       |     |                 |     |     +**|
+|       |     |                 |     |     |  +**GBMA2527-09|Bos_taurus|COI-5P|FJ958332
+|       |     |                 |     |  +**|
+|       |     |                 |     |  |  +**GBMIN41891-14|Bos_taurus|COI-5P|GU130590
+|       |     |                 |     +**|
+|       |     |                 |        +**GBMNC74288-20|Bos_taurus|COI-5P|MT644265
+|       |     |              +**|
+|       |     |              |  |  +--GBMA1703-08|Bos_taurus|COI-5P|EU177826
+|       |     |              |  +**|
+|       |     |              |     +--GBMA1711-08|Bos_taurus|COI-5P|EU177818
+|       |     |           +**|
+|       |     |           |  |  +**GBMA1666-08|Bos_taurus|COI-5P|EU177863
+|       |     |           |  +**|
+|       |     |           |     +**GBMA1673-08|Bos_taurus|COI-5P|EU177856
+|       |     |        +**|
+|       |     |        |  +**GBMA2954-10|Bos_taurus|COI-5P|HM045018
+|       |     |     +**|
+|       |     |     |  |  +**GBMA0074-06|Bos_taurus|COI-5P|AF490529
+|       |     |     |  +**|
+|       |     |     |     |     +--GBMA0429-06|Bos_taurus|COI-5P|DQ124405
+|       |     |     |     |  +**|
+|       |     |     |     |  |  +--CYTC426-12|Bos_taurus|COI-5P|HQ184039
+|       |     |     |     +**|
+|       |     |     |        +--GBMA0440-06|Bos_taurus|COI-5P|DQ124416
+|       |     |  +**|
+|       |     |  |  |     +**GBMA1698-08|Bos_taurus|COI-5P|EU177831
+|       |     |  |  |  +--|
+|       |     |  |  |  |  +**CYTC5217-12|Bos_taurus|COI-5P|JN817323
+|       |     |  |  +**|
+|       |     |  |     |     +**GBMA23802-19|Bos_taurus|COI-5P|KT375557
+|       |     |  |     |  +--|
+|       |     |  |     |  |  +**CYTC5208-12|Bos_taurus|COI-5P|JN817314
+|       |     |  |     +**|
+|       |     |  |        |        +**CYTC425-12|Bos_taurus|COI-5P|HQ184038
+|       |     |  |        |     +**|
+|       |     |  |        |     |  +**CYTC422-12|Bos_taurus|COI-5P|HQ184035
+|       |     |  |        |  +**|
+|       |     |  |        |  |  |  +--GBMIN41890-14|Bos_taurus|COI-5P|GU130589
+|       |     |  |        |  |  +**|
+|       |     |  |        |  |     +**GBMA2523-09|Bos_taurus|COI-5P|FJ958336
+|       |     |  |        +**|
+|       |     |  |           |  +**CYTC4889-12|Bos_taurus|COI-5P|GU947011
+|       |     |  |           +**|
+|       |     |  |              +**CYTC4891-12|Bos_taurus|COI-5P|GU947013
+|       |     +**|
+|       |        |  +**GBMA2706-09|Bos_taurus|COI-5P|GQ129208
+|       |        +**|
+|       |           +**GBMA2511-09|Bos_taurus|COI-5P|FJ971082
+|    +**|
+|    |  |              +**GBMA23576-19|Bos_taurus|COI-3P|KP777006
+|    |  |           +**|
+|    |  |           |  +**GBMA23577-19|Bos_taurus|COI-3P|KP777007
+|    |  |        +**|
+|    |  |        |  +**GBMA0363-06|Bos_taurus|COI-5P|AY676864
+|    |  |     +--|
+|    |  |     |  +**GBMA24151-19|Bos_taurus|COI-5P|KP637147
+|    |  |  +**|
+|    |  |  |  |  +**CYTC5242-12|Bos_taurus|COI-5P|JN817348
+|    |  |  |  +--|
+|    |  |  |     +**GBMA26108-19|Bos_taurus|COI-5P|MH129558
+|    |  +**|
+|    |     +--GBMA19514-19|Bos_taurus|COI-5P|KF163072
++----|
+     +--GBMA9025-15|Bos_taurus|COI-5P|KJ709685
+
+Tree in newick format:
+
+(NC_006853:0.0000024581,GBMTG596-16|Bos_taurus|COI-5P|NC_006853:0.0000010000,((((((((((((((GBMA26126-19|Bos_taurus|COI-5P|MK028740:0.0000010000,((((((((GBMA26124-19|Bos_taurus|COI-5P|MK028738:0.0000021411,GBMA26125-19|Bos_taurus|COI-5P|MK028739:0.0000022942):0.0010539288,CYTC5230-12|Bos_taurus|COI-5P|JN817336:0.0009929811):0.0000029240,GBMA26115-19|Bos_taurus|COI-5P|MK028729:0.0000010000):0.0000021525,GBMA26136-19|Bos_taurus|COI-5P|MK028750:0.0000010000):0.0000028111,GBMA26119-19|Bos_taurus|COI-5P|MK028733:0.0000010000):0.0000012137,GBMA26130-19|Bos_taurus|COI-5P|MK028744:0.0000010000):0.0000010000,GBMA26121-19|Bos_taurus|COI-5P|MK028735:0.0000010000):0.0000012142,GBMA26111-19|Bos_taurus|COI-5P|MK028725:0.0000010000):0.0000023326):0.0000019220,GBMA26112-19|Bos_taurus|COI-5P|MK028726:0.0000010000):0.0000012421,GBMA26131-19|Bos_taurus|COI-5P|MK028745:0.0000010000):0.0000022071,GBMA26133-19|Bos_taurus|COI-5P|MK028747:0.0000010000):0.0000020549,GBMA26123-19|Bos_taurus|COI-5P|MK028737:0.0000010000):0.0000024555,(((((((((((((((((((((((((((((((((((((((((((((((((GBMA25948-19|Bos_taurus|COI-5P|MF598734:0.0045103077,((((((GBMIN46458-16|Bos_taurus|COI-5P|KU947028:0.0000010000,GBMIN46457-16|Bos_taurus|COI-5P|KU947027:0.0000010000):0.0014246333,GBMIN41812-14|Bos_taurus|COI-5P|EF568673:0.0000010000):0.0000027950,GBMA23693-19|Bos_taurus|COI-5P|KT375532:0.0000010000):0.0000021852,GBMIN41793-14|Bos_taurus|COI-5P|EF568621:0.0000010000):0.0000024107,GBMA23697-19|Bos_taurus|COI-5P|KT375549:0.0000010000):0.0000026912,GBMA25026-19|Bos_taurus|COI-5P|KY650673:0.0000010000):0.0000023633):0.0014266535,YAKJC031-13|Bos_taurus|COI-5P:0.0000010000):0.0000020924,YAKJC021-13|Bos_taurus|COI-5P:0.0000010000):0.0000024783,CYTC420-12|Bos_taurus|COI-5P|HQ184033:0.0000010000):0.0000010000,CYTC417-12|Bos_taurus|COI-5P|HQ184030:0.0000010000):0.0000029942,(CYTC419-12|Bos_taurus|COI-5P|HQ184032:0.0000010000,CYTC418-12|Bos_taurus|COI-5P|HQ184031:0.0000010000):0.0000010000):0.0000010000,GBMA24171-19|Bos_taurus|COI-5P|KT184469:0.0000010000):0.0000010000,(GBMA2512-09|Bos_taurus|COI-5P|FJ971081:0.0000010000,GBMA2513-09|Bos_taurus|COI-5P|FJ971080:0.0000010000):0.0000010000):0.0000010000,(GBMA0413-06|Bos_taurus|COI-5P|DQ124389:0.0022592645,(((GBMA2506-09|Bos_taurus|COI-5P|FJ971087:0.0000025997,CYTC432-12|Bos_taurus|COI-5P|HQ184045:0.0000025225):0.0010242602,((CYTC431-12|Bos_taurus|COI-5P|HQ184044:0.0000010000,(CYTC428-12|Bos_taurus|COI-5P|HQ184041:0.0000010000,CYTC429-12|Bos_taurus|COI-5P|HQ184042:0.0000010000):0.0000029181):0.0000022387,(GBMA2508-09|Bos_taurus|COI-5P|FJ971085:0.0000010000,GBMA2507-09|Bos_taurus|COI-5P|FJ971086:0.0000010000):0.0000024152):0.0020359199):0.0015394644,GBMA5767-13|Bos_taurus|COI-5P|JX567086:0.0090863235):0.0015485667):0.0020594147):0.0000020050,(((((((((GBMA24152-19|Bos_taurus|COI-5P|KT033901:0.0000010000,GBMA24178-19|Bos_taurus|COI-5P|KU891850:0.0000010000):0.0000010000,(GBMA2505-09|Bos_taurus|COI-5P|FJ971088:0.0000010000,(((((((((((((((((((((((((((((RSMS026-11|Bos_taurus_indicus|COI-5P|JQ735452:0.0024642163,(YAKJC004-13|Bos_taurus|COI-5P:0.0000028392,(((((((GBMA23700-19|Bos_taurus|COI-5P|KT375514:0.0000022513,GBMA19883-19|Bos_taurus|COI-5P|KF952277:0.0000010000):0.0000022824,GBMA19884-19|Bos_taurus|COI-5P|KF952284:0.0000010000):0.0000025328,GBMA5969-13|Bos_taurus|COI-5P|JX218056:0.0000010000):0.0000023879,GBMA19479-19|Bos_taurus|COI-5P|JX218060:0.0000010000):0.0000027990,(GBMA19494-19|Bos_taurus|COI-5P|JX218063:0.0000024366,(GBMA19489-19|Bos_taurus|COI-5P|JX218062:0.0018356967,GBMA19488-19|Bos_taurus|COI-5P|JX218066:0.0000027990):0.0068902243):0.0016684541):0.0000022583,GBMA19882-19|Bos_taurus|COI-5P|KF952275:0.0000010000):0.0000023071,(GBMA19490-19|Bos_taurus|COI-5P|JX218058:0.0016807740,GBMA19881-19|Bos_taurus|COI-5P|KF952285:0.0000010000):0.0000024052):0.0029797116):0.0028653773):0.0016420604,GBMA19482-19|Bos_taurus|COI-5P|JN417002:0.0000010000):0.0000010000,GBMA23809-19|Bos_taurus|COI-5P|KX845676:0.0000010000):0.0000026117,GBMA23810-19|Bos_taurus|COI-5P|KX845677:0.0000010000):0.0000027188,YAKJC001-13|Bos_taurus|COI-5P:0.0000010000):0.0000011366,YAKJC030-13|Bos_taurus|COI-5P:0.0000010000):0.0000020078,GBMA19888-19|Bos_taurus|COI-5P|KF952270:0.0000010000):0.0000020033,GBMA19876-19|Bos_taurus|COI-5P|KF952278:0.0000010000):0.0000013334,GBMA19886-19|Bos_taurus|COI-5P|KF952276:0.0000010000):0.0000020217,GBMA23692-19|Bos_taurus|COI-5P|KT375464:0.0000010000):0.0000014028,GBMA23701-19|Bos_taurus|COI-5P|KT375523:0.0000010000):0.0000013864,GBMA23696-19|Bos_taurus|COI-5P|KT375530:0.0000010000):0.0000021139,YAKJC025-13|Bos_taurus|COI-5P:0.0000010000):0.0000017764,GBMA19869-19|Bos_taurus|COI-5P|KF952286:0.0000010000):0.0000020217,GBMA19871-19|Bos_taurus|COI-5P|KF952287:0.0000010000):0.0000016198,RSMS001-11|Bos_taurus_indicus|COI-5P|JQ735453:0.0000010000):0.0000015242,GBMA23667-19|Bos_taurus|COI-5P|KT827223:0.0000010000):0.0000010299,GBMA23791-19|Bos_taurus|COI-5P|KT375516:0.0000010000):0.0000013330,GBMA23674-19|Bos_taurus|COI-5P|KT827243:0.0000010000):0.0000010878,GBMA23708-19|Bos_taurus|COI-5P|KT375504:0.0000010000):0.0000010000,GBMA23685-19|Bos_taurus|COI-5P|KT375459:0.0000010000):0.0000020206,GBMA19874-19|Bos_taurus|COI-5P|KF952283:0.0000010000):0.0000012957,(GBMA23686-19|Bos_taurus|COI-5P|KT375467:0.0000026418,GBMIN43461-14|Bos_taurus_indicus|COI-5P|KF952268:0.0000024743):0.0085030964):0.0011736745,GBMA23698-19|Bos_taurus|COI-5P|KT375474:0.0000010000):0.0000020957,GBMA23795-19|Bos_taurus|COI-5P|KT375543:0.0000010000):0.0000021799,((GBMA23835-19|Bos_taurus|COI-5P|KX845673:0.0000010000,GBMA23836-19|Bos_taurus|COI-5P|KX845675:0.0000010000):0.0000010000,GBMA23837-19|Bos_taurus|COI-5P|KX845674:0.0000010000):0.0000011092):0.0000024586,GBMA0075-06|Bos_taurus_indicus|COI-5P|AF492350:0.0000010000):0.0000010000,(((GBMA0427-06|Bos_taurus|COI-5P|DQ124403:0.0011136683,GBMA23792-19|Bos_taurus|COI-5P|KT375484:0.0000010000):0.0000065899,GBMA23703-19|Bos_taurus|COI-5P|KT375485:0.0000010000):0.0000031609,GBMA2073-09|Bos_taurus_indicus|COI-5P|FJ171914:0.0000010000):0.0000012143):0.0000010000,((GBMA1661-08|Bos_taurus|COI-5P|EU177868:0.0000010000,GBMA1659-08|Bos_taurus|COI-5P|EU177870:0.0000010000):0.0000010000,((((((((((GBMA1660-08|Bos_taurus|COI-5P|EU177869:0.0009894074,GBMA19880-19|Bos_taurus|COI-5P|KF952282:0.0000010000):0.0000010763,GBMA19878-19|Bos_taurus|COI-5P|KF952271:0.0000010000):0.0000417422,GBMA19486-19|Bos_taurus|COI-5P|KF385966:0.0000010000):0.0000021139,GBMA19873-19|Bos_taurus|COI-5P|KF952280:0.0000010000):0.0000010625,GBMA9023-15|Bos_taurus|COI-5P|KJ920209:0.0000010000):0.0000010897,GBMA19885-19|Bos_taurus|COI-5P|KF952273:0.0000010000):0.0000023074,GBMA23713-19|Bos_taurus|COI-5P|KY385803:0.0015882607):0.0000024946,GBMA23710-19|Bos_taurus|COI-5P|KT375461:0.0000010000):0.0000017063,YAKJC024-13|Bos_taurus|COI-5P:0.0000010000):0.0000022661,GBMA23699-19|Bos_taurus|COI-5P|KT375481:0.0000010000):0.0000011821):0.0000021611):0.0000010000):0.0000010000):0.0000026151,GBMA23874-19|Bos_taurus|COI-5P|KX759625:0.0010157815):0.0000017752,GBMA19887-19|Bos_taurus|COI-5P|KF952269:0.0000010000):0.0000021797,GBMA19875-19|Bos_taurus|COI-5P|KF952281:0.0000010000):0.0000021916,GBMA19870-19|Bos_taurus|COI-5P|KF952272:0.0050772193):0.0000021356,((YAKJC003-13|Bos_taurus|COI-5P:0.0000010000,YAKJC005-13|Bos_taurus|COI-5P:0.0000010000):0.0000027215,GBMA4870-13|Bos_taurus_indicus|COI-5P|JN245996:0.0000022007):0.0030022964):0.0010089690,CYTC2702-12|Bos_taurus_indicus|COI-5P|GU256940:0.0000022592):0.0064975579,GBMA23689-19|Bos_taurus|COI-5P|KT375487:0.0000023908):0.0038586476):0.0000011921,GBMA25029-19|Bos_taurus|COI-5P|KY650676:0.0000010000):0.0000017180,(GBMA23789-19|Bos_taurus|COI-5P|KT375490:0.0000010000,GBMIN43337-14|Bos_taurus|COI-5P|KF771228:0.0000010000):0.0015603219):0.0000061380,CAB078-06|Bos_taurus|COI-5P:0.0000010000):0.0000016246,GBMIN41834-14|Bos_taurus|COI-5P|EF568716:0.0000010000):0.0000012625,CAB044-06|Bos_taurus|COI-5P:0.0000010000):0.0000022334,GBMA2222-09|Bos_taurus|COI-5P|DQ487094:0.0000010000):0.0000014290,GBMA19872-19|Bos_taurus|COI-5P|KF952274:0.0000010000):0.0000021364,GBMA24832-19|Bos_taurus|COI-5P|KY561995:0.0020468929):0.0000013281,RONP048-14|Bos_taurus|COI-5P:0.0000010000):0.0000025821,CAB005-06|Bos_taurus|COI-5P:0.0000010000):0.0000010671,GBMIN41805-14|Bos_taurus|COI-5P|EF568660:0.0000010000):0.0000011609,CAB076-06|Bos_taurus|COI-5P:0.0000010000):0.0000012113,GBMA23675-19|Bos_taurus|COI-5P|KT827244:0.0000010000):0.0000010525,GBMND19911-21|Bos_taurus|COI-5P|MW475453:0.0000010000):0.0000013278,GBMND19909-21|Bos_taurus|COI-5P|MW475451:0.0000010000):0.0000015692,YAKJC022-13|Bos_taurus|COI-5P:0.0000010000):0.0000022674,GBMIN41810-14|Bos_taurus|COI-5P|EF568671:0.0000010000):0.0000023475,RDATC051-06|Bos_taurus|COI-5P:0.0000010000):0.0000011836,CAB079-06|Bos_taurus|COI-5P:0.0000010000):0.0000028934,ACLB032-06|Bos_taurus|COI-5P|HM102290:0.0000010000):0.0000014696,ACLB037-06|Bos_taurus|COI-5P|HM102289:0.0000010000):0.0000013206,GBMA19877-19|Bos_taurus|COI-5P|KF952267:0.0000010000):0.0000010522,RDATC048-06|Bos_taurus|COI-5P:0.0000010000):0.0000014590,RDATC042-06|Bos_taurus|COI-5P:0.0000010000):0.0000019718,CAB060-06|Bos_taurus|COI-5P:0.0000010000):0.0000014612,GBMIN41795-14|Bos_taurus|COI-5P|EF568625:0.0000010000):0.0000029024,GBMA5694-13|Bos_taurus|COI-5P|JX426135:0.0000010000):0.0000010000,YAKJC006-13|Bos_taurus|COI-5P:0.0000010000):0.0000024665,GBMA23670-19|Bos_taurus|COI-5P|KT827235:0.0000010000):0.0000013810,GBMIN41825-14|Bos_taurus|COI-5P|EF568705:0.0000010000):0.0000028019,CAB066-06|Bos_taurus|COI-5P:0.0000010000):0.0000011695,GBMIN41811-14|Bos_taurus|COI-5P|EF568672:0.0000010000):0.0000011022,GBMIN41801-14|Bos_taurus|COI-5P|EF568641:0.0000010000):0.0000029005,RONP001-14|Bos_taurus|COI-5P:0.0000010000):0.0000011701,CAB045-06|Bos_taurus|COI-5P:0.0000010000):0.0000015413,CAB001-06|Bos_taurus|COI-5P:0.0000010000):0.0000010519,CAB077-06|Bos_taurus|COI-5P:0.0000010000):0.0000011309,(GBMA19480-19|Bos_taurus|COI-5P|JX218061:0.0016631391,(((((GBMA19492-19|Bos_taurus|COI-5P|JX218065:0.0000010000,GBMIN43383-14|Bos_taurus|COI-5P|KF799986:0.0000025142):0.0000010000,GBMA19493-19|Bos_taurus|COI-5P|JX218067:0.0000010000):0.0000020523,GBMA19495-19|Bos_taurus|COI-5P|JX218055:0.0000010000):0.0000027566,GBMA19491-19|Bos_taurus|COI-5P|JX218059:0.0000010000):0.0000023162,GBMA19487-19|Bos_taurus|COI-5P|JX218064:0.0000010000):0.0000023052):0.0046739453):0.0009446751,GBMA19519-19|Bos_taurus|COI-5P|KF163077:0.0010117037):0.0000010060):0.0000024768,(((GBMA19522-19|Bos_taurus|COI-5P|KF163080:0.0010074776,GBMA2526-09|Bos_taurus|COI-5P|FJ958333:0.0014402896):0.0000011620,GBMIN41797-14|Bos_taurus|COI-5P|EF568629:0.0000010000):0.0000021181,(GBMA19529-19|Bos_taurus|COI-5P|KF163087:0.0000010000,GBMA19518-19|Bos_taurus|COI-5P|KF163076:0.0000010000):0.0010122883):0.0000010976):0.0000010000,GBMA26109-19|Bos_taurus|COI-5P|MG736676:0.0000010000):0.0000010000,((GBMA24169-19|Bos_taurus|COI-5P|KT184467:0.0020288933,GBMA19501-19|Bos_taurus|COI-5P|KC153976:0.0010113303):0.0000010000,((GBMA26118-19|Bos_taurus|COI-5P|MK028732:0.0000010000,((GBMA24160-19|Bos_taurus|COI-5P|KT184458:0.0000010000,((((((GBMA0417-06|Bos_taurus|COI-5P|DQ124393:0.0000010000,GBMA0407-06|Bos_taurus|COI-5P|DQ124383:0.0000010000):0.0000010000,(((GBMA1671-08|Bos_taurus|COI-5P|EU177858:0.0010402886,GBMND62552-21|Bos_taurus|COI-5P|MZ031490:0.0000010000):0.0000013187,GBMND62551-21|Bos_taurus|COI-5P|MZ031489:0.0000010000):0.0000016574,GBMA23669-19|Bos_taurus|COI-5P|KT827227:0.0000010000):0.0000014022):0.0000010000,((GBMA1668-08|Bos_taurus|COI-5P|EU177861:0.0010446411,GBMA1670-08|Bos_taurus|COI-5P|EU177859:0.0010450165):0.0000010000,(GBMA1676-08|Bos_taurus|COI-5P|EU177853:0.0010398826,YAKJC009-13|Bos_taurus|COI-5P:0.0019280027):0.0000057605):0.0000010000):0.0000010000,GBMA1669-08|Bos_taurus|COI-5P|EU177860:0.0000010000):0.0000010000,GBMA1675-08|Bos_taurus|COI-5P|EU177854:0.0000010000):0.0000020127,CYTC4972-12|Bos_taurus|COI-5P|HQ025805:0.0010644112):0.0000010000):0.0000029820,GBMA24161-19|Bos_taurus|COI-5P|KT184459:0.0000010000):0.0000010000):0.0000029882,GBMA24158-19|Bos_taurus|COI-5P|KT184456:0.0010159327):0.0010122547):0.0000010000):0.0000010000,GBMNA16699-19|Bos_taurus|COI-5P|MF663794:0.0000010000):0.0000010000,(((((((GBMA26134-19|Bos_taurus|COI-5P|MK028748:0.0000010000,(GBMA26114-19|Bos_taurus|COI-5P|MK028728:0.0000010000,GBMA26128-19|Bos_taurus|COI-5P|MK028742:0.0000010000):0.0031147293):0.0000010644,GBMA26127-19|Bos_taurus|COI-5P|MK028741:0.0000010000):0.0000027953,GBMA26113-19|Bos_taurus|COI-5P|MK028727:0.0000010000):0.0000010000,GBMA26129-19|Bos_taurus|COI-5P|MK028743:0.0000010000):0.0000010000,GBMA26135-19|Bos_taurus|COI-5P|MK028749:0.0000010000):0.0000023492,GBMA26120-19|Bos_taurus|COI-5P|MK028734:0.0000010000):0.0000021361,(((CYTC5215-12|Bos_taurus|COI-5P|JN817321:0.0000010000,((CYTC5193-12|Bos_taurus_indicus|COI-5P|JN817299:0.0010152625,GBMNC75165-20|Bos_taurus|COI-5P|MN124245:0.0000010000):0.0000024150,((CYTC5224-12|Bos_taurus_indicus|COI-5P|JN817330:0.0000010000,CYTC5192-12|Bos_taurus_indicus|COI-5P|JN817298:0.0000010000):0.0000010000,CYTC5198-12|Bos_taurus_indicus|COI-5P|JN817304:0.0010637399):0.0000010000):0.0000029849):0.0000010000,GBMA19523-19|Bos_taurus|COI-5P|KF163081:0.0000010000):0.0010122403,(((GBMA25584-19|Bos_taurus|COI-5P|MF169209:0.0010010589,GBMA0011-06|Bos_taurus|COI-5P|AB074965:0.0011194286):0.0000060547,GBMA0356-06|Bos_taurus|COI-5P|AY676857:0.0011205888):0.0000027940,GBMA2525-09|Bos_taurus|COI-5P|FJ958334:0.0000010000):0.0000022840):0.0000029859):0.0000025320):0.0000010000,((((CYTC424-12|Bos_taurus|COI-5P|HQ184037:0.0000010000,(CYTC4890-12|Bos_taurus|COI-5P|GU947012:0.0000020404,CYTC4893-12|Bos_taurus|COI-5P|GU947015:0.0000020399):0.0010637105):0.0000010000,CYTC5223-12|Bos_taurus|COI-5P|JN817329:0.0000010000):0.0000010000,CYTC5219-12|Bos_taurus|COI-5P|JN817325:0.0000010000):0.0000010507,((((((((GBMA0183-06|Bos_taurus|COI-5P|AY308068:0.0000010000,((GBMA0421-06|Bos_taurus|COI-5P|DQ124397:0.0000010000,GBMA0402-06|Bos_taurus|COI-5P|DQ124378:0.0000010000):0.0011194183,GBMA0008-06|Bos_taurus|COI-5P|AB074962:0.0011205652):0.0000020989):0.0000010000,(GBMA1685-08|Bos_taurus|COI-5P|EU177844:0.0010429901,(((((GBMA1700-08|Bos_taurus|COI-5P|EU177829:0.0010354023,GBMA2524-09|Bos_taurus|COI-5P|FJ958335:0.0014453285):0.0000020769,GBMA25057-19|Bos_taurus|COI-5P|KY661880:0.0000010000):0.0000019727,GBMA2527-09|Bos_taurus|COI-5P|FJ958332:0.0000010000):0.0000010000,GBMIN41891-14|Bos_taurus|COI-5P|GU130590:0.0000010000):0.0000010000,GBMNC74288-20|Bos_taurus|COI-5P|MT644265:0.0000010000):0.0000025062):0.0000010000):0.0000010000,(GBMA1703-08|Bos_taurus|COI-5P|EU177826:0.0010430024,GBMA1711-08|Bos_taurus|COI-5P|EU177818:0.0010429988):0.0000010000):0.0000020297,(GBMA1666-08|Bos_taurus|COI-5P|EU177863:0.0000010000,GBMA1673-08|Bos_taurus|COI-5P|EU177856:0.0000010000):0.0000010000):0.0000010000,GBMA2954-10|Bos_taurus|COI-5P|HM045018:0.0000010000):0.0000010000,(GBMA0074-06|Bos_taurus|COI-5P|AF490529:0.0000010000,((GBMA0429-06|Bos_taurus|COI-5P|DQ124405:0.0011201350,CYTC426-12|Bos_taurus|COI-5P|HQ184039:0.0010659637):0.0000025061,GBMA0440-06|Bos_taurus|COI-5P|DQ124416:0.0011213022):0.0000010000):0.0000021877):0.0000020067,((GBMA1698-08|Bos_taurus|COI-5P|EU177831:0.0000029743,CYTC5217-12|Bos_taurus|COI-5P|JN817323:0.0000029242):0.0010246514,((GBMA23802-19|Bos_taurus|COI-5P|KT375557:0.0000024629,CYTC5208-12|Bos_taurus|COI-5P|JN817314:0.0000020371):0.0010358556,(((CYTC425-12|Bos_taurus|COI-5P|HQ184038:0.0000010000,CYTC422-12|Bos_taurus|COI-5P|HQ184035:0.0000010000):0.0000010000,(GBMIN41890-14|Bos_taurus|COI-5P|GU130589:0.0014320051,GBMA2523-09|Bos_taurus|COI-5P|FJ958336:0.0000010000):0.0000010000):0.0000010000,(CYTC4889-12|Bos_taurus|COI-5P|GU947011:0.0000010000,CYTC4891-12|Bos_taurus|COI-5P|GU947013:0.0000010000):0.0000010000):0.0000020029):0.0000021265):0.0000010000):0.0000029876,(GBMA2706-09|Bos_taurus|COI-5P|GQ129208:0.0000010000,GBMA2511-09|Bos_taurus|COI-5P|FJ971082:0.0000010000):0.0000010000):0.0000029938):0.0000010000):0.0000022748,(((((GBMA23576-19|Bos_taurus|COI-3P|KP777006:0.0000010000,GBMA23577-19|Bos_taurus|COI-3P|KP777007:0.0000010000):0.0000027837,GBMA0363-06|Bos_taurus|COI-5P|AY676864:0.0000010000):0.0000010000,GBMA24151-19|Bos_taurus|COI-5P|KP637147:0.0000010000):0.0010055089,(CYTC5242-12|Bos_taurus|COI-5P|JN817348:0.0000020537,GBMA26108-19|Bos_taurus|COI-5P|MH129558:0.0000028234):0.0010620393):0.0000061117,GBMA19514-19|Bos_taurus|COI-5P|KF163072:0.0010116353):0.0000029774):0.0000025781,GBMA9025-15|Bos_taurus|COI-5P|KJ709685:0.0010106805):0.0030515505);
+
+TIME STAMP
+----------
+
+Date and time: Fri Aug 12 14:08:17 2022
+Total CPU time used: 121.629 seconds (0h:2m:1s)
+Total wall-clock time used: 122.25 seconds (0h:2m:2s)
+
