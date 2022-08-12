@@ -3,7 +3,6 @@
 ## Types of analyses described here:
 ### Pathogen sequence analysis
 * Bacterial / viral pangenome analysis
-* Genome wide BLASTn analysis using a reference genome 
 * Identify regions within conserved genes with least diversity 
 * Compare potential target conserved gene sequences to off-targets 
 
